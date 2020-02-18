@@ -1,3 +1,5 @@
+visit the [SCI Knowledge Base homepage] ({{ site.baseurl }})
+
 ## Documentation
 
 Whenever committing to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages.
