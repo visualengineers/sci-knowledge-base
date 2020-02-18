@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Terms and Concepts
-permalink: /terms-and-concepts/
+permalink: {{ site.baseurl }}/terms-and-concepts/
 ---
 
 # <i class="fa fa-book-open"></i> Terms and Concepts
@@ -10,13 +10,13 @@ Find detailed explanation about vocabulary and concepts of elastic displays.
 
 ### Terms
 <ul>{% for term in site.terms %} 
-    <li><a href="{{ term.url }}" alt="{{ term.description }}">{{ term.title }}</a></li>  
+    <li><a href="{{ term.url | prepend: site.baseurl }}" alt="{{ term.description }}">{{ term.title }}</a></li>  
 {% endfor %}
 </ul>
 
 ### Concepts
 <ul>{% for concept in site.concepts %} 
-    <li><a href="{{ concept.url }}" alt="{{ concept.description }}">{{ concept.title }}</a></li>  
+    <li><a href="{{ concept.url | prepend: site.baseurl }}" alt="{{ concept.description }}">{{ concept.title }}</a></li>  
 {% endfor %}
 </ul>
 
