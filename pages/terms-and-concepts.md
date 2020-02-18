@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Terms and Concepts
-permalink: {{ site.baseurl }}/terms-and-concepts/
+permalink: /terms-and-concepts/
 ---
 
 # <i class="fa fa-book-open"></i> Terms and Concepts
