@@ -13,7 +13,7 @@ layout: plain
 {% assign best-practices = site.best-practices | where: "category", page.title %}
 <ul>
 {% for item in best-practices %}
-  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+  <li><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></li>
 {% endfor %}
 </ul>
 
@@ -24,7 +24,7 @@ terms and concepts tagged with #{{page.title}}
 <h4>Other Topics</h4>
 {% assign groups = site.best-practices | group_by: "category" | where_exp: "group", "group.name != page.title"%}
 {% for group in groups %}
-<a class="topic topic-{{ group.name | downcase | strip | replace:'user experience', 'ux'}}" href="/{{ group.name | downcase | strip | replace:'user experience', 'ux' }}/">{{ group.name | replace:'UX', 'User Experience'}}</a>
+<a class="topic topic-{{ group.name | downcase | strip | replace:'user experience', 'ux'}}" href="{{ site.baseurl }}/{{ group.name | downcase | strip | replace:'user experience', 'ux' }}/">{{ group.name | replace:'UX', 'User Experience'}}</a>
 {% endfor %}
 
 {% include toc.html %}
