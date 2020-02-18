@@ -25,7 +25,8 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-if you using a baseurl for your site, you must include it when linking to pages that are not in the root folder of the project, e.g. start with {{ site.baseurl }}/your-link OR  {{ site.baseurl }}{{custom-page.url }} OR {{ custom-page.url | prepend: site.baseurl }}
+
+If you are using a baseurl on your site, you must include it when linking to pages that are not in the root folder of the project, e.g. start with {{ site.baseurl }}/your-link OR  {{ site.baseurl }}{{custom-page.url }} OR {{ custom-page.url | prepend: site.baseurl }}
 
 More fancy markdown: [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
