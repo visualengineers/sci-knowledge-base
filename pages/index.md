@@ -12,4 +12,4 @@ More related content (e.g. media files or related projects) can be found under [
 
 If you need help, please don't hesitate to [open an issue](https://www.github.com/{{ site.github_repo }}/{{ site.github_user }}).
 
-![EFRE Logo]({{ site.url }}/assets/img/efre-logo.jpg){: #efre-logo }
+![EFRE Logo]({{ site.baseurl }}/assets/img/efre-logo.jpg){: #efre-logo }
