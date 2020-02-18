@@ -13,12 +13,12 @@ Best Practices cover current challenges in research on elastic displays in the 4
 {% assign groups = site.best-practices | group_by: "category" %}
 
 {% for group in groups %}
-<a href="/{{ group.name | downcase | strip | replace:'user experience', 'ux' }}/">{{ group.name | replace:'UX', 'User Experience'}}</a>
+<a href="{{ site.baseurl }}/{{ group.name | downcase | strip | replace:'user experience', 'ux' }}/">{{ group.name | replace:'UX', 'User Experience'}}</a>
 {: .topic .topic-{{ group.name | downcase | strip | replace:'user experience', 'ux'}}}
 
 <ul>
 {% for item in group.items %}
-<li><a href="{{ item.url }}">{{ item.title }}</a></li>
+<li><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></li>
 {%endfor%}
 </ul>
 
