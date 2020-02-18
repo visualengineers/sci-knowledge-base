@@ -1,4 +1,4 @@
-visit the [SCI Knowledge Base homepage] (site.baseurl)
+visit the [SCI Knowledge Base homepage](https://visualengineers.github.io/sci-knowledge-base/)
 
 ## Documentation
 
