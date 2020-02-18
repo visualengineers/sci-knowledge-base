@@ -1,0 +1,22 @@
+# New entries will be automatically rendered on resources.md page in alphabetical order
+# If you need more fields, simply add them and don't forget to customize resources.md markup afterwards.
+# Predefined mandatory fields: title, url
+# Predefined optional fields: src
+# to cite a reference in a maintainable way follow this convention: [[title]](/resources/#links)
+
+- title: "Mudpad: Fluid Haptics for Touch Surfaces"
+  src: Media Computing Group, RWTH Aachen
+  url: https://hci.rwth-aachen.de/mudpad
+- title: "Tangible Media Group" 
+  url: http://tangible.media.mit.edu
+
+  
+  
+
+
+
+
+  
+
+
+  

@@ -1,0 +1,64 @@
+# New indexed entries will be automatically rendered on resources.md page.
+# If you need more fields, simply add them and don't forget to customize resources.md markup afterwards.
+# Predefined mandatory fields: title, author, url, year OR date
+# Predefined optional fields: in, publisher
+# to cite a reference in a maintainable way follow this convention: [[title]](/resources/#references)
+
+- title: Grand Challenges in Shape-Changing Interface Research
+  in: "CHI '18: Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems"
+  author: Alexander, J., Roudaut, A.,Steimle, J., Hornbæk, K., Bruns Alonso, M., Sean Follmer, S., Merritt, T.
+  year: 2018
+  url: https://doi.org/10.1145/3173574.3173873
+- title: Navigation Patterns and Usability of Zoomable User Interfaces With and Without an Overview
+  in: "Publication: ACM Transactions on Computer-Human Interaction (TOCHI)"
+  author: Hornbæk, K., Bederson, B. B., Plaisant, C.
+  year: 2002
+  url: https://doi.org/10.1145/586081.586086
+- title: "Tangible Bits: Towards Seamless Interfaces between People, Bits and Atoms"
+  in: "CHI '97: Proceedings of the ACM SIGCHI Conference on Human factors in computing systems"
+  author: Ishii, H., Ullmer, B.
+  year: 1997
+  url: https://doi.org/10.1145/258549.258715
+- title: New Impressions in Interaction Design. A Task Taxonomy for Elastic Displays
+  in: "i-com: Vol. 17, No. 3"
+  author: Kammer, D., Müller, M., Wojdziak, J.,  Franke, I. S.
+  year: 2018
+  url: https://doi.org/10.1515/icom-2018-0021
+- title: "PaperPhone: Understanding the Use of Bend Gestures in Mobile Devices with Flexible Electronic Paper Displays!"
+  in: "CHI '11: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems"
+  author: Lahey, B., Girouard, A., Burleson, W., Vertegaal R.
+  year: 2011
+  url: https://doi.org/10.1145/1978942.1979136
+- title: "DepthTouch: Elastische Membran zwischen virtuellem und realem Raum"
+  in: "AVI '12: Proceedings of the International Working Conference on Advanced Visual Interfaces"
+  author: Peschke, J. Göbel, F., Groh, R.
+  year: 2012
+  url: https://doi.org/10.1145/2254556.2254706
+- title: Analysis and Classification of Shape-Changing Interfaces for Design and Application-based Research
+  in: "ACM Computing Surveys (CSUR)"
+  author: Sturdee, M., Alexander, J.
+  year: 2018
+  url: https://doi.org/10.1145/3143559
+- title: Token+constraint systems for tangible interaction with digital information
+  in: ACM Transactions on Computer-Human Interaction (TOCHI)
+  author: Ullmer, B., Ishii, H., Jacob R. J. K.
+  year: 2005
+  url: https://doi.org/10.1145/1057237.1057242
+- title: Organic User Interfaces
+  in: "Communications of the ACM"
+  author: Vertegaal, R., Poupyrev, I.
+  year: 2008
+  url: https://doi.org/10.1145/1349026.1349033
+
+
+
+  
+  
+
+
+
+
+  
+
+
+  

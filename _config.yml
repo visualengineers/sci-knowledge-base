@@ -1,0 +1,49 @@
+title: Elastic Displays Knowledge Base
+email: elenalenaelena@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+ will appear in your document head meta (for Google search results) and in your feed.xml site description.
+
+# DO NOT CHANGE THE LINE OF THIS FILE without editing .circleci/circle_urls.sh
+#baseurl: "/docsy-jekyll" # the subpath of your site, e.g. /blog
+
+# This is mostly for testing
+baseurl: "/sci-knowledge-base"
+url: "https://visualengineers.github.io/sci-knowledge-base" # the base hostname & protocol for your site
+
+# Social (First three Required)
+repo: "https://github.com/visualengineers/sci-knowledge-base"
+github_user: "elenalenaelena"
+github_repo: "visualengineers/sci-knowledge-base"
+
+
+# Should there be feedback buttons at the bottom of pages?
+feedback: true
+
+# Link to a privacy policy in footer, uncomment and define if wanted
+# privacy: https://domain.com/privacy
+
+# google-analytics: UA-XXXXXXXXXX
+# Image and (square) dimension for logo (don't start with /)
+# If commented, will use material hat theme
+# logo: "assets/img/logo/SRCC-square-red.png"
+logo_pixels: 34
+color: "#30638e"
+
+permalink: /:year/:title/
+markdown: kramdown
+exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
+
+# Collections
+collections:
+  terms:
+    output: true
+    permalink: /:collection/:title
+  concepts:
+    output: true
+    permalink: /:collection/:title
+  best-practices:
+    output: true
+    permalink: /:collection:/:title
+    sort_by: lession
+    
+remote_theme: "vsoch/docsy-jekyll"

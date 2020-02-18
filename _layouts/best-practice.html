@@ -1,0 +1,24 @@
+---
+layout: plain
+---
+{% include breadcrumb-best-practice.html %}
+<h4 class="strap">Best Practice</h4>
+{{ content }}
+<hr class="panel-line">
+<h4>More Best Practices</h4>
+
+<!-- link to best practices in same category -->
+{% assign best-practices = site.best-practices | where: "category", page.category %}
+<ul>
+{% for item in best-practices %}
+ <!-- exclude current best practice from links -->
+ {% if item.lession != page.lession %} 
+  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+
+{% include toc.html %}
+{% include permalinks.html %}
+{% include tags.html %}

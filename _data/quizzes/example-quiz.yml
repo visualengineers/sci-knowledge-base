@@ -1,0 +1,24 @@
+title: Example Quiz
+randomized: false
+questions:
+
+ - type: "multiple-choice"
+   question: "What is your favorite display?"
+   items:
+    - choice: Elastic
+      correct: null
+    - choice: Flexible
+      correct: null
+    - choice: Actuated
+      correct: null
+   followup: There is no correct answer to asking your favorite display! All choices would be good.
+
+ - type: "multiple-choice"
+   question: "True or False, Elastic Displays are characterized by permanent deformation"
+   items:
+    - choice: True
+      correct: false
+    - choice: False
+      correct: true
+   followup: | 
+      The answer is False! Elastic Displays are made of elastic materials which results in a deformation that is only temporary. 

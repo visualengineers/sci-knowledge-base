@@ -1,0 +1,29 @@
+- title: About
+  url: index
+
+- title: Best Practices
+  url: best-practices
+  links:
+    - title: "Technology"
+      url: "technology"
+    - title: "UX"
+      url: "ux"
+    - title: "Design"
+      url: "design"
+    - title: "Society"
+      url: "society"
+    
+- title: Terms and Concepts
+  url: terms-and-concepts
+  links:
+    - title: "Terms"
+      url: "terms-and-concepts/#terms"
+    - title: "Concepts"
+      url: "terms-and-concepts/#concepts"
+
+- title: Resources
+  url: resources
+
+- title: News
+  url: news
+

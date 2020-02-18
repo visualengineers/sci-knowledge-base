@@ -1,0 +1,207 @@
+/*custom ZELASTO wiki CSS goes here*/
+
+:root {
+    --technology: #6c90fc;
+    --ux: #fc507e;
+    --design: #ff6644;
+    --society: #ffba26;
+}
+
+#efre-logo {
+    margin-top: 2em;
+}
+
+.block-icon {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+    padding: 1em;
+}
+
+.overflowX-scroll {
+    overflow-x: scroll;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.topic a {
+    color: inherit;
+    font-weight: bold;
+}
+
+.topic:hover, .topic:hover a{
+    filter: brightness(90%);
+}
+
+li.topic {
+    margin: -0.7em 0.5em;
+}
+
+li.topic::before {
+    display: none !important;
+}
+
+.topic:hover {
+    cursor: pointer;
+}
+
+.topic-technology {
+    color: #6c90fc !important;
+}
+
+.topic-ux {
+    color: #fc507e !important;
+}
+
+.topic-design {
+    color: #ff6644 !important;
+}
+
+.topic-society {
+    color: #ffba26 !important;
+}
+
+.strap {
+    color: #aaa;    
+}
+
+.topic {
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 2px;
+    display: inline-block;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding: 0.7rem;
+    width: fit-content;
+}
+
+.media-wrapper {
+    margin-bottom: 2em;
+}
+
+.media-wrapper iframe {
+    width: 350px;
+    height: 197px;
+}
+
+.responsive-media {
+    margin: 2em 0;
+}
+
+
+@media (max-width: 767px) {
+ 
+.desktop-nav {
+    display: none;
+}
+
+.media-wrapper {
+    padding: 56.25% 0 10% 0;
+    position: relative;
+}
+
+.media-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+}
+
+@media (min-width: 768px) {
+
+.mobile-nav {
+    display: none;
+}
+
+#efre-logo {
+    max-width: 80%;
+}
+
+.responsive-media {
+    max-width: 350px !important;
+}
+
+}
+
+/*** OVERWRITE ***/
+
+.breadcrumb-item+.breadcrumb-item::before {
+    padding-right: 0rem !important;
+}
+.breadcrumb-item{
+    margin-right: 0.5em;
+}
+
+.badge-technology {
+    color: #fff;
+    background-color: #6c90fc
+}
+
+.badge-technology[href]:hover,
+.badge-technology[href]:focus {
+    color: #222;
+    text-decoration: none;
+    background-color: #bcccff
+}
+
+.badge-ux {
+    color: #fff;
+    background-color: #fc507e
+}
+
+.badge-ux[href]:hover,
+.badge-ux[href]:focus {
+    color: #222;
+    text-decoration: none;
+    background-color: #faa3bd
+}
+
+.badge-design {
+    color: #fff;
+    background-color: #ff6644
+}
+
+.badge-design[href]:hover,
+.badge-design[href]:focus {
+    color: #222;
+    text-decoration: none;
+    background-color: #ff9e86
+}
+
+.badge-society {
+    color: #fff;
+    background-color: #ffba26
+}
+
+.badge-society[href]:hover,
+.badge-society[href]:focus {
+    color: #222;
+    text-decoration: none;
+    background-color: #ffde89
+}
+
+.td-sidebar-nav {
+    padding-top: 1.5rem!important;
+}
+
+.td-navbar {
+    background: #403f4c;
+}
+
+ul { 
+    list-style-type:none;
+    padding-left: 0;
+}
+
+
+

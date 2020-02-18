@@ -1,0 +1,37 @@
+---
+layout: plain
+---
+<a href="/terms-and-concepts/" alt="back to terms and concepts"><i class="fa fa-arrow-left"></i> back to Terms and Concepts</a>
+<h3 class="font-weight-bold">{{ page.title }}</h3>
+{{ content }}
+
+
+<hr class="panel-line">
+
+{% assign concepts = site.concepts %}
+{% for concept in concepts %}
+
+    {% if concept.title == page.title %}      
+    <div>    
+
+        <div class="half-width">  
+        {% unless forloop.first %}     
+            {% assign previous_i = forloop.index0 | minus: 1 %}       
+                <a href="{{ concepts[previous_i].url }}"><i class="block-icon fa fa-chevron-circle-left fa-2x"></i>{{ concepts[previous_i].title }}</a>
+        {% endunless %}   
+        </div> 
+
+        <div class="half-width right-align">
+        {% unless forloop.last %}     
+            {% assign next_i = forloop.index0 | plus: 1 %}               
+            <a href="{{ concepts[next_i].url }}"><i class="block-icon fa fa-chevron-circle-right fa-2x"></i>{{ concepts[next_i].title }}</a>
+        {% endunless %}   
+        </div> 
+
+    </div>
+    {% endif %}
+
+{% endfor %}
+
+
+
