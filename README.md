@@ -24,11 +24,20 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+![Images](https://publicdomainvectors.org/photos/Placeholder.png = 150x150)
 
-**note:**If you are using a baseurl on your site, you must include it when linking to pages that are not in the root folder of the project, e.g. start with `{{ site.baseurl }}/your-link` or  `{{ site.baseurl }}{{custom-page.url }}` or `{{ custom-page.url | prepend: site.baseurl }}`
+[Link](url) 
+
+**Broken link fixing** 
+If you stumble upon a broken link, it it very likely you forgot to prepend the baseurl of the site (which is not automatically rendered).
+Try `{{ site.baseurl }}/your-link` or `{{ site.baseurl }}/{{ custom-page.url }}` or `{{ custom-page.url | prepend: site.baseurl }}`
 
 More fancy markdown: [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll and Liquid 
+
+Jekyll uses the Liquid templating language to process templates, providing a number of useful Liquid additions to build the site (e.g. filters and tags).
+See the official [Liquid Documentation](https://shopify.github.io/liquid/basics/introduction/) to learn more.
 
 ### Jekyll Themes
 
