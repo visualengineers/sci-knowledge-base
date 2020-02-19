@@ -12,9 +12,9 @@ The name of the theme is stored in the Jekyll `_config.yml` configuration file. 
 
 The current theme is the remote theme `vsoch/docsy-jekyll`. Custom modifications to the remote theme include the sidebar and navigation functionality, additional layout templates and includes, custom styling as well as data storage and queries.
 
-### Markdown
+### Markdown / Kramdown
 
-Markdown makes it easy to style your writing. It includes conventions for
+Markdown makes it easy to style your writing, including conventions for basic styling (see below). However, Kramdown is the default Markdown renderer for Jekyll, offering you additional options for styling. Add for example `{:.my-css-class}` to apply your fancy custom CSS.
 
 ```markdown
 Syntax highlighted code block
@@ -32,7 +32,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-![Images](https://publicdomainvectors.org/photos/Placeholder.png)
+![Images](https://publicdomainvectors.org/photos/Placeholder.png){:.responsive-media}
 
 [Links](url) 
 
