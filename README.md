@@ -25,6 +25,7 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 ![Images](https://publicdomainvectors.org/photos/Placeholder.png = 150x150)
+title and image ratio are optional
 
 [Link](url) 
 
@@ -34,13 +35,24 @@ Try `{{ site.baseurl }}/your-link` or `{{ site.baseurl }}/{{ custom-page.url }}`
 
 More fancy markdown: [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
+### Custom responsiveness shortcodes 
+
+Vimeo (use media-wrapper class)
+`<div class="media-wrapper"><iframe src="..." frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>`
+
+YouTube (use media-wrapper class)
+`<div class="media-wrapper"><iframe src="..." frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>`
+
+Images (use responsive-media class)
+`![ title ]( src ){:.responsive-media}`
+
 ### Jekyll Themes
 
 The name of the theme is stored in the Jekyll `_config.yml` configuration file. You can either choose from one of the supported themes or use a remote-theme. To enable a theme:
 
 `theme: theme-name` OR `remote_theme: "author/theme-name"`
 
-The current theme is the remote theme `vsoch/docsy-jekyll`. Custom modifications to the remote theme include the sidebar functionality as well as ...
+The current theme is the remote theme `vsoch/docsy-jekyll`. Custom modifications to the remote theme include the sidebar and navigation functionality, additional layout templates and includes, custom styling as well as data storage and queries.
 
 ### Jekyll Plugins
 
