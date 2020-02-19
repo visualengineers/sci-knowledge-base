@@ -4,7 +4,7 @@
         <a href="{{ site.baseurl }}/best-practices/">Best Practices</a>
     </li>/
      <li class="breadcrumb-item active topic topic-{{ page.title | downcase  | strip | replace:'user experience', 'ux' }}" aria-current="page">
-        <a href="/{{ page.title | downcase  | strip | replace:'user experience', 'ux' | prepend: site.baseurl }}/">{{ page.title}}</a>
+        <a href="{{ site.baseurl }}{{ page.title | downcase  | strip | replace:'user experience', 'ux' }}">{{ page.title}}</a>
     </li>
      </ol>
 </nav>
