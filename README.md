@@ -24,14 +24,14 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-![Images](https://publicdomainvectors.org/photos/Placeholder.png = 150x150)
+![Images](https://publicdomainvectors.org/photos/Placeholder.png =150x150 )
 title and image ratio are optional
 
-[Link](url) 
+[Links](url) 
 
-**Broken link fixing** 
-If you stumble upon a broken link, it it very likely you forgot to prepend the baseurl of the site (which is not automatically rendered).
+If you stumble upon a **broken link**, it it very likely you forgot to prepend the baseurl of the site (which is not automatically rendered).
 Try `{{ site.baseurl }}/your-link` or `{{ site.baseurl }}/{{ custom-page.url }}` or `{{ custom-page.url | prepend: site.baseurl }}`
+You can check the baseurl settings in the `_config.yml` configuration file.
 
 More fancy markdown: [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
