@@ -17,14 +17,14 @@ layout: plain
         <div class="half-width">  
         {% unless forloop.first %}     
             {% assign previous_i = forloop.index0 | minus: 1 %}       
-                <a href="{{ site.baseurl }}{{ terms[previous_i].url }}"><i class="block-icon fa fa-chevron-circle-left fa-2x"></i>{{ terms[previous_i].title }}</a>
+                <a href="{{ terms[previous_i].url | prepend: site.baseurl }}"><i class="block-icon fa fa-chevron-circle-left fa-2x"></i>{{ terms[previous_i].title }}</a>
         {% endunless %}   
         </div> 
 
         <div class="half-width right-align">
         {% unless forloop.last %}     
             {% assign next_i = forloop.index0 | plus: 1 %}               
-            <a href="{{ site.baseurl }}{{ terms[next_i].url }}"><i class="block-icon fa fa-chevron-circle-right fa-2x"></i>{{ terms[next_i].title }}</a>
+            <a href="{{ terms[next_i].url | prepend: site.baseurl }}"><i class="block-icon fa fa-chevron-circle-right fa-2x"></i>{{ terms[next_i].title }}</a>
         {% endunless %}   
         </div> 
 

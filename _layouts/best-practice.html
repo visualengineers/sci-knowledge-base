@@ -13,7 +13,7 @@ layout: plain
 {% for item in best-practices %}
  <!-- exclude current best practice from links -->
  {% if item.lession != page.lession %} 
-  <li><a href="{{ site.baseurl/item.url }}">{{ item.title }}</a></li>
+  <li><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
