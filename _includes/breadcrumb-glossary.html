@@ -1,13 +1,13 @@
 <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
     <ol class="breadcrumb spb-1">
     <li class="breadcrumb-item active" aria-current="page">
-        <a href="/terms-and-concepts/"><i class="fa fa-book-open"></i>Terms and Concepts</a>
+        <a href="{{ site.baseurl }}/terms-and-concepts/"><i class="fa fa-book-open"></i>Terms and Concepts</a>
     </li>
      <li class="breadcrumb-item active" aria-current="page">
-        <a href="/glossary/#{{ page.collection }}/">{{ page.collection | capitalize }}</a>
+        <a href="{{ site.baseurl }}/glossary/#{{ page.collection }}/">{{ page.collection | capitalize }}</a>
     </li>
     <li class="breadcrumb-item active" aria-current="page">
-         <a href="{{ page.url }}">{{ page.title }}</a>
+         <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
     </li>
      </ol>
 </nav>
