@@ -2,7 +2,7 @@ visit the [SCI Knowledge Base homepage](https://visualengineers.github.io/sci-kn
 
 ## Documentation
 
-Whenever committing to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages.
+Whenever committing to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages. Jekyll uses the Liquid templating language to process templates, providing a number of useful Liquid additions to build the site (e.g. filters and tags). See the official [Liquid Documentation](https://shopify.github.io/liquid/basics/introduction/) to learn more.
 
 ### Markdown
 
@@ -33,11 +33,6 @@ If you stumble upon a broken link, it it very likely you forgot to prepend the b
 Try `{{ site.baseurl }}/your-link` or `{{ site.baseurl }}/{{ custom-page.url }}` or `{{ custom-page.url | prepend: site.baseurl }}`
 
 More fancy markdown: [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll and Liquid 
-
-Jekyll uses the Liquid templating language to process templates, providing a number of useful Liquid additions to build the site (e.g. filters and tags).
-See the official [Liquid Documentation](https://shopify.github.io/liquid/basics/introduction/) to learn more.
 
 ### Jekyll Themes
 
