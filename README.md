@@ -32,7 +32,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-![Images](https://publicdomainvectors.org/photos/Placeholder.png){:.responsive-media}
+![Images](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSG5V-M6OvkJBvdLyY-zUSFBii4qqR9f5O7HWq4GAygHFZ5sjxm)
 
 [Links](url) 
 
