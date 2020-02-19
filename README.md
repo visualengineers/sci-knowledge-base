@@ -42,7 +42,7 @@ If you stumble upon a **broken link**, it it very likely you forgot to prepend t
 
 More fancy markdown: [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Custom shortcodes (responsiveness)
+### Responsiveness shortcodes
 
 Vimeo 
 
