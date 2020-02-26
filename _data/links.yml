@@ -2,7 +2,7 @@
 # If you need more fields, simply add them and don't forget to customize resources.md markup afterwards.
 # Predefined mandatory fields: title, url
 # Predefined optional fields: src
-# to cite a reference in a maintainable way follow this convention: [[title]](/resources/#links)
+# to cite a reference in a maintainable way follow this convention: [[title]]({{site.baseurl}}/resources/#links)
 
 - title: "Mudpad: Fluid Haptics for Touch Surfaces"
   src: Media Computing Group, RWTH Aachen

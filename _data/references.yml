@@ -2,7 +2,7 @@
 # If you need more fields, simply add them and don't forget to customize resources.md markup afterwards.
 # Predefined mandatory fields: title, author, url, year OR date
 # Predefined optional fields: in, publisher
-# to cite a reference in a maintainable way follow this convention: [[title]](/resources/#references)
+# to cite a reference in a maintainable way follow this convention: [title](({{ site.baseurl }}/resources/#references)
 
 - title: Grand Challenges in Shape-Changing Interface Research
   in: "CHI '18: Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems"
@@ -19,6 +19,11 @@
   author: Ishii, H., Ullmer, B.
   year: 1997
   url: https://doi.org/10.1145/258549.258715
+- title: Investigating Gestures on Elastic Tabletops
+  in: "TEI’14"
+  author: Kammer, D., Gründer, T, Göbel, F.,  Groh, R.
+  year: 2014
+  url: https://www.semanticscholar.org/paper/Investigating-Gestures-on-Elastic-Tabletops-Kammer/b7978c5315ae9544491b0f933b318c9a747cfa23
 - title: New Impressions in Interaction Design. A Task Taxonomy for Elastic Displays
   in: "i-com: Vol. 17, No. 3"
   author: Kammer, D., Müller, M., Wojdziak, J.,  Franke, I. S.
@@ -29,6 +34,11 @@
   author: Lahey, B., Girouard, A., Burleson, W., Vertegaal R.
   year: 2011
   url: https://doi.org/10.1145/1978942.1979136
+- title: "Gestures in Human-Computer-Interaction"
+  in: "Reserach Paper in Media Informatics Proseminar LMU München"
+  author: Muser, S.
+  year: 2015
+  url: https://www.medien.ifi.lmu.de/lehre/ss15/ps/papers/Muser-GesturesInHCI.pdf
 - title: "DepthTouch: Elastische Membran zwischen virtuellem und realem Raum"
   in: "AVI '12: Proceedings of the International Working Conference on Advanced Visual Interfaces"
   author: Peschke, J. Göbel, F., Groh, R.
@@ -39,6 +49,11 @@
   author: Sturdee, M., Alexander, J.
   year: 2018
   url: https://doi.org/10.1145/3143559
+- title: User-Defined Gestures for Elastic, Deformable Displays
+  in: "Conference: AVI 2014"
+  author: Troiano, G. M., Pedersen, E. W., Hornbæk, K.
+  year: 2014
+  url: https://doi.org/10.13140/2.1.2396.6083
 - title: Token+constraint systems for tangible interaction with digital information
   in: ACM Transactions on Computer-Human Interaction (TOCHI)
   author: Ullmer, B., Ishii, H., Jacob R. J. K.

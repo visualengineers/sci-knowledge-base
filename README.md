@@ -46,19 +46,46 @@ More fancy markdown: [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Not yet satisfied? Kramdown is the default Markdown renderer for Jekyll, offering you additional options for styling. Add for example `{:.my-css-class}` to tell Kramdown you want to apply your fancy custom CSS.
 
-### Responsiveness shortcodes
+### Inserting new content
 
-Vimeo 
+## References & Links
 
+Create a new entry in `data > references.yml` or `data > links.yml`. 
+
+## Pages, Terms & Concepts
+
+Create a new markdown file (.md) in `pages`, `terms > [first letter of entry]` or `concepts` analogous to the existing entries to make sure all styles are applied.
+
+## Images
+
+Upload the image into `assets > img`.
+
+## Linking shortcodes
+
+Reference
+`[[title]](({{ site.baseurl }}/resources/#references)`
+
+Link
+`[[title]](({{ site.baseurl }}/resources/#links)`
+
+Page
+`[title]({{ site.baseurl }}/[filename-goes-here])`
+
+Term
+`[title]({{ site.baseurl }}/terms/[filename-goes-here])`
+
+Concept
+`[title]({{ site.baseurl }}/concepts/[filename-goes-here])`
+
+Video on Vimeo 
 `<div class="media-wrapper"><iframe src="..." frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>`
 
-YouTube
-
+Video on YouTube
 `<div class="media-wrapper"><iframe src="..." frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>`
 
-Images
+Image
+`![title](source){:.responsive-media}`
 
-`![ title ]( src ){:.responsive-media}`
 
 ### Support
 
