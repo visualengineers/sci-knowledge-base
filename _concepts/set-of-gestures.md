@@ -3,17 +3,19 @@ layout: concept
 title: Set of Gestures
 description: set of gestures in interactive visualizations
 ---
-@work
-### What's a gesture?
+### Defining a Gesture
 Gestures as the input through which users interact with the interface of an display. But where exactly does it start and where does it end? Is it just a movement or maybe more? 
-Kurtenbach and Hulteen claim: "A gesture is a motion of the body that contains information. Waving goodbye is a gesture. Pressing a key on a keyboard is not a gesture because the motion of a finger on its way to hitting a key is neither observed nor significant. All that matters is which key was pressed". 
+Kurtenbach and Hulteen claim: 
+*"A gesture is a motion of the body that contains information. Waving goodbye is a gesture. Pressing a key on a keyboard is not a gesture because the motion of a finger on its way to hitting a key is neither observed nor significant. All that matters is which key was pressed".* 
 According to this a gesture can be defined as a movement of the body that is performed to convey meaning. Meaning therefore implicitly creates the boundaries of a single gesture, which consists of everything that must necessarily be performed to encode the meaning. Meaning can only be conveyed successfully in a communication space that uses languages all the participants are able to speak. 
 
-### Gestures on elastic displays
+### Gestures on Elastic Displays
  The communication space of elastic displays includes users performing movements with their hands and a display that observes the deformation of its surface, mostly from beyond. We define a set of gestures that describes the gestures performable on elastic display from the user's point of view. The user's intention to "tell" the display something meaningful creates the boundaries that define the start and end of a single gesture. In terms of user-centered design the technical expression of gestures has to be derived from this user-defined gesture set. More on technical gesture recognition can be found under [tracking technologies]({{ site.baseurl }}/concepts/tracking-technologies).
 
-### Defining a set of gestures for elastic displays
+**Gesture Set**
 Several attemps have been made to collect, categorize and describe the gestural input modalities on elastic displays. In [User-Defined Gestures for Elastic, Deformable Displays]({{ site.baseurl }}/resources/#references) Troiano et al. report a guessability study to describe the gesture set users prefer to perform on elastic, deformable displays. An investigation of tabletop gestures can be found in [Investigating Gestures on Elastic Tabletops]({{ site.baseurl }}/resources/#references) by Kammer et al. In [Gestures in Human-Computer-Interaction]({{ site.baseurl }}/resources/#references) Muser gives a general overwiew of different approaches for gesture classification that can be used to formalize the findings in other research papers towards a more complete and structured gesture classification. The video [Obake: interactions with a 2.5D elastic display]({{ site.baseurl }}/resources/#links) contains a collection of gestural interactions on elastic 2.5D displays.
+
+**@work**
 
 TROIANO (gestures and preferences):
 1. Push 18 
