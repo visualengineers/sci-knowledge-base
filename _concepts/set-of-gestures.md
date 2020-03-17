@@ -11,22 +11,22 @@ Gestures are the input through which users interact with the interface of an dis
 
 In [Gestures in Human-Computer-Interaction]({{ site.baseurl }}/resources/#references) Muser gives a general overwiew of different approaches for gesture classification. She presents Cadoz' functional classification of hand gestures:
 
-- **Ergotic** : the action of modifying and transforming the environment, e.g. changing the state of the environment by [direct manipulation]({{ site.baseurl }}/terms/direct-manipulation), wiping dust or shaping pottery.
-- **Epistemic** : the action of getting knowledge from the environment, e.g. learning about the material or shape of the environment via the tactile sense
+- **Ergotic** : the action of modifying the environment, e.g. [direct manipulation]({{ site.baseurl }}/terms/direct-manipulation), shaping pottery
+- **Epistemic** : the action of getting knowledge from the environment, e.g. exploring material via the tactile sense
 - **Semiotic** : the action of conveying information to the environment, e.g. waving good-bye or communicating by sign language 
 
-Semiotic gestures are the ones that have always been important most in HCI, because it is a lot about conveying and receiving information to and from a computer system. Another somehow settled classification of gestures [src?] is to subdivide the semiotic gestures:
+Semiotic gestures are the ones that have been used as input modality in HCI mostly. They include:
 
-- **deictic** (pointing)
-- **motor** (marking the rhythm of speech) 
-- **symbolic** / emblems (following contextual convertions, e.g. thumbs up)
-- **iconic** (representing the content of the speech visually)
-- **metaphoric** (showing abstract ideas)
+- **Deictic**: pointing, e.g. using a mouse pointer
+- **Motor**: marking the rhythm of speech 
+- **Symbolic / emblematic**: following contextual convertions, e.g. thumbs up
+- **Iconic**: representing the content of the speech, e.g. by drawing a shape
+- **Metaphoric**: showing abstract ideas
 
 ### Gestures on Elastic Displays
  The communication space of elastic displays includes users performing movements with their hands and a display that observes the deformation of its surface, mostly from beyond. Following the approach of user-centered design, our set of gestures describes the gestures performable on elastic display from the user's point of view. The user's intention to "tell" the display something meaningful creates the boundaries that define the start and end of a single gesture. (Note: Under [tracking technologies]({{ site.baseurl }}/concepts/tracking-technologies) you can find more on technical gesture recognition, derived from the user-defined gesture set.)
  
- Compared to traditional HCI, elastic displays enlarge especially the space of ergotic and epistemic gestures as they let the user perform gestures in depth and provide rich haptic feedback. Among the semiotic gestures the deictic, symbolic / emblematic an iconic gestures are the relevant ones for elastic displays as they must not be performed mid-air but include touching and shaping the the display's surface. 
+ Compared to traditional HCI, elastic displays enlarge especially the space of ergotic and epistemic gestures as they let the user perform gestures in depth and provide rich haptic feedback. Among the semiotic gestures the deictic, symbolic / emblematic an iconic gestures are the relevant ones for elastic displays as they must not be performed mid-air but include touching and shaping the display's surface. 
 
 ### Gesture Set
 
