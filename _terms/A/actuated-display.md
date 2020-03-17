@@ -1,7 +1,7 @@
 ---
 layout: term
 title: Actuated Display
-description: definition of Actuated Display
+description: definition of Actuated Display in SCI Knowledge Base
 ---
 Actuated displays are [shape-changing interfaces]({{ site.baseurl }}/terms/shape-changing-interface) with active deformation property. Most of the existing actuated display implementations are tabletop dislays with a surface that is malleable through direct touch input or freehand gestures. Motorized pins controlled individually by a computer algorithm create the shape of the display. Front or rear projection is used to render visual output on the surface. In constrast to this approach, other applications use shape memory alloys and a capacitive sensor for actuation and interaction. Direct light emission with integrated LEDs creates the visualization. 
 

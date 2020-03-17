@@ -1,7 +1,7 @@
 ---
 layout: term
 title: Elastic Display
-description: Elastic Display in ZELASTO Knowledge Base
+description: Elastic Display in SCI Knowledge Base
 ---
 Elastic displays are [shape-changing interfaces]({{ site.baseurl }}/terms/shape-changing-interface) that are only temporally deformable, more precisely, they automatically return into their inital flat state after the deformation. The display allows users to give input by force-touch (e.g. pinching, pushing, folding, and twisting the display), providing them with rich haptic feedback.
 
