@@ -1,14 +1,14 @@
 ---
 layout: concept
-title: Set of Gestures for Elastic Displays
-description: set of gestures in interactive visualizations
+title: Elastic Gestures
+description: Elastic gestures in SCI Knowledge Base
 ---
 *"A gesture is a motion of the body that contains information. Waving goodbye is a gesture. Pressing a key on a keyboard is not a gesture because the motion of a finger on its way to hitting a key is neither observed nor significant. All that matters is which key was pressed".* [Kurtenbach and Hulteen]
 
 Gestures are the input through which users interact with the interface of an display. But where exactly does it start and where does it end? Is it just a movement or maybe more? According to the cite from Kurtenbach and Hulteen **a gesture can be defined as movement of the body that is performed to convey meaning**. Meaning therefore implicitly determines the relevant components of a single gesture and sets its boundaries.
 
 ### Gestures on Elastic Displays
-Gestural interaction on elastic displays includes users **touching and shaping an elastic surface with their hands**. Semiotic gestures have been used in HCI ever since, because they can be recognized and interpreted technically. Among them, elastic displays are suitable for deictic, symbolic, emblematic and iconic gestures as they can be performed by physically touching and shaping a malleable surface. Furthermore, **elastic displays enlarge the gestural interaction space** when compared to traditional HCI. Users can act out gestures in depth and benefit from the display's rich haptic feedback. Boundaries defining start and end of a single gesture are created implicitly by the user's intention to "tell" the display something meaningful.
+Gestural interaction on elastic displays includes users **touching and shaping an elastic surface with their hands**. Semiotic gestures have been used in HCI ever since, because they can be recognized and interpreted technically. Among them, elastic displays are suitable for deictic, symbolic, emblematic and iconic gestures as they can be performed by physically touching and shaping a malleable surface. Furthermore, **elastic displays enlarge the gestural interaction space** when compared to traditional HCI. Users can act out gestures in depth and benefit from the display's rich haptic feedback. Boundaries defining start and end of a single gesture are created implicitly by the user's intention to "tell" the display something meaningful and the capability of the tracking technologies.
 
 ### Classification Approaches
 
@@ -23,15 +23,16 @@ Gestural interaction on elastic displays includes users **touching and shaping a
 2. gesticulations representing content of speech
 3. act gestures to describe the form of objects (descriptive) or transform objects (manipulative)
 
-**"Kendon's continuum", classification of gestures by dependency on speech (\*)** (\*descending), cited in [Gesture: A Psycholinguistic Approach]({{ site.baseurl }}/resources/#references) [McNeil]
+**"Kendon's continuum", classification of gestures by dependency on speech (\*)**, cited in [Gesture: A Psycholinguistic Approach]({{ site.baseurl }}/resources/#references) [McNeil]
 
 1. Gesticulations (Beat, Cohesive)
 2. Language-Like (Iconic)
 3. Pantomimes (Pantomimic)
 4. Emblems (Deictic)
 5. Sign Language (Symbolic)
+(\*descending)
 
-**Classification of semiotic gestures by Rime and Schiaratura**, cited in [Gestures in HUman-Computer Interaction]({{ site.baseurl }}/resources/#references) [Muser]
+**Classification of semiotic gestures by Rime and Schiaratura**, cited in [Gestures in Human-Computer Interaction]({{ site.baseurl }}/resources/#references) [Muser]
 
 1. Deictic: pointing, e.g. using a mouse pointer
 2. Motoric: marks the rhythm of speech 
@@ -43,19 +44,19 @@ Gestural interaction on elastic displays includes users **touching and shaping a
 
 PUSH - TOUCH - PULL 
 
-**Classification of touch gestures for screen devices** [Material Design: Types of Gestures]({{ site.baseurl }}/resources/#links) [Google]
+**Classification of touch gestures for screen devices** in [Material Design: Types of Gestures]({{ site.baseurl }}/resources/#links) [Google]
 
 1. navigational gestures (move through)
 2. act gestures (complete actions + use shortcuts)
 3. transform gestures (transform objects)
 
-### Collections of Gestures
+### Gesture Collections
 
 [User-Defined Gestures for Elastic, Deformable Displays]({{ site.baseurl }}/resources/#references) [Troiano et al.]
 
 29 single or both-handed gestures users prefer to perform on elastic, deformable displays
 
-1. Push 
+1. Push
 2. Drag 
 3. Expand 
 4. Grab 
@@ -100,6 +101,6 @@ Collection of gestural interactions on elastic 2.5D displays
 9. Friction
 10. Warp
 
-## Own catalogue
+## Set of Gestures
 ...
 
