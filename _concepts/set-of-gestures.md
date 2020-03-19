@@ -5,29 +5,26 @@ description: set of gestures in interactive visualizations
 ---
 *"A gesture is a motion of the body that contains information. Waving goodbye is a gesture. Pressing a key on a keyboard is not a gesture because the motion of a finger on its way to hitting a key is neither observed nor significant. All that matters is which key was pressed".* [Kurtenbach and Hulteen]
 
-Gestures are the input through which users interact with the interface of an display. But where exactly does it start and where does it end? Is it just a movement or maybe more? Numerous approaches in numerous disciplines exist to describe what a gesture is. According to the cite above a gesture is a **movement of the body that is performed to convey meaning**. Meaning therefore implicitly creates the boundaries of a single gesture, which consists of everything that must necessarily be performed to encode the meaning in a specific communication space.
+Gestures are the input through which users interact with the interface of an display. But where exactly does it start and where does it end? Is it just a movement or maybe more? According to the cite from Kurtenbach and Hulteen a gesture can be defined as **movement of the body that is performed to convey meaning**. Meaning therefore implicitly determines the relevant components of a single gesture and sets its boundaries.
 
 ### Types of Gestures
-How can we find a suitable classification to describe gestures? In [Gestures in Human-Computer-Interaction]({{ site.baseurl }}/resources/#references) Muser gives a general overwiew of different approaches, e.g. Cadoz' functional classification of hand gestures:
+Numerous approaches exist to classify gestures. We use Cadoz' coarse-grained approach of functional classification of hand gestures and combine it with a somehow settled sub-division of semiotic gestures as these are the gestures that have been used in HCI mostly.
 
-- **Ergotic** : the action of modifying the environment, e.g. [direct manipulation]({{ site.baseurl }}/terms/direct-manipulation), shaping pottery
-- **Epistemic** : the action of getting knowledge from the environment, e.g. exploring material via the tactile sense
-- **Semiotic** : the action of conveying information to the environment, e.g. waving good-bye or communicating by sign language 
-
-Semiotic gestures (the ones that have been used as input modality in HCI mostly) can be subdivided into:
-
-- **Deictic**: pointing, e.g. using a mouse pointer
-- **Motor**: marking the rhythm of speech 
-- **Symbolic / emblematic**: following contextual convertions, e.g. thumbs up
-- **Iconic**: representing the content of the speech, e.g. by drawing a shape
-- **Metaphoric**: showing abstract ideas
+- **Ergotic** : modify the environment, e.g. [direct manipulation]({{ site.baseurl }}/terms/direct-manipulation), shape pottery
+- **Epistemic** : get knowledge from the environment, e.g. explore materiality via tactile sense
+- **Semiotic** : convey information to the environment following conventions, e.g. wave good-bye, sign language 
+    - **Deictic**: pointing, e.g. using a mouse pointer
+    - **Motoric**: marks the rhythm of speech 
+    - **Symbolic / emblematic**: contextual conventions, e.g. thumbs up
+    - **Iconic**: represents the content of the speech, e.g. shape of an object
+    - **Metaphoric**: illustrates abstract ideas
 
 ### Set of Gestures for Elastic Displays
-Waht are gestures in the context of interaction with elastic displays? The communication space of elastic displays includes users performing movements with their hands and a display that observes the deformation of its surface, mostly from beyond. Following the approach of user-centered design, our set of gestures describes the gestures performable on elastic display from the **user's point of view**. The user's intention to "tell" the display something meaningful creates the boundaries that define the start and end of a single gesture. (Note: Under [tracking technologies]({{ site.baseurl }}/concepts/tracking-technologies) you can find more on technical gesture recognition, derived from the user-defined gesture set.)
- 
-Compared to traditional HCI, elastic displays enlarge especially the space of ergotic and epistemic gestures as they let the user perform gestures in depth and provide rich haptic feedback. Among the semiotic gestures the deictic, symbolic / emblematic an iconic gestures are the relevant ones for elastic displays as they must not be performed mid-air but include touching and shaping the display's surface. 
+Gestural interaction on elastic displays includes users touching and shaping an elastic surface with their hands. The user's intention to "tell" the display something meaningful creates the boundaries that define start and end of a single gesture. (Note: Under [tracking technologies]({{ site.baseurl }}/concepts/tracking-technologies) you can find more on technical gesture recognition, derived from the user-defined gesture set.)
 
-Several attemps have been made to collect, categorize and describe the gestural input modalities for elastic displays specifically. In [User-Defined Gestures for Elastic, Deformable Displays]({{ site.baseurl }}/resources/#references) Troiano et al. report a guessability study to describe the gesture set users prefer to perform on elastic, deformable displays. They identify 29 single or both-handed gestures and explain what tasks they are suitable for. An investigation of tabletop gestures can be found in [Investigating Gestures on Elastic Tabletops]({{ site.baseurl }}/resources/#references) by Kammer et al. The video [Obake: interactions with a 2.5D elastic display]({{ site.baseurl }}/resources/#links) contains a collection of gestural interactions on elastic 2.5D displays.
+Compared to traditional HCI elastic displays enlarge the space of ergotic and epistemic gestures, as users actively shape the display surface in depth and are provided with rich haptic feedback. Among semiotic gestures elastic displays make use of deictic, symbolic, emblematic and iconic gestures only as these are the ones that can be performed by physically touching and shaping a malleable surface.
+
+Several attempts have been made to collect, categorize and describe the gestural input modalities for elastic displays. In [User-Defined Gestures for Elastic, Deformable Displays]({{ site.baseurl }}/resources/#references) Troiano et al. identified 29 single or both-handed gestures users prefer to perform on elastic, deformable displays. Kammer et al. suggest to differ between push, touch and pull gestures ([Investigating Gestures on Elastic Tabletops]({{ site.baseurl }}/resources/#references). The video [Obake: interactions with a 2.5D elastic display]({{ site.baseurl }}/resources/#links) contains a collection of gestural interactions on elastic 2.5D displays.
 
 TROIANO (gestures and preferences):
 1. Push 18 
