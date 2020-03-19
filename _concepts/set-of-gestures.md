@@ -5,17 +5,31 @@ description: set of gestures in interactive visualizations
 ---
 *"A gesture is a motion of the body that contains information. Waving goodbye is a gesture. Pressing a key on a keyboard is not a gesture because the motion of a finger on its way to hitting a key is neither observed nor significant. All that matters is which key was pressed".* [Kurtenbach and Hulteen]
 
-Gestures are the input through which users interact with the interface of an display. But where exactly does it start and where does it end? Is it just a movement or maybe more? According to the cite from Kurtenbach and Hulteen a **gesture can be defined as movement of the body that is performed to convey meaning**. Meaning therefore implicitly determines the relevant components of a single gesture and sets its boundaries.
+Gestures are the input through which users interact with the interface of an display. But where exactly does it start and where does it end? Is it just a movement or maybe more? According to the cite from Kurtenbach and Hulteen **a gesture can be defined as movement of the body that is performed to convey meaning**. Meaning therefore implicitly determines the relevant components of a single gesture and sets its boundaries.
 
 ### Gestures on Elastic Displays
 Gestural interaction on elastic displays includes users **touching and shaping an elastic surface with their hands**. Semiotic gestures have been used in HCI ever since, because they can be recognized and interpreted technically. Among them, elastic displays are suitable for deictic, symbolic, emblematic and iconic gestures as they can be performed by physically touching and shaping a malleable surface. Furthermore, **elastic displays enlarge the gestural interaction space** when compared to traditional HCI. Users can act out gestures in depth and benefit from the display's rich haptic feedback. Boundaries defining start and end of a single gesture are created implicitly by the user's intention to "tell" the display something meaningful.
 
 ### Types of Gestures
 
-**Functional gesture classification by Cadoz**, cited in [Ergotic / epistemic / semiotic functions]({{ site.baseurl }}/resources/#references) [Luciani]
+**General classification by Cadoz**, cited in [Ergotic / epistemic / semiotic functions]({{ site.baseurl }}/resources/#references) [Luciani]
 1. Ergotic: modify environment using force
 2. Epistemic : explore the environment via tactile sense
 3. Semiotic : transfer information to the environment by following conventions, e.g. wave good-bye, sign language 
+
+**General classification of gestures for gestural interfaces** [An Intuitive Two-Handed Gestural Interface for Computer Supported Product Design]({{ site.baseurl }}/resources/#references) [Hummels et al.]
+
+1. predefined symbolic commands (emblems): based on technical commands
+2. gesticulations representing content of speech
+3. act gestures to describe the form of objects (descriptive) or transform objects (manipulative)
+
+**Kendon's continuum, classification of gestures by dependency on speech**, cited in [Gesture: A Psycholinguistic Approach]({{ site.baseurl }}/resources/#references) [McNeil]
+
+1. Gesticulations (Beat, Cohesive)
+2. Language-Like (Iconic)
+3. Pantomimes (Pantomimic)
+4. Emblems (Deictic)
+5. Sign Language (Symbolic)
 
 **Classification of semiotic gestures by Rime and Schiaratura**, cited in [Gestures in HUman-Computer Interaction]({{ site.baseurl }}/resources/#references) [Muser]
 
@@ -25,26 +39,15 @@ Gestural interaction on elastic displays includes users **touching and shaping a
 4. Iconic: represents the content of the speech, e.g. shape of an object
 5. Metaphoric: illustrates abstract ideas
 
-*Kendon's continuum*, cited in [Gesture: A Psycholinguistic Approach]({{ site.baseurl }}/resources/#references) [McNeil]
+**General classification of elastic gestures** in [Investigating Gestures on Elastic Tabletops]({{ site.baseurl }}/resources/#references) [Kammer et al.]
 
-Gesticulations (Beat, Cohesive) > Language-Like (Iconic) > Pantomimes (Pantomimic) > Emblems (Deictic) > Sign Language (Symbolic)
-(from left to right less dependency on speech)
+PUSH - TOUCH - PULL 
 
- **Three general gesture types of gestural interfaces** [An Intuitive Two-Handed Gestural Interface for Computer Supported Product Design]({{ site.baseurl }}/resources/#references) [Hummels et al.]
-
-1. predefined symbolic commands (emblems): based on technical commands
-2. gesticulations representing content of speech
-3. act gestures to describe the form of objects (descriptive) or transform objects (manipulative)
-
-**Touch gestures in screen interaction** [Material Design: Types of Gestures]({{ site.baseurl }}/resources/#links) [Google]
+**Classification of touch gestures for screen devices** [Material Design: Types of Gestures]({{ site.baseurl }}/resources/#links) [Google]
 
 1. navigational gestures (move through)
 2. act gestures (complete actions + use shortcuts)
 3. transform gestures (transform objects)
-
-**Three main categories of elastic gestures** in [Investigating Gestures on Elastic Tabletops]({{ site.baseurl }}/resources/#references) [Kammer et al.]
-
-PUSH - TOUCH - PULL
 
 ### Collections of Gestures
 
