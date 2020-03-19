@@ -9,13 +9,12 @@ Gestures are the input through which users interact with the interface of an dis
 
 ### Types of Gestures
 
-**Functional classification by Cadoz**
-
+Cadoz' gesture classification, cited in [Ergotic / epistemic / semiotic functions]({{ site.baseurl }}/resources/#references) [Luciani]
 1. Ergotic: modify environment using force
 2. Epistemic : explore the environment via tactile sense
 3. Semiotic : transfer information to the environment by following conventions, e.g. wave good-bye, sign language 
 
-[Investigating Gestures on Elastic Tabletops]({{ site.baseurl }}/resources/#references), [Muser]
+Classification of semiotic gestures by Rime and Schiaratura, cited in [Gestures in HUman-Computer Interaction]({{ site.baseurl }}/resources/#references) [Muser]
 
 1. Deictic: pointing, e.g. using a mouse pointer
 2. Motoric: marks the rhythm of speech 
@@ -23,30 +22,30 @@ Gestures are the input through which users interact with the interface of an dis
 4. Iconic: represents the content of the speech, e.g. shape of an object
 5. Metaphoric: illustrates abstract ideas
 
-*Kendon's continuum*, [Gesture: A Psycholinguistic Approach]({{ site.baseurl }}/resources/#references), cited by [McNeil]
+*Kendon's continuum*, cited in [Gesture: A Psycholinguistic Approach]({{ site.baseurl }}/resources/#references) [McNeil]
 
 Gesticulations (Beat, Cohesive) > Language-Like (Iconic) > Pantomimes (Pantomimic) > Emblems (Deictic) > Sign Language (Symbolic)
 (from left to right less dependency on speech)
 
-[An Intuitive Two-Handed Gestural Interface for Computer Supported Product Design]({{ site.baseurl }}/resources/#references), [Hummels et al.]
+[An Intuitive Two-Handed Gestural Interface for Computer Supported Product Design]({{ site.baseurl }}/resources/#references) [Hummels et al.]
 
 1. predefined symbolic commands (emblems): based on technical commands
 2. gesticulations representing content of speech
 3. act gestures to describe the form of objects (descriptive) or transform objects (manipulative)
 
-[Material Design: Types of Gestures]({{ site.baseurl }}/resources/#links), [Google]
+[Material Design: Types of Gestures]({{ site.baseurl }}/resources/#links) [Google]
 
 1. navigational gestures (move through)
 2. act gestures (complete actions + use shortcuts)
 3. transform gestures (transform objects)
 
-[Investigating Gestures on Elastic Tabletops]({{ site.baseurl }}/resources/#references), [Kammer et al.]
+[Investigating Gestures on Elastic Tabletops]({{ site.baseurl }}/resources/#references) [Kammer et al.]
 
 PUSH - TOUCH - PULL
 
 ### Collections of Gestures
 
-[User-Defined Gestures for Elastic, Deformable Displays]({{ site.baseurl }}/resources/#references), [Troiano et al.]
+[User-Defined Gestures for Elastic, Deformable Displays]({{ site.baseurl }}/resources/#references) [Troiano et al.]
 
 29 single or both-handed gestures users prefer to perform on elastic, deformable displays
 1. Push 
@@ -79,7 +78,7 @@ PUSH - TOUCH - PULL
 28. Rub 
 29. Spread
 
-[Obake: interactions with a 2.5D elastic display]({{ site.baseurl }}/resources/#links), [Obake by Dand, D., Hemsley, R.]
+[Obake: interactions with a 2.5D elastic display]({{ site.baseurl }}/resources/#links) [Obake by Dand, D., Hemsley, R.]
 collection of gestural interactions on elastic 2.5D displays
 1. Intrude (more)
 2. Extrude (more)
