@@ -14,6 +14,11 @@
   author: Hornbæk, K., Bederson, B. B., Plaisant, C.
   year: 2002
   url: https://doi.org/10.1145/586081.586086
+- title: An Intuitive Two-Handed Gestural Interface for Computer Supported Product Design
+  in: "LNCS, volume 1371"
+  author: Hummels, C., Smets, G., Overbeeke, K.
+  year: 1997
+  url: https://doi.org/10.1007/BFb0053000
 - title: "Tangible Bits: Towards Seamless Interfaces between People, Bits and Atoms"
   in: "CHI '97: Proceedings of the ACM SIGCHI Conference on Human factors in computing systems"
   author: Ishii, H., Ullmer, B.
@@ -29,11 +34,21 @@
   author: Kammer, D., Müller, M., Wojdziak, J.,  Franke, I. S.
   year: 2018
   url: https://doi.org/10.1515/icom-2018-0021
+- title: Gestures in Human-Computer Communication
+  in: "In: Laurel, B., Ed., The Art of Human-Computer Interface Design, Addison-Wesley Publishing Company, Inc., New York."
+  author: Kurtenbach, G. and Hulteen, E.A. (1990) Gestures in Human-Computer Communication.
+  year: 1990
+  url: https://doi.org/10.1145/1349026.1349033
 - title: "PaperPhone: Understanding the Use of Bend Gestures in Mobile Devices with Flexible Electronic Paper Displays!"
   in: "CHI '11: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems"
   author: Lahey, B., Girouard, A., Burleson, W., Vertegaal R.
   year: 2011
   url: https://doi.org/10.1145/1978942.1979136
+- title: "Gesture: A Psycholonguistic Appraoch"
+  in: "Psycholinguistics Section, The Encyclopedia of Language and Linguistics"
+  author: McNeil, D.
+  year: 1992
+  url: https://doi.org/10.1.1.541.1430
 - title: "Gestures in Human-Computer-Interaction"
   in: "Reserach Paper in Media Informatics Proseminar LMU München"
   author: Muser, S.
@@ -64,6 +79,10 @@
   author: Vertegaal, R., Poupyrev, I.
   year: 2008
   url: https://doi.org/10.1145/1349026.1349033
+
+
+
+
 
 
 

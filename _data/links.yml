@@ -4,6 +4,8 @@
 # Predefined optional fields: src
 # to cite a reference in a maintainable way follow this convention: [[title]]({{site.baseurl}}/resources/#links)
 
+- title: "Gestures - Google Material Design" 
+  url: https://material.io/design/interaction/gestures.html
 - title: "Mudpad: Fluid Haptics for Touch Surfaces"
   src: Media Computing Group, RWTH Aachen
   url: https://hci.rwth-aachen.de/mudpad
