@@ -10,9 +10,9 @@ Gestures are the input through which users interact with the interface of an dis
 ### Gestures on Elastic Displays
 Gestural interaction on elastic displays includes users **touching and shaping an elastic surface with their hands**. Semiotic gestures have been used in HCI ever since, because they can be recognized and interpreted technically. Among them, elastic displays are suitable for deictic, symbolic, emblematic and iconic gestures as they can be performed by physically touching and shaping a malleable surface. Furthermore, **elastic displays enlarge the gestural interaction space** when compared to traditional HCI. Users can act out gestures in depth and benefit from the display's rich haptic feedback. Boundaries defining start and end of a single gesture are created implicitly by the user's intention to "tell" the display something meaningful.
 
-### Types of Gestures
+### Classification Approaches
 
-**General classification by Cadoz**, cited in [Ergotic / epistemic / semiotic functions]({{ site.baseurl }}/resources/#references) [Luciani]
+**General classification of gestures by Cadoz**, cited in [Ergotic / epistemic / semiotic functions]({{ site.baseurl }}/resources/#references) [Luciani]
 1. Ergotic: modify environment using force
 2. Epistemic : explore the environment via tactile sense
 3. Semiotic : transfer information to the environment by following conventions, e.g. wave good-bye, sign language 
@@ -23,7 +23,7 @@ Gestural interaction on elastic displays includes users **touching and shaping a
 2. gesticulations representing content of speech
 3. act gestures to describe the form of objects (descriptive) or transform objects (manipulative)
 
-**Kendon's continuum, classification of gestures by dependency on speech**, cited in [Gesture: A Psycholinguistic Approach]({{ site.baseurl }}/resources/#references) [McNeil]
+**"Kendon's continuum", classification of gestures by dependency on speech (\*)** (\*descending), cited in [Gesture: A Psycholinguistic Approach]({{ site.baseurl }}/resources/#references) [McNeil]
 
 1. Gesticulations (Beat, Cohesive)
 2. Language-Like (Iconic)
