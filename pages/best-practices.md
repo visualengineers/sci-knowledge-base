@@ -6,7 +6,7 @@ permalink: /best-practices/
 
 # Best Practices
 
-Best Practices cover current challenges in research on elastic displays in the 4 major topics <a href="{{site.baseurl }}/technology">technology</a>, <a href="{{site.baseurl }}/ux">UX</a>, <a href="{{site.baseurl }}/design">design</a> and <a href="{{site.baseurl }}/society">society</a>. Read about a specific **challenge** and why it is important, what **options** you have to face it and discover **examples** of existing solutions. Additional **workshop** instructions help you to quickly apply your aquired knowledge in practice.
+Best Practices cover practical challenges that may arise during the design process of shape-changing interfaces. To help you get started they are grouped into 4 major topics <a href="{{site.baseurl }}/technology">technology</a>, <a href="{{site.baseurl }}/ux">UX</a>, <a href="{{site.baseurl }}/design">design</a> and <a href="{{site.baseurl }}/society">society</a>. Read about a specific challenge and why it is important and what ways you have to overcome it. Additional **workshop** instructions help you to quickly train your aquired knowledge in practice. You are invited to publish the results of your workshops or to create their own best practice.
 
 ### Topics
 
