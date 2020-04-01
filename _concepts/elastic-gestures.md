@@ -102,5 +102,4 @@ Collection of gestural interactions on elastic 2.5D displays
 10. Warp
 
 ## Set of Gestures
-...
-
+![elastic gestures set]({{ site.baseurl }}/assets/img/elastic-gestures.jpg){:.responsive-media}
