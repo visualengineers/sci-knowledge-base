@@ -5,8 +5,8 @@ description: definition of gesture in SCI Knowledge Base
 ---
 *"A gesture is a motion of the body that contains information. Waving goodbye is a gesture. Pressing a key on a keyboard is not a gesture because the motion of a finger on its way to hitting a key is neither observed nor significant. All that matters is which key was pressed".* [Kurtenbach and Hulteen]
 
-Gestures are the input through which users interact with the interface of an display. But where exactly does it start and where does it end? Is it just a movement or maybe more? According to the cite from Kurtenbach and Hulteen **a gesture can be defined as movement of the body that is performed to convey meaning**. Meaning therefore implicitly determines the relevant components of a single gesture and sets its boundaries.  
-Explore the gestural interaction space of elastic displays under [Elastic Gestures]({{ site.baseurl }}/concepts/elastic-gestures).
+Gestures are the input through which users interact with the interface of an display. But where exactly does it start and where does it end? Is it just a movement or maybe more? According to the cite from Kurtenbach and Hulteen a gesture can be defined as **movement of the body that is performed to convey meaning**. Meaning therefore implicitly determines the relevant components of a single gesture and sets its boundaries.  
+Explore the gestural interaction space of [elastic displays]({{ site.baseurl }}/concepts/elastic-display) under [Elastic Gestures]({{ site.baseurl }}/concepts/elastic-gestures).
 
 ### Gesture Classifications
 
