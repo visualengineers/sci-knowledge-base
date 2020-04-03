@@ -30,13 +30,20 @@ Example: identify topic, e.g. urban planning. Get sample data, use prototyping t
 3. Application domains for each type of SCI: see elastic, flexible, SCI, tangible, WIMP interfaces, Data Physicalization -> e.g Elastic Display + 2D, 2.5D, 3D layer etc...
 4. Toolkits that facilitate content design on any size, shape, or form-factor interface, e.g. Elastic Displays Emulator
 
+## Workshop
+Train your own skills in "designing application and content"! 
+
+1. Set up the prerequisites. You may use the Workshop Builder for this purpose. 
+
+The suggested order for this Best Practice is to follow the questions above as they get more and more specific. However, sometimes you may skip a question that is not relevant for your aim. Which of the 4 questions above are involved? In what way are they involved?
+
 ### Showcase
 
-**MIRO WOORKSHOP**
+**MIRO WORKSHOP**
 
 10 participants, same time, remote work
 
-Challenge: define use case to work on for next 6 months
+Aim: Define use case for layered-based application on an elastic display to work on for next 6 months
 
 1. not relevant, because our aim is to learn if the context we choose is appropriate
 2. next step: ZELASTO Workshop II
@@ -58,22 +65,4 @@ Techniques: Mood Board, Mind Map, Free Canvas for any visual or textual expressi
 **Results**
 Urban Planning Scenario
 some impressions, add images!
-
-## Workshop
-How can you train your own skills in "designing application and content" in a specific contexts?
-
-Prerequisites
-
-- Define your aim. Descibe your challenge as short and precise as possible.
-- Dive deeper into the challenge. Which of the 4 questions above are involved? In what way are they involved?
-- Use the Workshop Builder for choosing the workplace and outline that fits your needs
-- Set up your workplace.
-
-Qutline
-
-- Get the workshop material of the linked concepts. Make yourself familiar with the theory.
-- Hope you are still with us.
-- Use the material within your workplace. 
-
-The suggested order for this Best Practice is to follow the questions above as they get more and more specific. However, sometimes you may skip a question that is not relevant for your aim. 
 
