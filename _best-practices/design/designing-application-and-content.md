@@ -7,13 +7,73 @@ permalink: /designing-application-and-content/
 ---
 
 # Designing Application and Content
-There is a significant challenge in the ‘when’, ‘what’, and ‘how’ of the design and implementation of applications and content. We can break this challenge into four parts: (1) When should we apply shape-change? (2) What shape-changes should we apply? (3) What applications should we build? (4) How do we design the content for those applications?
+There is a significant challenge in the ‘when’, ‘what’, and ‘how’ of the design and implementation of applications and content. According to Alexander et al. in ... We can break this challenge into four parts:  
+(Note: combine 1+2?)
+
+1. When should we apply shape-change?  
+Understanding under which circumstances physically-dynamic interfaces are appropriate. SCI are clearly not suitable for all interaction scenarios, sometimes traditional interfaces should be used.
+
+2. What shape-changes should we apply? (...convey which meaning?)  
+Key benefits of shape-changing interfaces is their ability to transform into multiple shapes or forms, potentially for quite diverse tasks or situations. 
+What are the semantics of shape change? Currently there is a lack of understanding as to what types of change should occur in more abstract or generic circumstances (where shape may not naturally represent content).
+
+3. What applications should we build?  
+This is about identifying and exploring key application domains that provide clear benefits and routes to end-user engagement. Depending in the underlying data and characteristics of shape change each SCI technology such as an actuated, flexible, elastic or embedded display is suited for specific domains. 
+Example: layer-based application on elastic display
+
+4. How do we design the content for those applications?  
+Example: identify topic, e.g. urban planning. Get sample data, use prototyping toolkits for specific SCI technology
 
 ### Solutions
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+1. Identifying the contexts in which shape-changing is appropriate remains an open research issue. Our aim is to develop frameworks and design principles an provide them as concepts. Best tip so far: Get to know your interaction scenario. How would you solve it by using traditional interface techniques? Can you see any benefits from SCI use? Data, User, Context...Anforderungsanalyse
+2. Elastic Gestures Set + Set of Tasks. Alexander: no satisfying solution for abstract data yet. aim: design guideline on SCI semantics across many devices
+3. Application domains for each type of SCI: see elastic, flexible, SCI, tangible, WIMP interfaces, Data Physicalization -> e.g Elastic Display + 2D, 2.5D, 3D layer etc...
+4. Toolkits that facilitate content design on any size, shape, or form-factor interface, e.g. Elastic Displays Emulator
 
 ### Showcase
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+**MIRO WOORKSHOP**
+
+10 participants, same time, remote work
+
+Challenge: define use case to work on for next 6 months
+
+1. not relevant, because our aim is to learn if the context we choose is appropriate
+2. next step: ZELASTO Workshop II
+3. layer-based allication on elastic displays, "What subtype should we build?"
+4. "What content should we use?" Designing the content by shaping the topic
+
+**Outline**
+- Moderator bereitet Board vor, lädt ein
+- Tools und Thema vorstellen, aktueller Stand
+- Einzelarbeit
+- Präsentation
+- Gruppenarbeit
+- Voting
+
+**Used Tools**
+Collaboration + Communication: MIRO, Skype
+Techniques: Mood Board, Mind Map, Free Canvas for any visual or textual expression needed
+
+**Results**
+Urban Planning Scenario
+some impressions, add images!
 
 ## Workshop
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+How can you train your own skills in "designing application and content" in a specific contexts?
+
+Prerequisites
+
+- Define your aim. Descibe your challenge as short and precise as possible.
+- Dive deeper into the challenge. Which of the 4 questions above are involved? In what way are they involved?
+- Use the Workshop Builder for choosing the workplace and outline that fits your needs
+- Set up your workplace.
+
+Qutline
+
+- Get the workshop material of the linked concepts. Make yourself familiar with the theory.
+- Hope you are still with us.
+- Use the material within your workplace. 
+
+The suggested order for this Best Practice is to follow the questions above as they get more and more specific. However, sometimes you may skip a question that is not relevant for your aim. 
+
