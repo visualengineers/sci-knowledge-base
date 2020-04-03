@@ -21,6 +21,9 @@
     - title: "Concepts"
       url: "terms-and-concepts/#concepts"
 
+- title: "Workshop Builder"
+  url: workshop-builder
+
 - title: Resources
   url: resources
 
