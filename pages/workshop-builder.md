@@ -24,11 +24,16 @@ single user: same/different time Matrix
 
 The following questions help you to find the starting point for your practical walkthrough through SCI-KB. Within the suggested approach, choose the Knowledge Items you are interested in. Each Knowledge Items provides you with workshop material and further instructions on how to train its content in a workshop.
 
-1. I am at a certain development stage or I am interested in a certain topic: **Thematic**, search Best Practices within [technology]({ site.baseurl }}/technology),[user experience]({ site.baseurl }}/ux), [technology]({ site.baseurl }}/technology) or [society]({ site.baseurl }}/society). 
-2. I am facing a complex challenge and don't know where to start: **Problem-oriented**, search all [Best Practices]({ site.baseurl }}/best-practices)
-3. I am missing some theoretical background in design and implementation techniques: **Technology-oriented**, seach [Concepts]({ site.baseurl }}/resources/#concepts)
-5. I am looking for practical knowledge within a specific research field / keyword: **Deep-Dive**, search by Keyword or browse [Terms]({ site.baseurl }}/resources/#terms)
-4. I am interested in everything or I have multiple problems: **Explorative**, take a nap, start at the beginning of the page or let your cat browse SCI-KB 
+1. **Thematic**  
+I am at a certain development stage or I am interested in a certain topic. Search Best Practices within [technology](technology), [user experience](ux), [design](design) or [society](society). 
+2. **Problem-oriented**  
+I am facing a complex challenge and don't know where to start. Search all [Best Practices](best-practices)
+3. **Technology-oriented**  
+I am missing some theoretical background in design and implementation techniques. Search [Concepts]({site.baseurl}}/resources/#concepts)
+5. **Deep-Dive**  
+I am looking for practical knowledge within a specific research field / keyword. Search by Keyword or browse [Terms]({site.baseurl}}/resources/#terms)
+4. **Explorative**  
+I am interested in everything or I have multiple problems. Take a nap, start at the beginning of the page or let your cat browse SCI-KB 
 
 
 
