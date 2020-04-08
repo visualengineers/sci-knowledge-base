@@ -31,9 +31,9 @@ Example: identify topic, e.g. urban planning. Get sample data, use prototyping t
 4. Toolkits that facilitate content design on any size, shape, or form-factor interface, e.g. Elastic Displays Emulator
 
 ## Workshop
-Train your own skills in "designing application and content"! 
+Train your own skills in {{ page.title }}! 
 
-1. Set up the prerequisites. You may use the Workshop Builder for this purpose. 
+1. Set up the prerequisites. Are you already familiar with the context of your workshop? This includes carving out the goal and rough procedure of the workshop and determining the location where it takes place. You may use the [Workshop Builder]({{ site.baseurl }}/workshop-builder) for this purpose. 
 
 The suggested order for this Best Practice is to follow the questions above as they get more and more specific. However, sometimes you may skip a question that is not relevant for your aim. Which of the 4 questions above are involved? In what way are they involved?
 
