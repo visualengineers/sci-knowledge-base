@@ -39,11 +39,11 @@ The suggested order for this Best Practice is to follow the questions above as t
 
 ### Showcase
 
-**MIRO WORKSHOP**
+**ZELASTO WORKSHOP I**
 
-10 participants, same time, remote work
+Context: 10 participants, same time, remote work
 
-Aim: Define use case for layered-based application on an elastic display to work on for next 6 months
+
 
 1. not relevant, because our aim is to learn if the context we choose is appropriate
 2. next step: ZELASTO Workshop II
@@ -51,7 +51,18 @@ Aim: Define use case for layered-based application on an elastic display to work
 4. "What content should we use?" Designing the content by shaping the topic
 
 **Outline**
-- Moderator bereitet Board vor, lädt ein
+- Einleitung: Vorstellung des Ziels
+Aim: Define use case for layered-based application on an elastic display to work on for next 6 months
+- Vorstellung Themenfelder
+- Vorstellung der Ideen
+- Themenspezifisches Frame
+- Themenverantwortlichen für die Vorstellung festlegen
+- Vorstellung der Themenframes
+- Taxonomien festlegen (anschließender Workshop)
+- Meinungsbild
+
+
+Moderator bereitet Board vor, lädt ein
 - Tools und Thema vorstellen, aktueller Stand
 - Einzelarbeit
 - Präsentation
