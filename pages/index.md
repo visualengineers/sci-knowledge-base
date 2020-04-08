@@ -9,7 +9,7 @@ The Shape-changing Interfaces Knowledge Base (SCI-KB) originates from the resear
 
 ![SCI-KB building blocks]({{ site.baseurl }}/assets/img/sci-kb.png)
 
-The knowledge modules [Terms]({{ site.baseurl }}/terms-and-concepts/#terms), [Concept]({{ site.baseurl }}/terms-and-concepts/#concepts) and [Best Practices]({{ site.baseurl }}/best-practices/) can be arranged in any combination and pervade each of the three con-ceptual levels “Learn”, “Apply” and “Contribute”. 
+The knowledge modulesitems [Terms]({{ site.baseurl }}/terms-and-concepts/#terms), [Concept]({{ site.baseurl }}/terms-and-concepts/#concepts) and [Best Practices]({{ site.baseurl }}/best-practices/) can be arranged in any combination and pervade each of the three conceptual levels “Learn”, “Apply” and “Contribute”. 
 
 **Term**. On the "Learn" level, each term explains a technical term for shape-changing interfaces, for example "Elastic Display". On the "Apply" level, examples show how the term is used in practice. The "Contribute" level invites users to modify or add terms.
 
@@ -17,7 +17,7 @@ The knowledge modules [Terms]({{ site.baseurl }}/terms-and-concepts/#terms), [Co
 
 **Best Practice**. On the "Learn" level, a best practice explains a practical challenge that may arise in the design process of shape-changing interfaces, such as the choice of a suitable prototyping technology, and shows ways to overcome the challenge. On the "Apply" level, there are suggestions on how to train the solutions in a workshop using materials provides by the Concepts particularly. Workshop participants are invited to publish the results of their workshops on the "Contribute" level or to create their own best practice.
 
-WIth the **Workshop Builder**, modular workshops tailored to the application context can be composed from the knowledge items. To ensure this, the Workshop Builder must be able to map the dimensions of the workshop context. For example, the workshop can be done alone or in a team, at separate locations or at a different time. To ensure optimum learning success, the workshop content should be tailored to the previous knowledge of the participants. Depending on the objective of the workshop, it may also be useful to adapt the course to topics, techniques or practical problems.
+With the **Workshop Builder**, modular workshops tailored to the application context can be composed from the knowledge items. To ensure this, the Workshop Builder must be able to map the dimensions of the workshop context. For example, the workshop can be done alone or in a team, at separate locations or at a different time. To ensure optimum learning success, the workshop content should be tailored to the previous knowledge of the participants. Depending on the objective of the workshop, it may also be useful to adapt the course to topics, techniques or practical problems.
 
 ## Support
 
