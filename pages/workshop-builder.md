@@ -8,7 +8,7 @@ permalink: /workshop-builder
 The Workshop Builder **helps you plan and prepare workshops that fit your needs**. You may use it in advance of each workshop as the preliminary questions are always the same and the tools are reusable. First of all, it is important to know the context and goal of the workshop. Next, the basic procedure can be determined and the appropriate knowledge items can be arranged. 
 
 ### Define your aim
-Describe your goal as short and precise as possible. What do you want to get out of the workshop? If you are stuck, try these tools: SMART, "What not",...
+Describe your goal as short and precise as possible. What do you want to get out of the workshop? If you are stuck, perhaps the [SMART criteria]({site.baseurl}}/terms/smart) or an "is not" analysis (excluding everything that is not the objective) will help.
 
 ### Set up your workplace
 What's the best place to hold your workshop? Online or offline, face-to-face or siiting in your hancock all alone?
