@@ -58,4 +58,4 @@ PUSH - TOUCH - PULL
 
 ### Examples
 
-see [Elastic Gestures]({{site.baseurl}}/concepts-elastic-gestures) for gestural interaction on elastic displays
+see [Elastic Gestures]({{site.baseurl}}/concepts/elastic-gestures) for gestural interaction on elastic displays

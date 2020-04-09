@@ -7,37 +7,28 @@ permalink: /designing-application-and-content/
 ---
 
 # Designing Application and Content
-There is a significant challenge in the ‘when’, ‘what’, and ‘how’ of the design and implementation of applications and content. According to Alexander et al. in ... We can break this challenge into four parts:  
-(Note: combine 1+2?)
+There is a significant challenge in the ‘when’, ‘what’, and ‘how’ of the design and implementation of applications and content. According to Alexander et al. in [Grand Challenges in Shape-Changing Interface Research]({site.baseurl}}/resources) We can break this challenge into four parts:  
 
-1. When should we apply shape-change?  
-Understanding under which circumstances physically-dynamic interfaces are appropriate. SCI are clearly not suitable for all interaction scenarios, sometimes traditional interfaces should be used.
+1. When should we apply shape-change?    
+Sometimes there is a clear benefit from using physically-dynamic interfaces in interaction scenarios, but sometimes traditional interfaces should be used instead. Differing between these cases remains an open research issue, but you can get closer by asking yourself thefollowing questions: What are the characteristics of your interaction scenario? How would you solve it by using traditional interface techniques? Can you see any benefits from SCI use? 
 
-2. What shape-changes should we apply? (...convey which meaning?)  
-Key benefits of shape-changing interfaces is their ability to transform into multiple shapes or forms, potentially for quite diverse tasks or situations. 
-What are the semantics of shape change? Currently there is a lack of understanding as to what types of change should occur in more abstract or generic circumstances (where shape may not naturally represent content).
+2. What shape-changes should we apply?  
+Key benefits of shape-changing interfaces is their ability to transform into a broad variety of shapes or forms. What are the semantics of a specific shape change? Currently there is a lack of understanding as to what types of change should occur in more abstract or generic circumstances (where shape may not naturally represent content). Our Sets of Elastic Gestures and Interaction Tasks provide assistance in defining suitable interactions on elastic displays. 
 
-3. What applications should we build?  
-This is about identifying and exploring key application domains that provide clear benefits and routes to end-user engagement. Depending in the underlying data and characteristics of shape change each SCI technology such as an actuated, flexible, elastic or embedded display is suited for specific domains. 
-Example: layer-based application on elastic display
+3. What applications should we build?    
+This is about identifying and exploring key application domains that provide clear benefits and routes to end-user engagement. Each SCI technology such as an actuated, flexible, elastic or embedded display is suited for specific domains and "killer applications". 
 
-4. How do we design the content for those applications?  
-Example: identify topic, e.g. urban planning. Get sample data, use prototyping toolkits for specific SCI technology
-
-### Solutions
-1. Identifying the contexts in which shape-changing is appropriate remains an open research issue. Our aim is to develop frameworks and design principles an provide them as concepts. Best tip so far: Get to know your interaction scenario. How would you solve it by using traditional interface techniques? Can you see any benefits from SCI use? Data, User, Context...Anforderungsanalyse
-2. Elastic Gestures Set + Set of Tasks. Alexander: no satisfying solution for abstract data yet. aim: design guideline on SCI semantics across many devices
-3. Application domains for each type of SCI: see elastic, flexible, SCI, tangible, WIMP interfaces, Data Physicalization -> e.g Elastic Display + 2D, 2.5D, 3D layer etc...
-4. Toolkits that facilitate content design on any size, shape, or form-factor interface, e.g. Elastic Displays Emulator
+4. How do we design the content for those applications?    
+We suggest to make use of an apprppriate prototyping technique for the SCI technology you want to implement, e.g. Elastic Displays Emulator.
 
 ## Workshop
 Train your own skills in {{ page.title }}! 
 
 1. Set up the prerequisites. Are you already familiar with the context of your workshop? This includes carving out the goal and rough procedure of the workshop and determining the location where it takes place. You may use the [Workshop Builder]({{ site.baseurl }}/workshop-builder) for this purpose. 
 
-The suggested order for this Best Practice is to follow the questions above as they get more and more specific. However, sometimes you may skip a question that is not relevant for your aim. Which of the 4 questions above are involved? In what way are they involved?
+2. Take up the challenge. Which of the 4 questions above are involved? In what way are they involved? Perhaps you may skip a question that is not relevant for your aim. Use the material and techniques provided in the terms and concepts within your workshop.
 
-### Showcase
+### Example
 
 **ZELASTO WORKSHOP I**
 
