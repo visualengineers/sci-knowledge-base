@@ -11,3 +11,6 @@ The term shape-changing interface is an umbrella term for various interface type
 In [Grand Challenges in Shape-Changing Interface Research]({{ site.baseurl }}/resources/#references/) Alexander et al. also propose an alternative classification for Shape-changing Interfaces with a view to the context of use. The interface might adapt to specific tasks, users or environments, communicate information through shape-change, augment users, simulate objects or simply be decorative. Regarding the deformation one can distinguish between orientation, form, volume, texture, viscosity, spatiality, adding/subtracting, permeability.
 
 [Best Practices]({{ site.baseurl }}/best-practices) cover practical implications of current challenges that have been identified in shape-changing interface research.
+
+### Examples
+There is no example yet. Feel free to <a href="{{ site.repo }}/edit/master/{{ page.path }}" target="_blank"><i class="fa fa-edit fa-fw"></i> edit this page</a>.

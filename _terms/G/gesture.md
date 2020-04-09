@@ -10,7 +10,7 @@ Explore the gestural interaction space of [elastic displays]({{ site.baseurl }}/
 
 ### Gesture Classifications
 
-Note: The following compilation is not a complete collection of approaches to classify gestures that in our opinion are useful.
+*Note*: The following compilation is not a complete collection of approaches to classify gestures that in our opinion are useful.
 
 **General classification of gestures by Cadoz**,  
 cited in [Ergotic / epistemic / semiotic functions]({{ site.baseurl }}/resources/#references) [Luciani]
@@ -55,3 +55,7 @@ PUSH - TOUCH - PULL
 1. navigational gestures (move through)
 2. act gestures (complete actions + use shortcuts)
 3. transform gestures (transform objects)
+
+### Examples
+
+see [Elastic Gestures]({{site.baseurl}}/concepts-elastic-gestures) for gestural interaction on elastic displays
