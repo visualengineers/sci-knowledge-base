@@ -14,15 +14,14 @@ Describe your goal as short and precise as possible. What do you want to get out
 What's the best place to hold your workshop? Online or offline, face-to-face or siiting in your hancock all alone?
 The decision on the workplace should be made considering number and skills of participants as well as the location and time the workshops is going to take place. It involves choosing an appropriate tool to set up the place the workshop will be hold. 
 
-| | <i class="fa fa-clock"></i> same| <i class="fa fa-clock"></i>  <i class="fa fa-clock"></i> different |
+| | same <i class="fa fa-clock"></i> | different <i class="fa fa-clock"></i>  <i class="fa fa-clock"></i> |
 | :---: |:---:| :---:|
-| **<i class="fa fa-location"></i> same** | face-to-face collaboration, e.g. ? | real-time remote collaboration, e.g. |
-| **<i class="fa fa-location"></i> <i class="fa fa-location"></i> different** | co-located ongoing boards, e.g. MIRO, screen sharing, ... |  asynchronous distributed work,  e.g. emails |
-
-> fill in collaboration tools / suitable workspaces 
+| **same <i class="fa fa-map-marker-alt"></i>** | face-to-face collaboration, e.g. ? | real-time remote collaboration, e.g. |
+| **different <i class="fa fa-map-marker-alt"></i> <i class="fa fa-map-marker-alt"></i>** | co-located ongoing boards, e.g. MIRO, screen sharing, ... |  asynchronous distributed work,  e.g. emails | 
 
 ### Stack your Knowledge Items
-> If you already know, which Knowledge Items you are going to use, you can skip this and start over.   
+
+> If you already know, which Knowledge Items you are going to use, you can skip this and start over now.
 
 The following questions help you to find the starting point for your practical walkthrough through SCI-KB. Within the suggested approach, choose the Knowledge Items you are interested in. Each Knowledge Items provides you with workshop material and further instructions on how to train its content in a workshop.
 
