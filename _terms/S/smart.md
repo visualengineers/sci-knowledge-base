@@ -4,7 +4,8 @@ title: S.M.A.R.T.
 description: definition of S.M.A.R.T. 
 ---
 The letters of S.M.A.R.T. acronym give criteria which help setting objectives by pushing concrete statements, for example in project management. To take benefit from the S.M.A.R.T. criteria it is important to combine it with an action plan afterwards.  
-*Note:* In certain situations this is not realistic or even dilutes the definition of the objective if you quantify all the cirteria. Also, choosing certain combinations of these labels can cause duplication, you may take it as an offer from which you can choose. 
+
+> In certain situations this is not realistic or even dilutes the definition of the objective if you quantify all the cirteria. Also, choosing certain combinations of these labels can cause duplication, you may take it as an offer from which you can choose. 
 
 **S**. Specific (or strategic) – Be clear and specific with what you want to achieve.  
 **M**. Measurable (or motivating) – Quantify or at least suggest an indicator of progress.   

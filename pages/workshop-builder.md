@@ -14,13 +14,15 @@ Describe your goal as short and precise as possible. What do you want to get out
 What's the best place to hold your workshop? Online or offline, face-to-face or siiting in your hancock all alone?
 The decision on the workplace should be made considering number and skills of participants as well as the location and time the workshops is going to take place. It involves choosing an appropriate tool to set up the place the workshop will be hold. 
 
-teams: same/different Time/Space Matrix
-single user: same/different time Matrix
+| | same time | different time |
+| :---: |:---:| :---:|
+| **same place** | face-to-face collaboration, e.g. ? | real-time remote collaboration, e.g. |
+| **different place** | co-located ongoing boards, e.g. MIRO, screen sharing, ... |  asynchronous distrubuted work, e.g. emails |
 
--> fill in collaboration tools / suitable workspaces 
+> fill in collaboration tools / suitable workspaces 
 
 ### Stack your Knowledge Items
-*Note*: If you already know, which Knowledge Items you are going to use, you can skip this and start over.   
+> If you already know, which Knowledge Items you are going to use, you can skip this and start over.   
 
 The following questions help you to find the starting point for your practical walkthrough through SCI-KB. Within the suggested approach, choose the Knowledge Items you are interested in. Each Knowledge Items provides you with workshop material and further instructions on how to train its content in a workshop.
 
