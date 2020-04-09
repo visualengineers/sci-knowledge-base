@@ -14,10 +14,10 @@ Describe your goal as short and precise as possible. What do you want to get out
 What's the best place to hold your workshop? Online or offline, face-to-face or siiting in your hancock all alone?
 The decision on the workplace should be made considering number and skills of participants as well as the location and time the workshops is going to take place. It involves choosing an appropriate tool to set up the place the workshop will be hold. 
 
-| | same time | different time |
+| | <i class="fa fa-clock"></i> same| <i class="fa fa-clock"></i>  <i class="fa fa-clock"></i> different |
 | :---: |:---:| :---:|
-| **same place** | face-to-face collaboration, e.g. ? | real-time remote collaboration, e.g. |
-| **different place** | co-located ongoing boards, e.g. MIRO, screen sharing, ... |  asynchronous distrubuted work, e.g. emails |
+| **<i class="fa fa-location"></i> same** | face-to-face collaboration, e.g. ? | real-time remote collaboration, e.g. |
+| **<i class="fa fa-location"></i> <i class="fa fa-location"></i> different** | co-located ongoing boards, e.g. MIRO, screen sharing, ... |  asynchronous distributed work,  e.g. emails |
 
 > fill in collaboration tools / suitable workspaces 
 
