@@ -18,8 +18,8 @@ Key benefits of shape-changing interfaces is their ability to transform into a b
 3. What applications should we build?    
 This is about identifying and exploring key application domains that provide clear benefits and routes to end-user engagement. Each SCI technology such as an actuated, flexible, elastic or embedded display is suited for specific domains and "killer applications". 
 
-4. How do we design the content for those applications?    
-We suggest to make use of an apprppriate prototyping technique for the SCI technology you want to implement, e.g. Elastic Displays Emulator.
+4. How do we design the content for those applications?  
+In an early state it will do the trick to use rather general brainstorming techniques to identify possible application scenarios, i.e. by using Mindmaps or Picture Collections. Later on, use Personas and Scenarios to bring the needs of the user intp harmony with the application context. Before the application is implemented we suggest to make use of an appropriate prototyping technique, e.g. Elastic Displays Emulator.
 
 ## Workshop
 Train your own skills in {{ page.title }}! 
@@ -33,8 +33,6 @@ Train your own skills in {{ page.title }}!
 **ZELASTO WORKSHOP I**
 
 Context: 10 participants, same time, remote work
-
-
 
 1. not relevant, because our aim is to learn if the context we choose is appropriate
 2. next step: ZELASTO Workshop II
