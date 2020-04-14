@@ -1,0 +1,13 @@
+title: Customize Your Workshop
+randomized: false
+questions:
+
+ - type: "multiple-choice"
+   question: "How many people will participate in the workshop?"
+   items:
+    - choice: True
+      correct: true
+    - choice: False
+      correct: false
+   followup: | 
+      Thank you! Your workshop plan is being created...
