@@ -1,6 +1,9 @@
 - title: About
   url: index
 
+- title: "<i class="fas fa-shapes"></i> Workshop Builder"
+  url: workshop-builder
+
 - title: Best Practices
   url: best-practices
   links:
@@ -20,9 +23,6 @@
       url: "terms-and-concepts/#terms"
     - title: "Concepts"
       url: "terms-and-concepts/#concepts"
-
-- title: "Workshop Builder"
-  url: workshop-builder
 
 - title: Resources
   url: resources
