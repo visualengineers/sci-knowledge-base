@@ -13,8 +13,23 @@ questions:
  - type: "multiple-choice"
    question: "Can you meet in person?"
    items:
-    - choice: Yes.
+    - choice: Yes, we can.
       correct: null
-    - choice: No.
+    - choice: No, that's not possible.
       correct: null
+ 
+- type: "multiple-choice"
+   question: "Which statement is the best to describe your current situation??"
+   items:
+    - choice: I am / We are at a certain development stage or interested in a certain topic.
+      correct: null
+    - choice: I am / We are facing a complex challenge and don't know where to start..
+      correct: null
+    - choice: I am / We are missing some theoretical background in design and implementation techniques.
+      correct: null
+    - choice: I am / We are looking for practical knowledge within a specific research field / keyword.
+      correct: null
+    - choice: I am / We are interested in everything or I have multiple problems.
+      correct: null
+
   
