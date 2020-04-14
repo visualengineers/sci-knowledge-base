@@ -11,7 +11,7 @@ The Workshop Builder **helps you plan and prepare workshops that fit your needs*
 Describe your goal as short and precise as possible. What do you want to get out of the workshop? If you are stuck, perhaps the [S.M.A.R.T.]({{site.baseurl}}/terms/smart) criteria or an "is not" analysis (excluding everything that is not the objective) will help.
 
 ## Customize Your Workshop
-Answer the following questions to explore Knowledge Items that cover your needs. Within the suggested Items, simply choose the ones you are interested in. Each Knowledge Item provides you with workshop material and further instructions on how to train its content in a workshop.
+Answer the following questions to get your personal Knowledge Item suggestions you can pick from. You will find workshop material and further instructions within each Knowledge Item.
 
 <!--  OPTIONS
   **face-to-face collaboration**

@@ -2,7 +2,7 @@ randomized: false
 questions:
 
  - type: "multiple-choice"
-   question: "How many people will participate in the workshop?"
+   question: "How many people will participate?"
    items:
     - choice: Only me
       correct: null
@@ -18,7 +18,7 @@ questions:
       correct: null
  
  - type: "multiple-choice"
-   question: "Which statement best descibes your situation? I am / we are ..."
+   question: " Finish the sentence. I am / we are ..."
    items:
     - choice: ... at a certain development stage / interested in a certain topic.
       correct: null
