@@ -11,7 +11,7 @@
     margin-top: 2em;
 }
 
-button .active {
+button.active {
     background: #b8e572;
 }
 
