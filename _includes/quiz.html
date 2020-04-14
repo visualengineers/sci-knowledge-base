@@ -1,4 +1,4 @@
-{% assign quiz = site.data.quizzes[include.file] %}
+{% assign quiz = site.data.quizzes.workshop-quiz %}
 
 {% if quiz.randomize == true %}
     {% assign questions = quiz.questions | sample %}

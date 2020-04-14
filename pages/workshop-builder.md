@@ -24,20 +24,19 @@ The decision on the workplace should be made considering number and skills of pa
 > If you already know, which Knowledge Items you are going to use, you can skip this and start over now.
 
 The following questions help you to find the starting point for your practical walkthrough through SCI-KB. Within the suggested approach, choose the Knowledge Items you are interested in. Each Knowledge Items provides you with workshop material and further instructions on how to train its content in a workshop.
+ 
+- I am / We are at a certain development stage or I am interested in a certain topic. 
+  **Thematic**. Search Best Practices within [technology](technology), [user experience](ux), [design](design) or [society](society). 
+- I am / We are facing a complex challenge and don't know where to start. 
+  **Problem-oriented**. Search all [Best Practices](best-practices)
+- I am / We are missing some theoretical background in design and implementation techniques.
+  **Technology-oriented**. Search [Concepts]({{site.baseurl}}/resources/#concepts)
+- I am / We are looking for practical knowledge within a specific research field / keyword.
+  **Deep-Dive**. Search by Keyword or browse [Terms]({{site.baseurl}}/resources/#terms)
+- I am / We are interested in everything or I have multiple problems.
+  **Explorative**. Take a nap, start at the beginning of the page or let your cat browse SCI-KB 
 
-1. **Thematic**  
-I am at a certain development stage or I am interested in a certain topic. Search Best Practices within [technology](technology), [user experience](ux), [design](design) or [society](society). 
-2. **Problem-oriented**  
-I am facing a complex challenge and don't know where to start. Search all [Best Practices](best-practices)
-3. **Technology-oriented**  
-I am missing some theoretical background in design and implementation techniques. Search [Concepts]({{site.baseurl}}/resources/#concepts)
-5. **Deep-Dive**  
-I am looking for practical knowledge within a specific research field / keyword. Search by Keyword or browse [Terms]({{site.baseurl}}/resources/#terms)
-4. **Explorative**  
-I am interested in everything or I have multiple problems. Take a nap, start at the beginning of the page or let your cat browse SCI-KB 
-
-
-{% include quiz.html file='workshop-quiz' %}
+{% include quiz.html %}
 
 
 
