@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: workshop-builder
 title: Workshop Builder
 permalink: /workshop-builder
 ---
@@ -36,7 +36,6 @@ The following questions help you to find the starting point for your practical w
 - I am / We are interested in everything or I have multiple problems.
   **Explorative**. Take a nap, start at the beginning of the page or let your cat browse SCI-KB 
 
-{% include quiz.html file='workshop-quiz' %}
 
 
 
