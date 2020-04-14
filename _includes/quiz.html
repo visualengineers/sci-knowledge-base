@@ -1,14 +1,29 @@
-{% assign quiz = site.data.quizzes.workshop-quiz %}
+<!-- p = participants -->
+<div>
+    <input class="radio-option" type="radio" name="p" id="p-1" checked>
+    <label class="for-radio-option" for="p-1"><i class="fas fa-user"></i>individual</label>
+    <input class="radio-option type="radio" name="p" id="p-2">
+    <label class="for-radio-option" for="p-1"><i class="fas fa-users"></i>group</label>
+</div>
 
-{% if quiz.randomize == true %}
-    {% assign questions = quiz.questions | sample %}
-{% else %}
-    {% assign questions = quiz.questions %}
-{% endif %}
+<!-- l = location -->
+<div>
+    <input class="radio-option" type="radio" name="l" id="l-1" checked>
+    <label class="for-radio-option" for="l-1"><i class="fas fa-map-marker-alt"></i>same place</label>
+    <input class="radio-option" type="radio" name="l" id="l-2">
+    <label class="for-radio-option" for="l-1"><i class="fas fa-people-arrows"></i>distributed</label>
+</div>
 
-{% for item in questions %}
-    {% if item.type == "multiple-choice" %}
-        {% include quiz/multiple-choice.html item=item count=forloop.index %}
-    {% endif %}
-<br>
-{% endfor %}
+
+
+<script>
+    $(document).ready(function(){
+        $('input[type="radio"]').click(function(){
+            var inputValue = $(this).attr("value");
+            var inputName = $(this).attr("name");
+            var targetBox = $("." + inputName + "-" + inputValue);
+            $(".box").not(targetBox).hide();
+            $(targetBox).show();
+        });
+    });
+</script>
