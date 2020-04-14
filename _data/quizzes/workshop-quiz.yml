@@ -18,8 +18,8 @@ questions:
     - choice: No, that's not possible.
       correct: null
  
-- type: "multiple-choice"
-   question: "Which statement is the best to describe your current situation??"
+ - type: "multiple-choice"
+   question: "Which statement is the best to describe your current situation?"
    items:
     - choice: I am / We are at a certain development stage or interested in a certain topic.
       correct: null
