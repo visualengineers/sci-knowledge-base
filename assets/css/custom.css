@@ -223,7 +223,7 @@ li.topic::before {
 }
 
 .radio-option + label i{
-    right: 10px;
+    margin-right: 10px;
 }
 
 @media (max-width: 767px) {
