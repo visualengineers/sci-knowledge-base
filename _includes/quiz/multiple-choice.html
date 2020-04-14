@@ -1,6 +1,7 @@
 <div class="admonition question">
 <p class="admonition-title">{% if include.item.question %}{{ include.item.question }}{% else %}Question {{ include.count }}{% endif %}</p>
 <p>{% for choice in include.item.items %}
-    <button class="quiz-answer" onclick='$(this).toggleClass("active");'>{{ choice.choice }}</button>
+    <button class="quiz-answer topic" onclick='$(this).toggleClass("active");'>{{ choice.choice }}</button>
 {% endfor %}</p>
+
 </div>
