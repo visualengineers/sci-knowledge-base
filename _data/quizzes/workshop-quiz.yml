@@ -1,0 +1,43 @@
+title: Workshop Quiz
+randomized: false
+questions:
+
+ - type: "multiple-choice"
+   question: "How many people will participate in the workshop?"
+   items:
+    - choice: Only me
+      correct: null
+    - choice: Group of people
+      correct: null
+  
+   - type: "multiple-choice"
+   question: "Can you meet in person"
+   items:
+    - choice: Yes
+      correct: null
+    - choice: No
+      correct: null
+
+   - type: "multiple-choice"
+   question: "Are you working simultaneously?"
+   items:
+    - choice: Yes
+      correct: null
+    - choice: No
+      correct: null
+
+ - type: "multiple-choice"
+   question: "Choose the sentence that describes your situation best. This helps us suggesting a starting point for your practical walkthrough through SCI-KB."
+   items:
+    - choice: I am / We are at a certain development stage or I am interested in a certain topic. 
+    correct: **Thematic**. Search Best Practices within [technology](technology), [user experience](ux), [design](design) or [society](society). 
+    - choice: I am / We are facing a complex challenge and don't know where to start. 
+    correct: **Problem-oriented**. Search all [Best Practices](best-practices)
+    - choice: I am / We are missing some theoretical background in design and implementation techniques.
+    correct: **Technology-oriented**. Search [Concepts]({{site.baseurl}}/resources/#concepts)
+    - choice: I am / We are looking for practical knowledge within a specific research field / keyword.
+    correct: **Deep-Dive**. Search by Keyword or browse [Terms]({{site.baseurl}}/resources/#terms)
+    - choice: I am / We are interested in everything or I have multiple problems.
+    correct: **Explorative**. Take a nap, start at the beginning of the page or let your cat browse SCI-KB 
+   followup:  |
+   Your workshop plan is being created...

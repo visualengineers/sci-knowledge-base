@@ -30,11 +30,14 @@ I am at a certain development stage or I am interested in a certain topic. Searc
 2. **Problem-oriented**  
 I am facing a complex challenge and don't know where to start. Search all [Best Practices](best-practices)
 3. **Technology-oriented**  
-I am missing some theoretical background in design and implementation techniques. Search [Concepts]({site.baseurl}}/resources/#concepts)
+I am missing some theoretical background in design and implementation techniques. Search [Concepts]({{site.baseurl}}/resources/#concepts)
 5. **Deep-Dive**  
-I am looking for practical knowledge within a specific research field / keyword. Search by Keyword or browse [Terms]({site.baseurl}}/resources/#terms)
+I am looking for practical knowledge within a specific research field / keyword. Search by Keyword or browse [Terms]({{site.baseurl}}/resources/#terms)
 4. **Explorative**  
 I am interested in everything or I have multiple problems. Take a nap, start at the beginning of the page or let your cat browse SCI-KB 
+
+
+{% include quiz.html file='workshop-quiz' %}
 
 
 
