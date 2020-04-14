@@ -11,8 +11,8 @@ questions:
  - type: "multiple-choice"
    question: "Can you meet in person?"
    items:
-    - choice: Yes
-    - choice: No
+    - choice: Yes.
+    - choice: No.
   
 - type: "multiple-choice"
   question: "Which statement is the best to describe your current situation? "
