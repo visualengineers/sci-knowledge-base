@@ -11,12 +11,12 @@ questions:
  - type: "multiple-choice"
    question: "Can you meet in person?"
    items:
-    - choice: "Yes"
-    - choice: "No"
+    - choice: Yes
+    - choice: No
   
-   - type: "multiple-choice"
-   question: "Which statement is the best to describe your current situation? "
-   items:
+- type: "multiple-choice"
+  question: "Which statement is the best to describe your current situation? "
+  items:
     - choice: I am / We are at a certain development stage or interested in a certain topic. 
     - choice: I am / We are facing a complex challenge and don't know where to start. 
     - choice: I am / We are missing some theoretical background in design and implementation techniques.
