@@ -1,20 +1,45 @@
+<!-- begin options-wrapper-->
+<div class="radio-option-wrapper">
+
 <!-- p = participants -->
 <div>
+    <span class="radio-question">What's the number of participants?</span>
+
     <input class="radio-option" type="radio" name="p" id="p-1" checked>
     <label class="for-radio-option" for="p-1"><i class="fas fa-user"></i>individual</label>
     <input class="radio-option" type="radio" name="p" id="p-2">
-    <label class="for-radio-option" for="p-1"><i class="fas fa-users"></i>group</label>
+    <label class="for-radio-option" for="p-2"><i class="fas fa-users"></i>group</label>
 </div>
 
 <!-- l = location -->
 <div>
+    <span class="radio-question">Where are you working from?</span>
+
     <input class="radio-option" type="radio" name="l" id="l-1" checked>
     <label class="for-radio-option" for="l-1"><i class="fas fa-map-marker-alt"></i>same place</label>
     <input class="radio-option" type="radio" name="l" id="l-2">
-    <label class="for-radio-option" for="l-1"><i class="fas fa-people-arrows"></i>distributed</label>
+    <label class="for-radio-option" for="l-2"><i class="fas fa-people-arrow"></i>distributed</label>
+</div>
+
+<!-- s = situation -->
+<div>
+    <span class="radio-question">Choose a statement.</span>
+
+    <input class="radio-option" type="radio" name="s" id="s-1">
+    <label class="for-radio-option" for="s-1">I am / We are at a certain development stage / interested in a certain topic</label>
+    <input class="radio-option" type="radio" name="s" id="s-2">
+    <label class="for-radio-option" for="s-2">I am / We are facing a complex challenge and don't know where to start.</label>
+    <input class="radio-option" type="radio" name="s" id="s-3">
+    <label class="for-radio-option" for="s-3">I am / We are missing some theoretical background in design and implementation techniques.</label>
+    <input class="radio-option" type="radio" name="s" id="s-4">
+    <label class="for-radio-option" for="s-4">I am / We are looking for practical knowledge within a specific research field / keyword.</label>
+    <input class="radio-option" type="radio" name="s" id="s-5">
+    <label class="for-radio-option" for="s-5">I am / We are interested in everything or have multiple problems.</label>
 </div>
 
 
+<!-- end options-wrapper-->
+</div>
 
 <script>
     $(document).ready(function(){

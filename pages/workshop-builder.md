@@ -10,8 +10,11 @@ The Workshop Builder **helps you plan and prepare workshops that fit your needs*
 ## Define your aim
 Describe your goal as short and precise as possible. What do you want to get out of the workshop? If you are stuck, perhaps the [S.M.A.R.T.]({{site.baseurl}}/terms/smart) criteria or an "is not" analysis (excluding everything that is not the objective) will help.
 
+<label for="aim">Type your aim:</label>
+<input type="text" id="aim" name="aim" size="10">
+
 ## Customize Your Workshop
-Answer the following questions to get your personal Knowledge Item suggestions you can pick from. You will find workshop material and further instructions within each Knowledge Item.
+Answer the following questions to get your personal Knowledge Item suggestions you can pick from. You will find workshop material and further instructions within each chosen Knowledge Item.
 
 <!--  OPTIONS
   **face-to-face collaboration**
