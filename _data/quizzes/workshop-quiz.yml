@@ -8,5 +8,13 @@ questions:
     - choice: Only me
       correct: null
     - choice: Group of people
-      correct: false
+      correct: null
+
+ - type: "multiple-choice"
+   question: "Can you meet in person?"
+   items:
+    - choice: Yes.
+      correct: null
+    - choice: No.
+      correct: null
   
