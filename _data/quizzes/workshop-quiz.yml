@@ -6,20 +6,7 @@ questions:
    question: "How many people will participate in the workshop?"
    items:
     - choice: Only me
+      correct: null
     - choice: Group of people
-
- - type: "multiple-choice"
-   question: "Can you meet in person?"
-   items:
-    - choice: Yes.
-    - choice: No.
-  
-- type: "multiple-choice"
-  question: "Which statement is the best to describe your current situation? "
-  items:
-    - choice: I am / We are at a certain development stage or interested in a certain topic. 
-    - choice: I am / We are facing a complex challenge and don't know where to start. 
-    - choice: I am / We are missing some theoretical background in design and implementation techniques.
-    - choice: I am / We are looking for practical knowledge within a specific research field / keyword.
-    - choice: I am / We are interested in everything or I have multiple problems.
+      correct: false
   
