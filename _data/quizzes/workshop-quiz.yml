@@ -19,17 +19,17 @@ questions:
       correct: null
  
  - type: "multiple-choice"
-   question: "Which statement is the best to describe your current situation?"
+   question: "Finish the sentence to describe your current situation. I am / We are ..."
    items:
-    - choice: I am / We are at a certain development stage or interested in a certain topic.
+    - choice: at a certain development stage or interested in a certain topic.
       correct: null
-    - choice: I am / We are facing a complex challenge and don't know where to start..
+    - choice: facing a complex challenge and don't know where to start.
       correct: null
-    - choice: I am / We are missing some theoretical background in design and implementation techniques.
+    - choice: missing some theoretical background in design and implementation techniques.
       correct: null
-    - choice: I am / We are looking for practical knowledge within a specific research field / keyword.
+    - choice: looking for practical knowledge within a specific research field / keyword.
       correct: null
-    - choice: I am / We are interested in everything or I have multiple problems.
+    - choice: interested in everything or have multiple problems.
       correct: null
 
   
