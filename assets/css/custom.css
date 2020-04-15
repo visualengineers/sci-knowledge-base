@@ -176,12 +176,25 @@ li.topic::before {
 	transition: all 300ms linear; 
 }
 
+.radio-text:checked + label::before,
+.radio-text:not(:checked) + label::before{
+	position: absolute;
+	content: '';
+	top: 0;
+    left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 40px;
+	background-color: var(--yellow);
+	z-index: -1;
+}
+
 .radio-text:not(:checked) + label {
-    background-color: #f0eff3;
+    background-color: var(--dark-light);
 }
 
 .radio-text:checked + label{
-	background-color: --var(yellow);
+	background-color: transparent;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     color: var(--white);
 }

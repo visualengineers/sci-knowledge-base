@@ -15,7 +15,7 @@ Answer the following questions to get your personal Knowledge Item suggestions y
 1. 
     
     <h3>Define your aim</h3>
-    Describe your goal as short and precise as possible. If you are stuck, perhaps the S.M.A.R.T. criteria or an “is not” analysis (excluding everything that is not the objective) will help.
+    Describe your goal as short and precise as possible. If you are stuck, perhaps the [S.M.A.R.T.]({{ site.baseurl }}/terms/smart) criteria or an “is not” analysis (excluding everything that is not the objective) will help.
     
     <input type="text" id="aim" name="aim" size="100" placeholder="Type your aim here">
 
@@ -55,8 +55,8 @@ Answer the following questions to get your personal Knowledge Item suggestions y
 
 
 <!--  OPTIONS
-  **face-to-face collaboration**
-  **co-located / distributed work**
+  **face-to-face collaboration** -> classic workshop approach
+  **co-located / distributed work**-> MIRO and other tools
 
   **Thematic**. Search Best Practices within [technology](technology), [user experience](ux), [design](design) or [society](society). 
   **Problem-oriented**. Search all [Best Practices](best-practices)
