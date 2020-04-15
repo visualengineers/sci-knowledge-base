@@ -39,18 +39,18 @@ Answer the following questions to get your personal Knowledge Item suggestions y
 
 4. 
 
-    <h3> Choose a statement from below.</h3>
+    <h3> Choose a statement. I am / We are ...</h3>
 
     <input class="radio-text" type="radio" name="s" id="s-1">
-    <label class="for-radio-text" for="s-1">I am / We are at a certain development stage / interested in a certain topic</label>
+    <label class="for-radio-text" for="s-1">at a certain development stage / interested in a certain topic.</label>
     <input class="radio-text" type="radio" name="s" id="s-2">
-    <label class="for-radio-text" for="s-2">I am / We are facing a complex challenge and don't know where to start.</label>
+    <label class="for-radio-text" for="s-2">facing a complex challenge and don't know where to start.</label>
     <input class="radio-text" type="radio" name="s" id="s-3">
-    <label class="for-radio-text" for="s-3">I am / We are missing some theoretical background in design and implementation techniques.</label>
+    <label class="for-radio-text" for="s-3">missing some theoretical background in design and implementation techniques.</label>
     <input class="radio-text" type="radio" name="s" id="s-4">
-    <label class="for-radio-text" for="s-4">I am / We are looking for practical knowledge within a specific research field / keyword.</label>
+    <label class="for-radio-text" for="s-4">looking for practical knowledge within a specific research field / keyword.</label>
     <input class="radio-text" type="radio" name="s" id="s-5">
-    <label class="for-radio-text" for="s-5">I am / We are interested in everything or have multiple problems.</label>
+    <label class="for-radio-text" for="s-5">interested in everything or have multiple problems.</label>
 
 
 

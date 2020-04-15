@@ -52,6 +52,8 @@ input[type=text] {
     outline: 0;
     background: #f0eff3;
     border-bottom: 1px dashed #aaa;
+    box-sizing: border-box;
+    padding:.5em;
     width: 100%;
     transition: all .3s linear;
 }
@@ -143,7 +145,7 @@ li.topic::before {
     font-weight: bold;
     font-size: 3rem;
     margin-right: 1rem;
-    font-family: 'Roboto Mono', serif;
+    font-family: monospace, serif;
     line-height: 1;
   }
 
