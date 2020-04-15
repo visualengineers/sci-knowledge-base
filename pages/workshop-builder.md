@@ -10,11 +10,46 @@ The Workshop Builder **helps you plan and prepare workshops that fit your needs*
 ### Define your aim
 Describe your goal as short and precise as possible. If you are stuck, perhaps the [S.M.A.R.T.]({{site.baseurl}}/terms/smart) criteria or an “is not” analysis (excluding everything that is not the objective) will help.
 
-<label for="aim">Now type your aim.</label>
-<input type="text" id="aim" name="aim" size="50">
+1. 
+    
+    <label for="aim">Now type your aim.</label>
+    <input type="text" id="aim" name="aim" size="50">
 
 ### Customize Your Workshop
 Answer the following questions to get your personal Knowledge Item suggestions you can pick from. You will find workshop material and further instructions within each chosen Knowledge Item.
+
+2.   
+
+    <p class="radio-question">What's the number of participants?</p>
+
+    <input class="radio-option" type="radio" name="p" id="p-1" checked>
+    <label class="for-radio-option" for="p-1"><i class="fas fa-user"></i>individual</label>
+    <input class="radio-option" type="radio" name="p" id="p-2">
+    <label class="for-radio-option" for="p-2"><i class="fas fa-users"></i>group</label>
+3. 
+
+    <p class="radio-question">Where are you working from?</p>
+
+    <input class="radio-option" type="radio" name="l" id="l-1" checked>
+    <label class="for-radio-option" for="l-1"><i class="fas fa-map-marker-alt"></i>same place</label>
+    <input class="radio-option" type="radio" name="l" id="l-2">
+    <label class="for-radio-option" for="l-2"><i class="fas fa-people-arrows"></i>distributed</label>
+4. 
+
+    <p class="radio-question">Choose a statement.</p>
+
+    <input class="radio-text" type="radio" name="s" id="s-1">
+    <label class="for-radio-text" for="s-1">I am / We are at a certain development stage / interested in a certain topic</label>
+    <input class="radio-text" type="radio" name="s" id="s-2">
+    <label class="for-radio-text" for="s-2">I am / We are facing a complex challenge and don't know where to start.</label>
+    <input class="radio-text" type="radio" name="s" id="s-3">
+    <label class="for-radio-text" for="s-3">I am / We are missing some theoretical background in design and implementation techniques.</label>
+    <input class="radio-text" type="radio" name="s" id="s-4">
+    <label class="for-radio-text" for="s-4">I am / We are looking for practical knowledge within a specific research field / keyword.</label>
+    <input class="radio-text" type="radio" name="s" id="s-5">
+    <label class="for-radio-text" for="s-5">I am / We are interested in everything or have multiple problems.</label>
+
+
 
 <!--  OPTIONS
   **face-to-face collaboration**
