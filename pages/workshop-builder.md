@@ -14,14 +14,14 @@ Answer the following questions to get your personal Knowledge Item suggestions y
 
 1. 
     
-    * ### Define your aim *
+    <h3>Define your aim</h3>
     Describe your goal as short and precise as possible. If you are stuck, perhaps the S.M.A.R.T. criteria or an “is not” analysis (excluding everything that is not the objective) will help.
     
     <input type="text" id="aim" name="aim" size="100" placeholder="Type your aim here">
 
 2.   
 
-    * ### What's the number of participants? *
+    <h3>What's the number of participants?</h3>
 
     <input class="radio-option" type="radio" name="p" id="p-1" checked>
     <label class="for-radio-option" for="p-1"><i class="fas fa-user"></i>individual</label>
@@ -30,16 +30,16 @@ Answer the following questions to get your personal Knowledge Item suggestions y
 
 3. 
    
-    * ### Where are you working from? *
+    <h3>Where are you working from?</h3>
 
     <input class="radio-option" type="radio" name="l" id="l-1" checked>
     <label class="for-radio-option" for="l-1"><i class="fas fa-map-marker-alt"></i>same place</label>
     <input class="radio-option" type="radio" name="l" id="l-2">
     <label class="for-radio-option" for="l-2"><i class="fas fa-people-arrows"></i>distributed</label>
-    
+
 4. 
 
-    * ### Choose a statement from below....*
+    <h3> Choose a statement from below.</h3>
 
     <input class="radio-text" type="radio" name="s" id="s-1">
     <label class="for-radio-text" for="s-1">I am / We are at a certain development stage / interested in a certain topic</label>
