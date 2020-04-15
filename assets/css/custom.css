@@ -47,6 +47,20 @@ button.active {
     filter: brightness(90%);
 }
 
+input[type=text] {
+    border: 0;
+    outline: 0;
+    background: #f0eff3;
+    border-bottom: 1px dashed #aaa;
+    width: 100%;
+    transition: all .3s linear;
+}
+  
+input[type=text]:focus {
+    background: #fff;
+    outline: 0;
+}
+
 li.topic {
     margin: -0.7em 0.5em;
 }

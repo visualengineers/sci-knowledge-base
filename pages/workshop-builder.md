@@ -35,7 +35,7 @@ Answer the following questions to get your personal Knowledge Item suggestions y
     <input class="radio-option" type="radio" name="l" id="l-1">
     <label class="for-radio-option" for="l-1"><i class="fas fa-map-marker-alt"></i>same place</label>
     <input class="radio-option" type="radio" name="l" id="l-2">
-    <label class="for-radio-option" for="l-2"><i class="fas fa-people-arrows"></i>distributed</label>
+    <label class="for-radio-option" for="l-2"><i class="fas fa-arrows-alt-h"></i>distributed</label>
 
 4. 
 
