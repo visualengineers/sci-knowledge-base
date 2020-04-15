@@ -23,7 +23,7 @@ Answer the following questions to get your personal Knowledge Item suggestions y
 
     <h3>What's the number of participants?</h3>
 
-    <input class="radio-option" type="radio" name="p" id="p-1" checked>
+    <input class="radio-option" type="radio" name="p" id="p-1">
     <label class="for-radio-option" for="p-1"><i class="fas fa-user"></i>individual</label>
     <input class="radio-option" type="radio" name="p" id="p-2">
     <label class="for-radio-option" for="p-2"><i class="fas fa-users"></i>group</label>
@@ -32,7 +32,7 @@ Answer the following questions to get your personal Knowledge Item suggestions y
    
     <h3>Where are you working from?</h3>
 
-    <input class="radio-option" type="radio" name="l" id="l-1" checked>
+    <input class="radio-option" type="radio" name="l" id="l-1">
     <label class="for-radio-option" for="l-1"><i class="fas fa-map-marker-alt"></i>same place</label>
     <input class="radio-option" type="radio" name="l" id="l-2">
     <label class="for-radio-option" for="l-2"><i class="fas fa-people-arrows"></i>distributed</label>
