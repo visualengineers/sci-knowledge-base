@@ -7,40 +7,39 @@ permalink: /workshop-builder
 # Workshop Builder
 The Workshop Builder **helps you plan and prepare workshops that fit your needs**. You may use it in advance of each workshop as the preliminary questions are always the same and the tips and tools are reusable. First of all, it is important to know the context and goal of the workshop. Next, the basic procedure can be determined and the appropriate knowledge items can be arranged. 
 
-### Define your aim
-Describe your goal as short and precise as possible. If you are stuck, perhaps the [S.M.A.R.T.]({{site.baseurl}}/terms/smart) criteria or an “is not” analysis (excluding everything that is not the objective) will help.
-
-### Customize Your Workshop
+## Customize Your Workshop
 Answer the following questions to get your personal Knowledge Item suggestions you can pick from. You will find workshop material and further instructions within each chosen Knowledge Item.
-
-
 
 <div class="quizlist"></div>
 
 1. 
     
-    <label for="aim">Now type your aim.</label>
-    <input type="text" id="aim" name="aim" size="50">
+    * ### Define your aim *
+    Describe your goal as short and precise as possible. If you are stuck, perhaps the S.M.A.R.T. criteria or an “is not” analysis (excluding everything that is not the objective) will help.
+    
+    <input type="text" id="aim" name="aim" size="100" placeholder="Type your aim here">
 
 2.   
 
-    <p class="radio-question">What's the number of participants?</p>
+    * ### What's the number of participants? *
 
     <input class="radio-option" type="radio" name="p" id="p-1" checked>
     <label class="for-radio-option" for="p-1"><i class="fas fa-user"></i>individual</label>
     <input class="radio-option" type="radio" name="p" id="p-2">
     <label class="for-radio-option" for="p-2"><i class="fas fa-users"></i>group</label>
-3. 
 
-    <p class="radio-question">Where are you working from?</p>
+3. 
+   
+    * ### Where are you working from? *
 
     <input class="radio-option" type="radio" name="l" id="l-1" checked>
     <label class="for-radio-option" for="l-1"><i class="fas fa-map-marker-alt"></i>same place</label>
     <input class="radio-option" type="radio" name="l" id="l-2">
     <label class="for-radio-option" for="l-2"><i class="fas fa-people-arrows"></i>distributed</label>
+    
 4. 
 
-    <p class="radio-question">Choose a statement.</p>
+    * ### Choose a statement from below....*
 
     <input class="radio-text" type="radio" name="s" id="s-1">
     <label class="for-radio-text" for="s-1">I am / We are at a certain development stage / interested in a certain topic</label>
