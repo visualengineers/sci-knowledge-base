@@ -1,8 +1,5 @@
 /*custom ZELASTO wiki CSS goes here*/
 
-
-
-
 :root {
     --technology: #6c90fc;
     --ux: #fc507e;
@@ -10,9 +7,13 @@
     --society: #ffba26;
 }
 
+/* IDs */
+
 #efre-logo {
     margin-top: 2em;
 }
+
+/* classes */
 
 button.active {
     background: #b8e572;
@@ -98,10 +99,6 @@ li.topic::before {
     height: 197px;
 }
 
-.responsive-media {
-    margin: 2em 0;
-}
-
 .radio-option-wrapper {
     text-align: center;
 }
@@ -110,7 +107,9 @@ li.topic::before {
     font-size: 1.5em;
 }
 
-.radio-option-wrapper ol {
+/*list styles*/
+
+.quizlist + ol {
     list-style: none;
     counter-reset: my-awesome-counter;
     display: flex;
@@ -119,13 +118,13 @@ li.topic::before {
     padding: 0;
 }
 
-.radio-option-wrapper ol li {
+.quizlist + ol li {
     counter-increment: my-awesome-counter;
     width: 100%;
     margin-bottom: 2em;
 }
 
-.radio-option-wrapper ol li::before {
+.quizlist + ol li::before {
     content: counter(my-awesome-counter);
     font-weight: bold;
     font-size: 4rem;
@@ -133,6 +132,8 @@ li.topic::before {
     font-family: 'Roboto Mono', serif;
     line-height: 1;
   }
+
+/* radio btn text*/
 
 .radio-text:checked + label,
 .radio-text:not(:checked) + label{
@@ -161,6 +162,8 @@ li.topic::before {
 	height: 0;
 	visibility: hidden;
 }
+
+/* radio btn icon*/
 
 .radio-option:checked + label,
 .radio-option:not(:checked) + label{
@@ -224,6 +227,10 @@ li.topic::before {
 
 .radio-option + label i{
     margin-right: 10px;
+}
+
+.responsive-media {
+    margin: 2em 0;
 }
 
 @media (max-width: 767px) {

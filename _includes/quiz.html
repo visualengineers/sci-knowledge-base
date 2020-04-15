@@ -1,10 +1,10 @@
 <!-- begin options-wrapper-->
-<div class="radio-option-wrapper">
 
-<ol>
+
+<ol class="quiz">
 
 <!-- p = participants -->
-<li>
+<li class="counted">  
     <p class="radio-question">What's the number of participants?</p>
 
     <input class="radio-option" type="radio" name="p" id="p-1" checked>
@@ -14,7 +14,7 @@
 </li>
 
 <!-- l = location -->
-<li>
+<li class="counted"> 
     <p class="radio-question">Where are you working from?</p>
 
     <input class="radio-option" type="radio" name="l" id="l-1" checked>
@@ -24,7 +24,7 @@
 </li>
 
 <!-- s = situation -->
-<li>
+<li class="counted"> 
     <p class="radio-question">Choose a statement.</p>
 
     <input class="radio-text" type="radio" name="s" id="s-1">
@@ -40,8 +40,7 @@
 </li>
 
 </ol>
-<!-- end options-wrapper-->
-</div>
+
 
 <script>
     $(document).ready(function(){
