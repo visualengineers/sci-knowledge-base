@@ -138,6 +138,11 @@ li.topic::before {
     counter-increment: my-awesome-counter;
     width: 100%;
     margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+.quizlist + ol li h3 {
+    line-height: 2.4em;
 }
 
 .quizlist + ol li::before {
@@ -145,7 +150,8 @@ li.topic::before {
     font-weight: bold;
     font-size: 3rem;
     margin-right: 1rem;
-    font-family: monospace, serif;
+    font-family: serif;
+    float: left;
     line-height: 1;
   }
 
@@ -176,6 +182,15 @@ li.topic::before {
 
 .radio-text:not(:checked) + label {
     background-color: #f0eff3;
+}
+
+.radio-text:checked + label{
+	background-color: transparent;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    color: var(--white);
+}
+.radio-text:not(:checked) + label:hover{
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 [type="radio"]:checked,
