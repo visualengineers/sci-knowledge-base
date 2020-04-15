@@ -176,16 +176,12 @@ li.topic::before {
 	transition: all 300ms linear; 
 }
 
-.radio-text:checked + label {
-    background-color: var(--yellow);
-}
-
 .radio-text:not(:checked) + label {
     background-color: #f0eff3;
 }
 
 .radio-text:checked + label{
-	background-color: transparent;
+	background-color: --var(yellow);
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     color: var(--white);
 }
