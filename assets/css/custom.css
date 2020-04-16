@@ -196,7 +196,9 @@ li.topic::before {
 }
 
 .radio-text:not(:checked) + label{
-    background-color: var(--dark-light);
+	background-color: var(--dark-light);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    color: var(--dark-blue);
 }
 
 .radio-text:not(:checked) + label:hover{
