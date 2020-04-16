@@ -383,7 +383,7 @@ li.topic::before {
     background: #403f4c;
 }
 
-ul { 
+.td-sidebar-nav + ul { 
     list-style-type:none;
     padding-left: 0;
 }

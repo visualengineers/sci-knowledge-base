@@ -53,6 +53,33 @@ Answer the following questions to get your personal Knowledge Item suggestions y
     <label class="for-radio-text" for="s-5">interested in everything or have multiple problems.</label>
 
 
+<button id="create-plan-btn">create plan</button>
+
+<div id="workshop-plan">
+
+<h2>Workshop Plan</h2>
+
+...
+
+
+</div>
+
+<script>
+
+// $( document ).ready()
+$(function() {
+    
+    $("#workshop-plan").hide();
+
+
+    $('#create-plan-btn').click(function () {
+              
+      $("#workshop-plan").show();
+    });
+
+});
+</script>
+
 
 <!--  OPTIONS
   **face-to-face collaboration** -> classic workshop approach
