@@ -19,7 +19,7 @@ button.active {
     background: #b8e572;
 }
 
-button .send {
+button.send {
     background-color: #3176d9;
     color: #fff;
     position: relative;
@@ -39,7 +39,7 @@ button .send {
     transition: all 300ms linear;
 }
 
-button .send:hover{
+button.send:hover{
     background-color: #1e53a0;
 }
 
