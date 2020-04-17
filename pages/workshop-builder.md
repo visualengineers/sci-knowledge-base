@@ -53,7 +53,7 @@ Answer the following questions to get your personal Knowledge Item suggestions y
     <label class="for-radio-text" for="s-5">interested in everything or have multiple problems.</label>
 
 
-<button id="create-plan-btn">create plan</button>
+<button class="send" id="create-plan-btn">create plan</button>
 
 <div id="workshop-plan">
 
