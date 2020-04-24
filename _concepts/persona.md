@@ -7,10 +7,10 @@ Personas are individual model characters that represent (extreme) user types of 
 
 ### Creating a Persona
  
-1. **Research**  
+**Research**   
 The first step involves data aggregation about the users and the context, e.g. via surveys, interviews or statistics. 
 
-2. **Create individual characters**  
+**Create individual characters**  
 Next, data patterns are used to model few fictional individuals. Often, they represent power/lead users, A persona, like a "real person", consists of a name and a corresponding photo, in order to have a realistic picture in your mind while working. Commonly used features are:
 
 - Sociodemographic (age, sex, marital status, social background) 
@@ -20,11 +20,7 @@ Next, data patterns are used to model few fictional individuals. Often, they rep
 - Product-related characteristics (wishes, expectations, needs)  
 - Consumer behaviour (brand loyalty, purchasing range, repurchase rate, price sensitivity, etc.)  
 
-A persona is usually recorded as profile or in a narrative style in continuous text an may be accompanied by a [scenario]({{ site.baseurl }}/concepts/scenario).
-
-3. ****
-
-The poster below is taken from Lene Nielsen's article [Personas]({{ site.baseurl }}/resources/#references) [Nielsen]. It decribes a more holistic way of developing personas.
+A persona is usually recorded as profile or in a narrative style in continuous text an may be accompanied by a [scenario]({{ site.baseurl }}/concepts/scenario). The poster below is taken from Lene Nielsen's article [Personas]({{ site.baseurl }}/resources/#references) [Nielsen]. It decribes a more holistic way of developing personas.
 
 ![10-steps-to-personas]({{ site.baseurl }}/assets/img/10-steps-to-personas.jpg)
 
