@@ -25,6 +25,6 @@ A persona is usually recorded as profile or in a narrative style in continuous t
 ![10-steps-to-personas]({{ site.baseurl }}/assets/img/10-steps-to-personas.jpg)
 
 ### Examples
-![persona1]({{ site.baseurl }}/assets/img/persona-1.png){:.responsive-media}
-![persona2]({{ site.baseurl }}/assets/img/persona-2.png){:.responsive-media}
-![persona3]({{ site.baseurl }}/assets/img/persona-3.png){:.responsive-media}
+![persona1]({{ site.baseurl }}/assets/img/persona-1.png)
+![persona2]({{ site.baseurl }}/assets/img/persona-2.png)
+![persona3]({{ site.baseurl }}/assets/img/persona-3.png)
