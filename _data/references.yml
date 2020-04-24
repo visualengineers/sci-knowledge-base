@@ -59,6 +59,11 @@
   author: Muser, S.
   year: 2015
   url: https://www.medien.ifi.lmu.de/lehre/ss15/ps/papers/Muser-GesturesInHCI.pdf
+- title: Personas
+  in: "The Encyclopedia of Human-Computer Interaction, 2nd Ed."
+  author: Nielsen, L.
+  year: 2013
+  url: https://www.interaction-design.org/encyclopedia/personas.html
 - title: "DepthTouch: Elastische Membran zwischen virtuellem und realem Raum"
   in: "AVI '12: Proceedings of the International Working Conference on Advanced Visual Interfaces"
   author: Peschke, J. Göbel, F., Groh, R.
@@ -84,6 +89,7 @@
   author: Vertegaal, R., Poupyrev, I.
   year: 2008
   url: https://doi.org/10.1145/1349026.1349033
+
 
 
 
