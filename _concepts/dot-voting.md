@@ -19,4 +19,6 @@ Dot voting has several weaknesses, such as persuaded voting, group voting or eve
 
 ### Examples
 
-[Dot Voting](https://media-exp1.licdn.com/dms/image/C4E12AQGc_TTOcU-_vg/article-cover_image-shrink_600_2000/0?e=1592438400&v=beta&t=eAOPg40OE7rvEBGMIL49xAIK_p3-upF8zoWuJaGW9MQ)
+![Dot Voting]({{ site.baseurl }}/assets/img/dot-voting.jpg)
+
+image source: https://www.linkedin.com/pulse/dotmocracy-broken-jason-diceman
