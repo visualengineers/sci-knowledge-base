@@ -1,5 +1,5 @@
 ---
-layout: term
+layout: concept
 title: Dot Voting
 description: Dot Voting in SCI Knowledge Base
 ---
