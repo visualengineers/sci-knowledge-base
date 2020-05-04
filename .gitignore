@@ -1,0 +1,14 @@
+# Jekyll 
+.sass-cache
+.jekyll-metadata
+
+# Ruby
+.ruby-gemset
+.ruby-version
+*.gem
+Gemfile.lock
+
+# misc
+dist/
+tmp/
+.DS_Store

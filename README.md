@@ -90,3 +90,4 @@ Image
 ### Support
 
  [Github Pages documentation](https://help.github.com/categories/github-pages-basics/)
+ [testing your site locally](https://kbroman.org/simple_site/pages/local_test.html)
