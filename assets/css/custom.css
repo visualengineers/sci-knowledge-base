@@ -13,6 +13,16 @@
     margin-top: 2em;
 }
 
+textarea#a-1 {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px dashed #403f4c;
+}
+textarea#a-1:focus {
+    background-color: #f0eff3;
+    outline: 0;
+}
 /* classes */
 
 button.active {
@@ -95,6 +105,11 @@ li.topic {
 
 li.topic::before {
     display: none !important;
+}
+
+p.answer {
+    background-color: #f0eff3;
+    padding: 1em;
 }
 
 .topic:hover {
@@ -339,10 +354,13 @@ li.topic::before {
 #efre-logo {
     max-width: 80%;
 }
-
+p.answer {
+    max-width: 80%;
+}
 .responsive-media {
     max-width: 350px !important;
 }
+
 
 }
 
