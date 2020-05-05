@@ -1,0 +1,438 @@
+/*custom ZELASTO wiki CSS goes here*/
+
+:root {
+    --technology: #6c90fc;
+    --ux: #fc507e;
+    --design: #ff6644;
+    --society: #ffba26;
+}
+
+/* IDs */
+
+#efre-logo {
+    margin-top: 2em;
+}
+
+textarea#a-1 {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px dashed #403f4c;
+}
+textarea#a-1:focus {
+    background-color: #f0eff3;
+    outline: 0;
+}
+/* classes */
+
+button.active {
+    background: #b8e572;
+}
+
+button.send {
+    background-color: #fff;
+    border: 2px solid #3176d0;
+    color: #3176d9;
+    position: relative;
+    display: block;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+
+button.send:hover{
+    border-color: #1e53a0;
+    color:#1e53a0
+}
+
+.block-icon {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+    padding: 1em;
+}
+
+.overflowX-scroll {
+    overflow-x: scroll;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.topic a {
+    color: inherit;
+    font-weight: bold;
+}
+
+.topic:hover, .topic:hover a{
+    filter: brightness(90%);
+}
+
+input[type=text] {
+    border: 0;
+    outline: 0;
+    background: #f0eff3;
+    border-bottom: 1px dashed #aaa;
+    box-sizing: border-box;
+    padding:.5em;
+    width: 100%;
+    transition: all .3s linear;
+}
+  
+input[type=text]:focus {
+    background: #fff;
+    outline: 0;
+}
+
+li.topic {
+    margin: -0.7em 0.5em;
+}
+
+li.topic::before {
+    display: none !important;
+}
+
+p.answer {
+    background-color: #f0eff3;
+    padding: 1em;
+}
+
+.topic:hover {
+    cursor: pointer;
+}
+
+.topic-technology {
+    color: #6c90fc !important;
+}
+
+.topic-ux {
+    color: #fc507e !important;
+}
+
+.topic-design {
+    color: #ff6644 !important;
+}
+
+.topic-society {
+    color: #ffba26 !important;
+}
+
+.strap {
+    color: #aaa;    
+}
+
+.topic {
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 2px;
+    display: inline-block;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding: 0.7rem;
+    width: fit-content;
+}
+
+.media-wrapper {
+    margin-bottom: 2em;
+}
+
+.media-wrapper iframe {
+    width: 350px;
+    height: 197px;
+}
+
+.radio-option-wrapper {
+    text-align: center;
+}
+
+.radio-option-wrapper p{
+    font-size: 1.5em;
+}
+
+/*list styles*/
+
+.quizlist + ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.quizlist + ol li {
+    counter-increment: my-awesome-counter;
+    width: 100%;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+.quizlist + ol li h3 {
+    line-height: 2.4em;
+}
+
+.quizlist + ol li::before {
+    content: counter(my-awesome-counter);
+    font-weight: bold;
+    font-size: 3rem;
+    margin-right: 1rem;
+    font-family: serif;
+    float: left;
+    line-height: 1;
+  }
+
+/* radio btn text*/
+
+.radio-text:checked + label,
+.radio-text:not(:checked) + label{
+	position: relative;
+	display: block;
+	padding: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	text-align: center;
+	border-radius: 40px;
+	overflow: hidden;
+	cursor: pointer;
+	text-transform: uppercase;
+	-webkit-transition: all 300ms linear;
+	transition: all 300ms linear; 
+}
+
+.radio-text:checked + label::before,
+.radio-text:not(:checked) + label::before{
+	position: absolute;
+	content: '';
+	top: 0;
+    left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 40px;
+	background-color: var(--yellow);
+	z-index: -1;
+}
+
+.radio-text:checked + label{
+	background-color: transparent;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    color: var(--white);
+}
+
+.radio-text:not(:checked) + label{
+	background-color: #f0eff3;
+    color: var(--dark-blue);
+}
+
+.radio-text:not(:checked) + label:hover{
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked){
+	position: absolute;
+	left: -9999px;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+/* radio btn icon*/
+
+.radio-option:checked + label,
+.radio-option:not(:checked) + label{
+	position: relative;
+	display: inline-block;
+	padding: 20px;
+	width: 200px;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+	border-radius: 40px;
+	overflow: hidden;
+	cursor: pointer;
+	text-transform: uppercase;
+	-webkit-transition: all 300ms linear;
+	transition: all 300ms linear; 
+}
+.radio-option:not(:checked) + label{
+	background-color: var(--dark-light);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    color: var(--dark-blue);
+}
+.radio-option:checked + label{
+	background-color: transparent;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    color: var(--white);
+}
+.radio-option:not(:checked) + label:hover{
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.radio-option:checked + label::before,
+.radio-option:not(:checked) + label::before{
+	position: absolute;
+	content: '';
+	top: 0;
+    left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 40px;
+	background-color: var(--yellow);
+	z-index: -1;
+}
+
+.radio-option:not(:checked) + label::before{
+	position: absolute;
+	content: '';
+	top: 0;
+    left: 0;
+    right: 10px;
+	width: 100%;
+	height: 100%;
+	border-radius: 40px;
+	background-color: #f0eff3;
+	z-index: -1;
+}
+
+.radio-option + label i{
+    margin-right: 10px;
+}
+
+.responsive-media {
+    margin: 2em 0;
+}
+
+@media (max-width: 767px) {
+ 
+.desktop-nav {
+    display: none;
+}
+
+.media-wrapper {
+    padding: 56.25% 0 10% 0;
+    position: relative;
+}
+
+.media-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+}
+
+@media (min-width: 768px) {
+
+.mobile-nav {
+    display: none;
+}
+
+#efre-logo {
+    max-width: 80%;
+}
+p.answer {
+    max-width: 80%;
+}
+.responsive-media {
+    max-width: 350px !important;
+}
+
+
+}
+
+/*** OVERWRITE ***/
+
+.breadcrumb-item+.breadcrumb-item::before {
+    padding-right: 0rem !important;
+}
+.breadcrumb-item{
+    margin-right: 0.5em;
+}
+
+.badge-technology {
+    color: #fff;
+    background-color: #6c90fc
+}
+
+.badge-technology[href]:hover,
+.badge-technology[href]:focus {
+    color: #222;
+    text-decoration: none;
+    background-color: #bcccff
+}
+
+.badge-ux {
+    color: #fff;
+    background-color: #fc507e
+}
+
+.badge-ux[href]:hover,
+.badge-ux[href]:focus {
+    color: #222;
+    text-decoration: none;
+    background-color: #faa3bd
+}
+
+.badge-design {
+    color: #fff;
+    background-color: #ff6644
+}
+
+.badge-design[href]:hover,
+.badge-design[href]:focus {
+    color: #222;
+    text-decoration: none;
+    background-color: #ff9e86
+}
+
+.badge-society {
+    color: #fff;
+    background-color: #ffba26
+}
+
+.badge-society[href]:hover,
+.badge-society[href]:focus {
+    color: #222;
+    text-decoration: none;
+    background-color: #ffde89
+}
+
+.td-sidebar-nav {
+    padding-top: 1.5rem!important;
+}
+
+.td-navbar {
+    background: #403f4c;
+}
+
+.td-sidebar-nav + ul { 
+    list-style-type:none;
+    padding-left: 0;
+}
+
+
+
