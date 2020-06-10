@@ -8,7 +8,7 @@ permalink: /
 
 The Shape-changing Interfaces Knowledge Base (SCI-KB) originates from the research project [ZELASTO]({{ site.baseurl }}/2019/daten-zum-anfassen/) which explores the interaction with complex data using [Zoomable User Interfaces]({{ site.baseurl }}/terms/zoomable-user-interface) on [Elastic Displays]({{ site.baseurl }}/terms/elastic-display). We aim to spread recent knowledge on the research of [shape-changing interfaces]({{ site.baseurl }}/terms/shape-changing-interface) (SCI) both theoretically and practically.  SCI-KB’s heart is a deeply interwoven 3-level-architecture of knowledge items about shape-changing interfaces. A [Workshop Builder]({{ site.baseurl }}/workshop-builder) provides assistance in finding an arrangement of the knowledge items tailored to individual needs in order to hold a customized workshop. The core is supplemented by additional [resources]({{ site.baseurl }}/resources/) such as paper references, links and media content and thematically structured by means of tags on the meta-level.
 
-![SCI-KB building blocks]({{ site.baseurl }}/assets/img/sci-kb.png)
+![SCI-KB building blocks]({{ site.baseurl }}/assets/img/sci-kb-architecture.png)
 
 The knowledge modulesitems [Terms]({{ site.baseurl }}/terms-and-concepts/#terms), [Concept]({{ site.baseurl }}/terms-and-concepts/#concepts) and [Best Practices]({{ site.baseurl }}/best-practices/) can be arranged in any combination and pervade each of the three conceptual levels “Learn”, “Apply” and “Contribute”. 
 
