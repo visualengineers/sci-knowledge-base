@@ -87,10 +87,7 @@ Answer the following questions to get your personal Knowledge Item suggestions y
         <div id="l-2-plan">
         <p class="answer">You are working distributed.</p>
         These tools and concepts for remote collaboration could be helpful for you: 
-        <ul>
-        <li>MIRO</li>
-        <li>some concepts</li>
-        </ul>
+        MIRO, some concepts
         </div>
     </li>
     <li> 
