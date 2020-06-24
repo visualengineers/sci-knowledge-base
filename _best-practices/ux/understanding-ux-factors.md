@@ -3,7 +3,8 @@ layout: best-practice
 title: "Understanding UX Factors"
 category: "User Experience"
 lession: 6
-
+image: https://images.unsplash.com/photo-1579539657971-fc4cb089c92b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+image-credits: Photo by <a href="https://unsplash.com/@evertvanduijn?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Evert van Duijn</a> on <a href="/s/photos/soil?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
 permalink: /understanding-ux-factors/
 ---
 

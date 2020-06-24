@@ -3,6 +3,8 @@ layout: best-practice
 title: "Integrating I/O Modalities"
 category: "Technology"
 lession: 3
+image: https://images.unsplash.com/photo-1483691278019-cb7253bee49f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
+image-credits: Photo by <a href="https://unsplash.com/@yoannboyer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Yoann Boyer</a> on <a href="/s/photos/touch-sense?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
 permalink: /integrating-io-modalities/
 ---
 

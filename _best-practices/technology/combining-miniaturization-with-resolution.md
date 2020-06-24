@@ -3,6 +3,8 @@ layout: best-practice
 title: "Combining Miniturization With Resolution"
 category: "Technology"
 lession: 2
+image: https://images.unsplash.com/photo-1520500807606-4ac9ae633574?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+image-credits: Photo by <a href="https://unsplash.com/@pluyar?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Shane Aldendorff</a> on <a href="/s/photos/magnifying-glass?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
 permalink: /combining-miniaturization-with-resolution/
 ---
 

@@ -2,12 +2,23 @@
 layout: plain
 ---
 {% include breadcrumb-best-practice.html %}
+
+<!--optional banner image -->
+{% if page.image %}
+  <img src="{{ page.image }}" class="banner-image"/>
+{% endif %}
+{% if page.image-credits %}
+  <span class="banner-image-credits">© {{ page.image-credits }}</span>
+{% endif %}
+
+<!-- main content-->
 <h4 class="strap">Best Practice</h4>
 {{ content }}
 <hr class="panel-line">
-<h4>More Best Practices</h4>
 
-<!-- link to best practices in same category -->
+<!--other best practices -->
+<h4>More Best Practices</h4>
+<!-- ...in same category -->
 {% assign best-practices = site.best-practices | where: "category", page.category %}
 <ul>
 {% for item in best-practices %}

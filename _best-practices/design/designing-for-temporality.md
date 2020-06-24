@@ -3,6 +3,8 @@ layout: best-practice
 title: "Designing for Temporality"
 category: "Design"
 lession: 7
+image: https://images.unsplash.com/photo-1498721454196-e1fe723c0374?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=80
+image-credits: Photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">chuttersnap</a> on <a href="/s/photos/ink?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
 permalink: /designing-for-temporality/
 ---
 

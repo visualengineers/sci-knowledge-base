@@ -58,7 +58,8 @@ Create a new markdown file (.md) in `pages`, `terms > [first letter of entry]` o
 
 ## Images
 
-Upload the image into `assets > img`.
+You can upload the image into `assets > img` or reference external urls. 
+To add a full-width banner image specify the source with "image: /path-to-image or external-url". The image will be inserted automatically at the top of a page (currently only best practices).
 
 ## Linking shortcodes
 
