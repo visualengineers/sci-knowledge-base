@@ -6,7 +6,9 @@ permalink: /best-practices/
 
 # Best Practices
 
-Best Practices cover practical challenges that may arise during the design process of shape-changing interfaces. To help you get started they are grouped into 4 major topics <a href="{{site.baseurl }}/technology">technology</a>, <a href="{{site.baseurl }}/ux">UX</a>, <a href="{{site.baseurl }}/design">design</a> and <a href="{{site.baseurl }}/society">society</a>. Read about a specific challenge and why it is important and what ways you have to overcome it. Additional **workshop** instructions help you to quickly train your aquired knowledge in practice. You are invited to publish the results of your workshops or to create your own best practice.
+Best Practices cover practical challenges that may arise during the design process of shape-changing interfaces. To help you get started they are grouped into 4 major topics: <a href="{{site.baseurl }}/technology">Technology</a>, <a href="{{site.baseurl }}/ux">User Experience</a>, <a href="{{site.baseurl }}/design">Design</a> and <a href="{{site.baseurl }}/society">Society</a>. 
+
+Read about a specific challenge and why it is important and what ways you have to overcome it. Additional workshop instructions help you to quickly train your aquired knowledge in practice. You are invited to publish the results of your workshops or to create your own best practice.
 
 ### Topics
 

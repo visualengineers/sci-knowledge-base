@@ -17,7 +17,7 @@ layout: plain
 <hr class="panel-line">
 
 <!--other best practices -->
-<h4>More Best Practices</h4>
+<h4>More Best Practices in <a class="topic topic-{{ page.category | downcase | strip | replace:'user experience', 'ux'}}" href="{{ site.baseurl }}/{{ page.category | downcase | strip | replace:'user experience', 'ux' }}/">{{ page.category | replace:'UX', 'User Experience'}}</a></h4>
 <!-- ...in same category -->
 {% assign best-practices = site.best-practices | where: "category", page.category %}
 <ul class="tile">

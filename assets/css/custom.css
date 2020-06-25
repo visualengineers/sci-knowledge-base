@@ -88,7 +88,7 @@ button.send:hover{
 
 .topic a {
     color: inherit;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 .topic:hover, .topic:hover a{

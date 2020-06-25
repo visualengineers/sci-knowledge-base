@@ -20,19 +20,19 @@
 <link rel="icon" type="image/png" href="/sci-knowledge-base/assets/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/sci-knowledge-base/assets/favicons/android-192x192.png"sizes="192x192">
 
-<title>Elastic Gestures</title>
-<meta property="og:title" content="Elastic Gestures" />
-<meta property="og:description" content="Elastic gestures in SCI Knowledge Base" />
+<title>Gesture Alphabet</title>
+<meta property="og:title" content="Gesture Alphabet" />
+<meta property="og:description" content="Gesture Alphabet in SCI Knowledge Base" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://localhost:4000" />
 <meta property="og:site_name" content="http://localhost:4000" />
 
-<meta itemprop="name" content="Elastic Gestures">
-<meta itemprop="description" content="Elastic gestures in SCI Knowledge Base">
+<meta itemprop="name" content="Gesture Alphabet">
+<meta itemprop="description" content="Gesture Alphabet in SCI Knowledge Base">
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Elastic Gestures"/>
-<meta name="twitter:description" content="Elastic gestures in SCI Knowledge Base"/>
+<meta name="twitter:title" content="Gesture Alphabet"/>
+<meta name="twitter:description" content="Gesture Alphabet in SCI Knowledge Base"/>
 
 <link rel="stylesheet" href="/sci-knowledge-base/assets/css/main.css">
 <link rel="stylesheet" href="/sci-knowledge-base/assets/css/palette.css">
@@ -254,8 +254,8 @@ $(document).ready(function() {
           </div>
           <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
               <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
-                  <a href="https://github.com/visualengineers/sci-knowledge-base/edit/master/_concepts/elastic-gestures.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
-<a href="https://github.com/visualengineers/sci-knowledge-base/issues/new?labels=question&title=Question:&body=Question on: https://github.com/visualengineers/sci-knowledge-base/tree/master/_concepts/elastic-gestures.md" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+                  <a href="https://github.com/visualengineers/sci-knowledge-base/edit/master/_concepts/gesture-alphabet.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+<a href="https://github.com/visualengineers/sci-knowledge-base/issues/new?labels=question&title=Question:&body=Question on: https://github.com/visualengineers/sci-knowledge-base/tree/master/_concepts/gesture-alphabet.md" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
 <a href="https://github.com/visualengineers/sci-knowledge-base/issues/new" target="_blank"><i class="fas fa-tasks fa-fw"></i> Create project issue</a>
 <!-- this will parse through the header fields and add a button to open
      an issue / ask a question on Github. The editable field should be in
@@ -271,15 +271,17 @@ $(document).ready(function() {
           <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
            <div class="td-content">
 	      <a href="/sci-knowledge-base/terms-and-concepts/" alt="back to terms and concepts"><i class="fa fa-arrow-left"></i> back to Terms and Concepts</a>
-<h3 class="font-weight-bold">Elastic Gestures</h3>
-<p>Gestural interaction on <a href="/sci-knowledge-base/concepts/elastic-display">elastic displays</a> includes users <strong>touching and shaping an elastic surface with their hands</strong> to convey meaning. Therefore, the interaction space is a subset of <a href="/sci-knowledge-base/terms/gesture">gestures</a> described in Human-Computer-Interaction (HCI) research previously. It does not contain gestures performed in mid-air or beat gestures marking the rhythm of speech, because they cannot be recognized or interpreted technically. Instead, Elastic displays are suitable for deictic gestures (pointing), iconic gestures (follow conventions to illustrate speech such as thumbs up) and symbolic/emblematic gestures (independent of speech such as sign-language) as these gestures can be performed by physically touching and shaping a malleable surface. Furthermore, <strong>elastic displays enlarge the gestural interaction space</strong> when compared to traditional HCI. Users can act out gestures in depth and benefit from the display’s rich haptic feedback. Boundaries defining start and end of a single gesture are created implicitly by the user’s intention to “tell” the display something meaningful and the capability of the tracking technologies.</p>
+<h3 class="font-weight-bold">Gesture Alphabet</h3>
+<p>We propose a gesture alphabet to describe gestures that are used to interact with an elastic display. The alphabet contains 7 basic hand postures which can be classified into <em>single finger</em>, <em>multiple finger</em> and <em>hand</em> postures, reflecting the area touched on the display when performing an interaction. According to Kammer et al.’s classification in <a href="/sci-knowledge-base/resources/#references">Investigating Gestures on Elastic Tabletops</a>, elastic gestures also differ in the type of deformation they cause on the display (<em>push</em>, <em>touch</em> or <em>pull</em>). Furthermore, they can be static, dynamic or circular using one or both hands. In real application scenarios, several users often interact with the application simultaneously.</p>
 
-<h3 id="elastic-gestures-set">Elastic Gestures Set</h3>
+<p><img src="/sci-knowledge-base/assets/img/gesture-alphabet-large.svg" alt="elastic gestures" /></p>
 
-<p>Our gesture set for elastic displays is based on 29 single- and both-handed gestures defined by Troiano et al. in <a href="/sci-knowledge-base/resources/#references">User-Defined Gestures for Elastic, Deformable Displays</a>) and a 10 gesture collection by Dand and Helmsley in <a href="/sci-knowledge-base/resources/#links">Obake: interactions with a 2.5D elastic display</a>. (See <a href="/sci-knowledge-base/terms/gesture">gestures</a> to learn more.) We combined the two collections by adopting only those gestures which, in our experience, have proven to be useful.<br />
-This resulted in a set of 7 basic hand postures which can be classified into “single finger”, “multiple finger”and “hand” postures, reflecting the area touched on the display. According to Kammer et al.’s classification in <a href="/sci-knowledge-base/resources/#references">Investigating Gestures on Elastic Tabletops</a>, elastic gestures also differ in the type of deformation they cause on the display (“push”, “touch” or “pull”). Furthermore, they can be static, dynamic or circular using one or both hands. In real application scenarios, several users often interact with the application simultaneously.</p>
+<h3 id="research-background">Research Background</h3>
 
-<p><img src="/sci-knowledge-base/assets/img/elastic-gestures.png" alt="elastic gestures" /></p>
+<p>Gestures performed on an elastic display are a subset of <a href="/sci-knowledge-base/terms/gesture">gestures</a> described in HCI research. For example, interaction does not contain gestures performed in mid-air or beat gestures marking the rhythm of speech. Elastic displays are instead suitable for types of gestures that can be performed by physically touching and shaping a malleable surface. In research, such gestures are most often referred to as deictic gestures (pointing), iconic gestures (follow conventions to illustrate speech such as thumbs up) and symbolic/emblematic gestures (independent of speech such as sign-language).</p>
+
+<p>The gesture alphabet is derived from 27 single- and both-handed gestures defined by Troiano et al. in <a href="/sci-knowledge-base/resources/#references">User-Defined Gestures for Elastic, Deformable Displays</a>) and a 10 gesture collection by Dand and Helmsley in <a href="/sci-knowledge-base/resources/#links">Obake: interactions with a 2.5D elastic display</a>. When combining the two collections we adopted only those gestures which in our experience have proven to be useful.</p>
+
 
 
 
