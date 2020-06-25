@@ -16,9 +16,14 @@ Best Practices cover practical challenges that may arise during the design proce
 <a href="{{ site.baseurl }}/{{ group.name | downcase | strip | replace:'user experience', 'ux' }}/">{{ group.name | replace:'UX', 'User Experience'}}</a>
 {: .topic .topic-{{ group.name | downcase | strip | replace:'user experience', 'ux'}}}
 
-<ul>
+<ul class="tile">
 {% for item in group.items %}
-<li><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></li>
+<li>
+    <a href="{{ item.url | prepend: site.baseurl }}">
+        <img src="{{ item.image }} /">
+        <h5>{{ item.title }}</h5>
+    </a>
+</li>
 {%endfor%}
 </ul>
 
