@@ -25,6 +25,11 @@ textarea#a-1:focus {
 }
 /* classes */
 
+a.back {
+    display: block;
+    margin-bottom: 1rem;
+}
+
 .banner-image {
     width: 100%;
     height: 350px !important;
