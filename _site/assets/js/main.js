@@ -45,7 +45,7 @@
                         return
                     }
                     var query = $(this).val();
-                    var searchPage = "http://localhost:4000/sci-knowledge-base/search/?q=" + query;
+                    var searchPage = "/sci-knowledge-base/search/?q=" + query;
                     document.location = searchPage;
                     return false;
                 });
