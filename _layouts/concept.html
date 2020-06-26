@@ -2,6 +2,15 @@
 layout: plain
 ---
 <a href="{{ site.baseurl }}/terms-and-concepts/" alt="back to terms and concepts"><i class="fa fa-arrow-left"></i> back to Terms and Concepts</a>
+
+{% if page.image %}
+  <img src="{{ page.image }}" class="banner-image"/>
+{% endif %}
+
+{% if page.image-credits %}
+  <span class="banner-image-credits">© {{ page.image-credits }}</span>
+{% endif %}
+
 <h3 class="font-weight-bold">{{ page.title }}</h3>
 {{ content }}
 

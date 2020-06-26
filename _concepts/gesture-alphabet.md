@@ -2,6 +2,8 @@
 layout: concept
 title: Gesture Alphabet
 description: Gesture Alphabet in SCI Knowledge Base
+image: https://images.unsplash.com/photo-1549706844-908ad5701dd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
+image-credits: Photo by <a href="https://unsplash.com/@matreding?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mat Reding</a> on <a href="/s/photos/gesture?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
 ---
 
 We propose a gesture alphabet to describe gestures that are used to interact with an elastic display. The alphabet contains 7 basic hand postures which can be classified into *single finger*, *multiple finger* and *hand* postures, reflecting the area touched on the display when performing an interaction. According to Kammer et al.'s classification in [Investigating Gestures on Elastic Tabletops]({{ site.baseurl }}/resources/#references), elastic gestures also differ in the type of deformation they cause on the display (*push*, *touch* or *pull*). Furthermore, they can be static, dynamic or circular using one or both hands. In real application scenarios, several users often interact with the application simultaneously.

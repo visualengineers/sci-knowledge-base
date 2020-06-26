@@ -2,6 +2,8 @@
 layout: concept
 title: Persona
 description: persona in SCI Knowledge Base
+image: https://images.unsplash.com/photo-1564454388-27c6585cfb5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=971&q=80
+image-credits: Photo by <a href="https://unsplash.com/@javdec?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Javier De La Cruz</a> on <a href="/s/photos/portrait-drawing?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
 ---
 Personas are individual model characters that represent (extreme) user types of a service or product. They help you to understand the users' needs, experiences, behaviours and goals. Therefore, personas can guide ideation processes and help you to create a good user experience. Working with personas has become standard practice within many human centred design disciplines to collate research and personify trends and patterns in the data. It is very common to couple personas with the decription of [scenarios]({{ site.baseurl }}/concepts/scenario) that usually start by placing the persona in a specific context with a problem they want to or have to solve.
 

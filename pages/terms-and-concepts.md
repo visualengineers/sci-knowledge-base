@@ -4,21 +4,32 @@ title: Terms and Concepts
 permalink: /terms-and-concepts/
 ---
 
-# <i class="fa fa-book-open"></i> Terms and Concepts
+# Terms and Concepts
 
 Explore the vocabulary of shape-changing interfaces and its application. Feel free to share your own knowledge!  
 
 Each **term** explains a technical term for shape-changing interfaces and provides examples to illustrate how its used in practice. Just like of a cheat sheet, each **concept** explains an application-independent principle (such as design guidelines) that are useful for the implementation of a shape-changing interface. Additionally, concepts provide material to hold your own workshop.
 
 ### Terms
-<ul>{% for term in site.terms %} 
+<ul class="plain column">{% for term in site.terms %} 
     <li><a href="{{ term.url | prepend: site.baseurl }}" alt="{{ term.description }}">{{ term.title }}</a></li>  
 {% endfor %}
 </ul>
 
 ### Concepts
-<ul>{% for concept in site.concepts %} 
-    <li><a href="{{ concept.url | prepend: site.baseurl }}" alt="{{ concept.description }}">{{ concept.title }}</a></li>  
+<ul class="tile">{% for concept in site.concepts %} 
+    <li>
+      <a href="{{ concept.url | prepend: site.baseurl }}" alt="{{ concept.description }}">
+            {% if concept.image %}
+                <img src="{{ concept.image }}">
+            {% else %}
+                <img src="https://images.unsplash.com/photo-1566041510639-8d95a2490bfb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=626&q=80">
+            {% endif %}
+
+          <span>{{ concept.title }}</span>
+      </a>
+  </li>
+   <!-- <li><a href="{{ concept.url | prepend: site.baseurl }}" alt="{{ concept.description }}">{{ concept.title }}</a></li>  -->
 {% endfor %}
 </ul>
 

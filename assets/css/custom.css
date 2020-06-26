@@ -208,6 +208,11 @@ p.answer {
     line-height: 1;
   }
 
+  ul#search-results, ul.plain {
+    list-style-type: none;
+    padding: 0;
+  }
+
   ul.tile {
     list-style-type: none;
     padding: 0;
@@ -218,10 +223,7 @@ p.answer {
 
   ul.tile li {
     margin: .7rem 0 1.5rem 0;
-  }
-
-  ul.tile li a {
-  
+    width: 100%;
   }
 
   ul.tile li img {
@@ -400,6 +402,10 @@ p.answer {
 }
 .responsive-media {
     max-width: 350px !important;
+}
+
+ul.column {
+    column-count: 2;
 }
 
 ul.tile li {

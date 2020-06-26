@@ -2,6 +2,8 @@
 layout: concept
 title: Dot Voting
 description: Dot Voting in SCI Knowledge Base
+image: https://images.unsplash.com/photo-1535813381253-2917d694ff3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1866&q=80
+image-credits: Photo by <a href="https://unsplash.com/@katiemcnabb?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Katie McNabb</a> on <a href="/s/photos/dots?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
 ---
 Dot voting is a democratic and straightforward voting activity for recognizing preferences among limited options in a group. 
 
