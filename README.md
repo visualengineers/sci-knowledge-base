@@ -87,10 +87,10 @@ You can upload images into `assets > img`.
 **Image**  
 `![title](source){:.responsive-media}` 
 
-**Banner Image**
+**Banner Image**  
 To add a full-width banner image (works for best practice & concept), you can specify the image source and credits at the page's head like this: `image: /path-to-image or external-url` and `image-credits: ...some markup or plain text...` The image will be inserted automatically at the top of a page and used as preview image in best practice / concept overview also. Have a look at an existing best practice or concept if you need an example.
 
-### Other
+### Other Code Snippets
 
 **Accordion**  
 `<details markdown="1" open>`  
