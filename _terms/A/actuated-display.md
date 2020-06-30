@@ -7,7 +7,11 @@ Actuated displays are [shape-changing interfaces]({{ site.baseurl }}/terms/shape
 
 One of the main limitations of actuated display techniques is the mechanical complexity, resulting in high realization costs. Amoung a huge range of research prototypes therefore only few commercial displays (such as Braille displays for visually impaired people) exist.
 
-### Examples
+<details markdown="1" open>
+<summary><h3>Examples</h3></summary> 
+
+
+
 
 The **TableHop** tabletop display provides self-actuated deformation and vibro-tactile feedback in combination with high-resolution rear projection. Frequency modulation in the high-voltage circuit allows to sense where the user's fingertip touches the surface. To create surface deformations up to ±5 mm, spandex fabric is electrostatically actuated using transparent indium tin oxide electrodes on its underside. 
 
@@ -23,4 +27,4 @@ The **TableHop** tabletop display provides self-actuated deformation and vibro-t
 **Lumen** is an interactive display that presents visual images and physical moving shapes, both controlled independently using shape mempry alloys and a capacitive sensor.  Users interact with Lumen directly, forming shapes and images with their hands. The smooth, organic physical motions provide aesthetically pleasing, calm displays for ambient computing environments.
 <div class="media-wrapper"><iframe src="https://www.youtube.com/embed/RwrNAtVmztw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-
+</details>

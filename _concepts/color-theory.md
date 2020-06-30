@@ -6,6 +6,20 @@ image: https://images.unsplash.com/photo-1530543787849-128d94430c6b?ixlib=rb-1.2
 image-credits: Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Markus Spiske</a> on <a href="/s/photos/color?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
 ---
 
-### Examples
+<details markdown="1" open>
+<summary><h3>Examples</h3></summary> 
 
-There is no example yet. Feel free to <a href="{{ site.repo }}/edit/master/{{ page.path }}" target="_blank"><i class="fa fa-edit fa-fw"></i> edit this page</a>.
+[ColorDrop](https://colordrop.io/)  
+
+[Adobe Color](https://color.adobe.com/create/color-wheel) 
+
+[Color Tool - Material Design](https://material.io/resources/color/)
+
+[Mozilla Accessibility Inspector](https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector)
+
+[Vision Deficiencies in Chrome](https://twitter.com/mathias/status/1237393102635012101?s=20)
+
+</details>
+
+
+

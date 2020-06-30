@@ -36,16 +36,11 @@ In an early state it will do the trick to use rather general brainstorming techn
 
 Set up the prerequisites. Are you already familiar with the context of your workshop? This includes carving out the goal and rough procedure of the workshop and determining the location where it takes place. You may use the [Workshop Builder]({{ site.baseurl }}/workshop-builder) for this purpose. 
 
-### Example
+<details markdown="1" open>
+<summary><h3>Examples</h3></summary>             
 
-**ZELASTO WORKSHOP I**
-
-Context: 10 participants, same time, remote work
-
-1. not relevant, because our aim is to learn if the context we choose is appropriate
-2. next step: ZELASTO Workshop II
-3. layer-based allication on elastic displays, "What subtype should we build?"
-4. "What content should we use?" Designing the content by shaping the topic
+### Shaping the Application Content
+We conductued an online workshop with 10 participants to design the content of a layer-based application for a collaborative use of elastic displays. The application focuses on the testing of possibilities for collaboration, visualization, data manipulation/persistence, linking of data as well as marking, zoom and filtering. For this purpose it had to be answered whether the application should be realized as a table or wall display and which data would support our particular task.
 
 **Outline**
 - Einleitung: Vorstellung des Ziels
@@ -58,7 +53,6 @@ Aim: Define use case for layered-based application on an elastic display to work
 - Taxonomien festlegen (anschließender Workshop)
 - Meinungsbild
 
-
 Moderator bereitet Board vor, lädt ein
 - Tools und Thema vorstellen, aktueller Stand
 - Einzelarbeit
@@ -66,11 +60,19 @@ Moderator bereitet Board vor, lädt ein
 - Gruppenarbeit
 - Voting
 
-**Used Tools**
-Collaboration + Communication: MIRO, Skype
-Techniques: Mood Board, Mind Map, Free Canvas for any visual or textual expression needed
-
 **Results**
 Urban Planning Scenario
 some impressions, add images!
+
+**Used Tools & Techniques**
+- [MIRO](https://miro.com/)
+- Skype
+- [Mood Board]({{ site.baseurl }}/concepts/moodboard)
+- Mind Map
+- Collaborative free drawing on digital canvas
+- [Dot Voting]({{ site.baseurl }}/concepts/dot-voting)
+
+</details>
+
+
 

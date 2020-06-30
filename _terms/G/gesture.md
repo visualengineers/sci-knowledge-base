@@ -56,6 +56,11 @@ PUSH - TOUCH - PULL
 2. act gestures (complete actions + use shortcuts)
 3. transform gestures (transform objects)
 
-### Examples
+<details markdown="1" open>
+<summary><h3>Examples</h3></summary> 
 
-see [Elastic Gestures]({{site.baseurl}}/concepts/elastic-gestures) for gestural interaction on elastic displays
+See [Elastic Gestures]({{site.baseurl}}/concepts/elastic-gestures) for gestural interaction on elastic displays.
+
+</details>
+
+

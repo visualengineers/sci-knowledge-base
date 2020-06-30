@@ -8,10 +8,12 @@ An electrophoretic display (also known as electronic ink display) is an electron
 Factoring in low power consumption, print-like readability and minimal thickness and weight, electrophoretic display technology can be used for the development of novel display shapes such as curved screens, foldable tablets or highly flexible, bendible surfaces.
 Note that color electrophoretic displays (e.g. Mirasol-Display, MIP-Display or electrowetting displays) currently suffer from performance issues. The low refresh rate and is also disadvantageous for devices that have high degree of user interactivity. 
 
-### Examples
+<details markdown="1" open>
+<summary><h3>Examples</h3></summary> 
 
 Electrophoretic display technology gained popularity from the introduction of electronic ink by E Ink Corporation. Other applications that featured the display technology include e-readers such (e.g. Amazon Kindle or Kobo eReader Touch), smartwatches (e.g. Pebble), cell phones or electronic price tags.
 
 **PaperTab**  is a flexible, high-resolution and interactive paper tablet that looks and feels just like a sheet of paper. 
 <div class="media-wrapper"><iframe src="https://www.youtube.com/embed/81iiGWdsJgg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
+</details>

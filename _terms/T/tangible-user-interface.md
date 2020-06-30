@@ -17,7 +17,8 @@ According to Ullmer at al. in [Token+constraint systems for tangible interaction
 
 ![The three dominant types of TUIs]({{ site.baseurl }}/assets/img/types_of_tui.png){:.responsive-media}
 
-### Examples
+<details markdown="1" open>
+<summary><h3>Examples</h3></summary> 
 
 One early example is Durrell Bishop’s **Marble Answering Machine**, which physicalizes incoming voice messages as marbles. With each new voice message marbles fall automatically
 in a container. Users can move marbles to different containers to perform actions, such as listening to a message or call back. The Marble Answering Machinge is consodered to be an token-constraint TUI.
@@ -26,6 +27,7 @@ in a container. Users can move marbles to different containers to perform action
 <div class="media-wrapper"><iframe src="https://www.youtube.com/embed/jtjNU0Fs3og" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <div class="media-wrapper"><iframe src="https://www.youtube.com/embed/VqrWF7kG_Wk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
+</details>
 
 
 

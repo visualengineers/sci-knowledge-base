@@ -12,12 +12,13 @@ The use of the word "organic" refers to the philosophy of organic architecture t
 
 Excluding non-deformable (shaped) displays from the above list, [shape-changing interfaces]({{ site.baseurl }}/terms/shape-changing-interface) can be considered either as a subgroup of organic user interfaces or an alternative approach to classify non-flat interface shapes concentrating on deformation properties or context of use. 
 
-### Examples
+<details markdown="1" open>
+<summary><h3>Examples</h3></summary> 
 
 **PaperPhone** was one of the first OUIs to introduce bend gestures on a real flexible screen. It featured a flexible electrophoretic display and an array of 5 bend sensors that allowed for user navigation of content. (see: [PaperPhone: Understanding the Use of Bend Gestures in Mobile Devices with Flexible Electronic Paper Displays!]({{ site.baseurl }}/resources/#references))
 <div class="media-wrapper"><iframe src="https://www.youtube.com/embed/Rl-qygUEE2c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-
+</details>
 
 
 

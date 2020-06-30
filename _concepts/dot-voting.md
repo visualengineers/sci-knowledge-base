@@ -19,8 +19,14 @@ Dot voting has several weaknesses, such as persuaded voting, group voting or eve
 - Ranking/weighting each participant's dots, i.e. "SuperDots"
 - Color-code votes to signify different voting criteria
 
-### Examples
+<details markdown="1" open>
+<summary><h3>Examples</h3></summary> 
 
 ![Dot Voting]({{ site.baseurl }}/assets/img/dot-voting.jpg)
-
 image source: https://www.linkedin.com/pulse/dotmocracy-broken-jason-diceman
+
+</details>
+
+
+
+

@@ -13,7 +13,8 @@ The letters of S.M.A.R.T. acronym give criteria which help setting objectives by
 **R**. Relevant (or realistic) – State what results can realistically be achieved, given available resources.  
 **T**. Time-bound (ot trackable) – Specify when the result(s) can be achieved.  
 
-### Examples
+<details markdown="1" open>
+<summary><h3>Examples</h3></summary> 
 
 *"We will have constructed a functional prototype of an elastic display that reacts upon gestural input in a visible ways within four months after three months of intense study of tracking technologies, software frameworks and surface materials."*
 
@@ -28,6 +29,6 @@ The goal setters are planning to build an innovative application in the field of
 **Time-based**:  
 The goal setters have set a deadline to achieve their objective within the seven months following kick-off.  
 
-
+</details>
 
 

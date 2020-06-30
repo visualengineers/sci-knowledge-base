@@ -7,5 +7,9 @@ Shape memory alloys (SMA) are an actuator technique for shape-changing displays 
 
 The challenges in designing SMA applications are to overcome their limitations, which include a relatively small usable strain, low actuation frequency, low controllability, low accuracy and low energy efficiency. SMA deactuation for example is typically slower than actuation, because it occurs by heat transfer to the ambient environment.
 
-### Examples
+<details markdown="1" open>
+<summary><h3>Examples</h3></summary> 
+
 There is no example yet. Feel free to <a href="{{ site.repo }}/edit/master/{{ page.path }}" target="_blank"><i class="fa fa-edit fa-fw"></i> edit this page</a>.
+
+</details>

@@ -7,7 +7,8 @@ Physical computing is, in short, making interactive physical systems out of hard
 
 ![basic concept of physical computing](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Physical_computing.svg/1920px-Physical_computing.svg.png){:.responsive-media}
 
-### Examples
+<details markdown="1" open>
+<summary><h3>Examples</h3></summary> 
 
 **I-CubeX** is a system of sensors, actuators and interfaces configured by a personal computer. It uses MIDI, Bluetooth or USB for communication, making it simply for music or visual artists to create and modify musical instruments or interactive installations.
 
@@ -15,3 +16,4 @@ An example for physical computing with an embedded system is the popular open-so
 
 The **Raspberry Pi** is a mini linux comupter on a SD card. Pins allow makers and hobbyists to connect electronic components, extend the capabilities with add-on boards and program physical devices in the real world, such as inputs like sensors and outputs like lights. Visit the offical [website](https://projects.raspberrypi.org/en/projects) to browse a number of tutorial-like projects.
 
+</details>

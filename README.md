@@ -2,7 +2,7 @@ visit the [SCI Knowledge Base homepage](https://visualengineers.github.io/sci-kn
 
 ## Documentation
 
-Whenever committing to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages. Jekyll uses the Liquid templating language to process templates, providing a number of useful Liquid additions to build the site (e.g. filters and tags). See the official [Liquid Documentation](https://shopify.github.io/liquid/basics/introduction/) to learn more.
+Whenever committing to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/docs/) to rebuild the pages. Jekyll uses the Liquid templating language to process templates, providing a number of useful Liquid additions to build the site (e.g. filters and tags). See the official [Liquid Documentation](https://shopify.github.io/liquid/basics/introduction/) to learn more.
 
 ### Jekyll Theme
 
@@ -46,7 +46,7 @@ More fancy markdown: [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Not yet satisfied? Kramdown is the default Markdown renderer for Jekyll, offering you additional options for styling. Add for example `{:.my-css-class}` to tell Kramdown you want to apply your fancy custom CSS.
 
-### Inserting new content
+### Inserting knowledge
 
 ## References & Links
 
@@ -54,14 +54,14 @@ Create a new entry in `data > references.yml` or `data > links.yml`.
 
 ## Pages, Terms & Concepts
 
-Create a new markdown file (.md) in `pages`, `terms > [first letter of entry]` or `concepts` analogous to the existing entries to make sure all styles are applied.
+Create a new markdown file (.md) in `pages`, `terms` (place under first letter) or `concepts` by copying an existing page to make sure all styles are applied.
 
 ## Images
 
-You can upload the image into `assets > img` or reference external urls. 
-To add a full-width banner image (for best practice or concept) specify the source with "image: /path-to-image or external-url". The image will be inserted automatically at the top of a page and used as preview image.
+You can upload images into `assets > img` or reference external urls. 
+To add a full-width banner image (works for best practice & concept), you can specify the image source and credits at the page's head like this: `image: /path-to-image or external-url` and `image-credits: ...some markup or plain text...` The image will be inserted automatically at the top of a page and used as preview image in best practice / concept overview also. Have a look at an existing best practice or concept if you need an example.
 
-## Linking shortcodes
+## SCI-KB Shortcodes
 
 Reference
 `[[title]](({{ site.baseurl }}/resources/#references)`
@@ -87,8 +87,18 @@ Video on YouTube
 Image
 `![title](source){:.responsive-media}`
 
+Accordion   
+`<details markdown="1" open>`
+`<summary><h3>Title</h3></summary> ` 
+`... content goes here ...`
+`</details>`
+
+Accordions will automatically be rendered in custom SCI-KB style. With `markdown="1"`, markdown can be rendered inside of our `<details>` html block level tag. Remove `open` if you would like the accordion to be closed by default.
 
 ### Support
 
- [Github Pages documentation](https://help.github.com/categories/github-pages-basics/)
- [testing your site locally](https://kbroman.org/simple_site/pages/local_test.html)
+ [Github Pages documentation](https://help.github.com/categories/github-pages-basics/)  
+ [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)  
+ [Testing your site locally](https://kbroman.org/simple_site/pages/local_test.html)    
+ [Jekyll Documentation](https://jekyllrb.com/docs/)     
+ [Liquid Documentation](https://shopify.github.io/liquid/basics/introduction/)  

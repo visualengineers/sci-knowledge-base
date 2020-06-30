@@ -16,4 +16,12 @@ Gestures performed on an elastic display are a subset of [gestures]({{ site.base
 
  The gesture alphabet is derived from 27 single- and both-handed gestures defined by Troiano et al. in [User-Defined Gestures for Elastic, Deformable Displays]({{ site.baseurl }}/resources/#references)) and a 10 gesture collection by Dand and Helmsley in [Obake: interactions with a 2.5D elastic display]({{ site.baseurl }}/resources/#links). When combining the two collections we adopted only those gestures which in our experience have proven to be useful.  
 
+<details markdown="1" open>
+<summary><h3>Examples</h3></summary> 
+
+There is no example yet. Feel free to <a href="{{ site.repo }}/edit/master/{{ page.path }}" target="_blank"><i class="fa fa-edit fa-fw"></i> edit this page</a>.
+
+</details>
+
+
 

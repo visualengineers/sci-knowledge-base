@@ -77,10 +77,68 @@ button.send:hover{
     margin-bottom: .5rem;
 }
 
+summary h2, summary h3 {
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+details summary {
+    padding: .5rem 0;
+    margin-bottom: 1em;
+}
+
+details summary:focus {
+    outline: 0;
+}
+
+details::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    display: inline-block;
+    margin-top: 2rem;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+summary::-webkit-details-marker {
+   display: none;
+}
+
+summary:after {
+    content: "›";
+    background-color: var(--yellow);
+    color:#fff;
+    float: right;
+    font-size: 140%;
+    font-weight: bold;
+    padding: 0;
+    text-align: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  details[open] summary:after {
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
 .half-width {
     width: 50%;
     float: left;
     padding: 1em;
+}
+
+hr.panel-line {
+    margin-top: 2rem;
+    margin-bottom: 0;
 }
 
 .overflowX-scroll {
@@ -93,7 +151,6 @@ button.send:hover{
 
 .topic a {
     color: inherit;
-    /*font-weight: bold;*/
 }
 
 .topic:hover, .topic:hover a{
@@ -150,7 +207,7 @@ p.answer {
 }
 
 .strap {
-    color: #aaa;    
+    color: #aaa;
 }
 
 .topic {
@@ -158,6 +215,7 @@ p.answer {
     border-radius: 30px;
     border-width: 2px;
     display: inline-block;
+    line-height: 1em;
     margin-top: 1em;
     margin-right: 1em;
     padding: 0.7rem;
@@ -399,12 +457,15 @@ p.answer {
     display: none;
 }
 
-#efre-logo {
+#efre-logo, p.answer{
     max-width: 80%;
 }
-p.answer {
+
+hr.panel-line {
     max-width: 80%;
+    margin-left: 0;
 }
+
 .responsive-media {
     max-width: 350px !important;
 }
@@ -418,7 +479,13 @@ ul.tile li {
     height: 200px;
 }
 
+}
 
+@media (min-width: 992px) {
+details {
+
+   max-width: 80%;
+}
 }
 
 /*** OVERWRITE ***/

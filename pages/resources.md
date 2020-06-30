@@ -7,11 +7,8 @@ permalink: /resources/
 # Resources
 additional resources related to the research on Elastic Displays
 
-### Media Files
-
-
-
-### References
+<details markdown="1" open>
+<summary><h3>References</h3></summary> 
 
 {% assign references = site.data.references | sort: "author" %}
 <ul>
@@ -23,7 +20,10 @@ additional resources related to the research on Elastic Displays
 {% endfor %}
 </ul>
 
-### Links
+</details>
+
+<details markdown="1" open>
+<summary><h3>Links</h3></summary> 
 
 {% assign links = site.data.links | sort: "title" %}
 <ul>
@@ -33,4 +33,6 @@ additional resources related to the research on Elastic Displays
 </li>
 {% endfor %}
 </ul>
+
+</details>
 
