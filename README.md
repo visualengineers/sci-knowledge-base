@@ -61,36 +61,41 @@ Create a new markdown file (.md) in `pages`, `terms` (place under first letter) 
 You can upload images into `assets > img` or reference external urls. 
 To add a full-width banner image (works for best practice & concept), you can specify the image source and credits at the page's head like this: `image: /path-to-image or external-url` and `image-credits: ...some markup or plain text...` The image will be inserted automatically at the top of a page and used as preview image in best practice / concept overview also. Have a look at an existing best practice or concept if you need an example.
 
-## SCI-KB Shortcodes
+## SCI-KB Special Codes
 
-Reference
+**Linking**
+
+Reference  
 `[[title]](({{ site.baseurl }}/resources/#references)`
 
-Link
+Link  
 `[[title]](({{ site.baseurl }}/resources/#links)`
 
-Page
+Page  
 `[title]({{ site.baseurl }}/[filename-goes-here])`
 
-Term
+Term  
 `[title]({{ site.baseurl }}/terms/[filename-goes-here])`
 
-Concept
+Concept  
 `[title]({{ site.baseurl }}/concepts/[filename-goes-here])`
 
-Video on Vimeo 
+**Media**
+
+Video on Vimeo   
 `<div class="media-wrapper"><iframe src="..." frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>`
 
-Video on YouTube
+Video on YouTube  
 `<div class="media-wrapper"><iframe src="..." frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>`
 
-Image
+Image  
 `![title](source){:.responsive-media}`
 
-Accordion   
-`<details markdown="1" open>`
-`<summary><h3>Title</h3></summary> ` 
-`... content goes here ...`
+**Other**  
+Accordion     
+`<details markdown="1" open>`  
+`<summary><h3>Title</h3></summary>`  
+`... content goes here ...`  
 `</details>`
 
 Accordions will automatically be rendered in custom SCI-KB style. With `markdown="1"`, markdown can be rendered inside of our `<details>` html block level tag. Remove `open` if you would like the accordion to be closed by default.
