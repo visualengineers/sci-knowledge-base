@@ -46,7 +46,9 @@ More fancy markdown: [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Not yet satisfied? Kramdown is the default Markdown renderer for Jekyll, offering you additional options for styling. Add for example `{:.my-css-class}` to tell Kramdown you want to apply your fancy custom CSS.
 
-## SCI-KB Specials
+## SCI-KB Code Snippets
+
+These path specifications and reusable code snippets are special for the SCI-KB and facilitate the insertion of new content :)
 
 ### Inserting Knowledge
 
@@ -90,7 +92,7 @@ You can upload images into `assets > img`.
 **Banner Image**  
 To add a full-width banner image (works for best practice & concept), you can specify the image source and credits at the page's head like this: `image: /path-to-image or external-url` and `image-credits: ...some markup or plain text...` The image will be inserted automatically at the top of a page and used as preview image in best practice / concept overview also. Have a look at an existing best practice or concept if you need an example.
 
-### Other Code Snippets
+### Other
 
 **Accordion**  
 `<details markdown="1" open>`  
