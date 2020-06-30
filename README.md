@@ -91,8 +91,8 @@ Video on YouTube
 Image  
 `![title](source){:.responsive-media}`
 
-**Other**  
-Accordion     
+**Accordion**
+     
 `<details markdown="1" open>`  
 `<summary><h3>Title</h3></summary>`  
 `... content goes here ...`  
