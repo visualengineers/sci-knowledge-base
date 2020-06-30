@@ -46,53 +46,49 @@ More fancy markdown: [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Not yet satisfied? Kramdown is the default Markdown renderer for Jekyll, offering you additional options for styling. Add for example `{:.my-css-class}` to tell Kramdown you want to apply your fancy custom CSS.
 
-### Inserting knowledge
+## SCI-KB Specials
 
-## References & Links
-
+**References & Links**  
 Create a new entry in `data > references.yml` or `data > links.yml`. 
 
-## Pages, Terms & Concepts
-
+**Pages, Terms & Concepts**  
 Create a new markdown file (.md) in `pages`, `terms` (place under first letter) or `concepts` by copying an existing page to make sure all styles are applied.
 
-## Images
-
+**Images**  
 You can upload images into `assets > img` or reference external urls. 
 To add a full-width banner image (works for best practice & concept), you can specify the image source and credits at the page's head like this: `image: /path-to-image or external-url` and `image-credits: ...some markup or plain text...` The image will be inserted automatically at the top of a page and used as preview image in best practice / concept overview also. Have a look at an existing best practice or concept if you need an example.
 
-## SCI-KB Special Codes
+### Linking
 
-**Linking**
-
-Reference  
+**Reference**    
 `[[title]](({{ site.baseurl }}/resources/#references)`
 
-Link  
+**Link**  
 `[[title]](({{ site.baseurl }}/resources/#links)`
 
-Page  
+**Page**    
 `[title]({{ site.baseurl }}/[filename-goes-here])`
 
-Term  
+**Term**    
 `[title]({{ site.baseurl }}/terms/[filename-goes-here])`
 
-Concept  
+**Concept**    
 `[title]({{ site.baseurl }}/concepts/[filename-goes-here])`
 
-**Media**
+### Media
 
-Video on Vimeo   
+**Video on Vimeo**     
 `<div class="media-wrapper"><iframe src="..." frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>`
 
-Video on YouTube  
+**Video on YouTube**  
 `<div class="media-wrapper"><iframe src="..." frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>`
 
-Image  
+**Image**  
 `![title](source){:.responsive-media}`
 
-**Accordion**
-     
+### Other
+
+**Accordion**  
 `<details markdown="1" open>`  
 `<summary><h3>Title</h3></summary>`  
 `... content goes here ...`  
