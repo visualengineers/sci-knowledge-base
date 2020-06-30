@@ -48,7 +48,7 @@ Not yet satisfied? Kramdown is the default Markdown renderer for Jekyll, offerin
 
 ## SCI-KB Code Snippets
 
-These path specifications and reusable code snippets are special for the SCI-KB and facilitate the insertion of new content :)
+These path specifications and reusable code snippets are special for the SCI-KB. They have been created to structure the knowledge base and facilitate the insertion of new content :)
 
 ### Inserting Knowledge
 
