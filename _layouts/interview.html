@@ -1,0 +1,37 @@
+---
+layout: plain
+---
+<a class="back" href="{{ site.baseurl }}/resources/" alt="back to resources"><i class="fa fa-arrow-left"></i> back to resources</a>
+
+<!-- INTRO & PORTRAIT IMAGE -->
+<div class="flex-2">  
+
+    <div>
+        <h4 class="strap">Interview</h4>
+        <h1 class="interview">"{{ page.title }}"</h1>
+        <p>{{ page.teaser }}</p>
+    </div>
+
+    <div>
+      {% if page.image %}
+          <img src="{{ page.image }}" class="image-portrait"/>
+      {% endif %}    
+      {% if page.image-credits %}
+          <span class="image-credits">© {{ page.image-credits }}</span>
+      {% endif %}
+  </div>
+
+</div><hr>
+
+<!-- MAIN CONTENT -->
+{{ content }}
+
+<!-- LINKS TO FURTHER CONTENT -->
+<hr class="panel-line">
+<br>
+
+<p>Would you like to try out a workshop yourself? Take a look at the <a href="{{ site.baseurl }}/workshop-builder/">Workshop Builder</a> and get personal recommendations.</p>
+
+
+
+

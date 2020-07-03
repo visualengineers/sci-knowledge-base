@@ -128,6 +128,10 @@ Answer the following questions to get your personal Knowledge Item suggestions y
 <!-- END WORKSHOP PLAN-->
 </div>
 
+<hr>
+<br>
+<p>Not sure if you want to hold a workshop? Have a look at our <a href="{{site.baseurl}}/10-questions-franziska">interview on holding workshops</a>.</p>
+
 <script>
 
 // short hand for $( document ).ready()

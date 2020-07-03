@@ -8,7 +8,14 @@ Every material is conducting, it’s only a matter of how what potential differe
 <details markdown="1" open>
 <summary><h3>Examples</h3></summary> 
 
-There is no example yet. Feel free to <a href="{{ site.repo }}/edit/master/{{ page.path }}" target="_blank"><i class="fa fa-edit fa-fw"></i> edit this page</a>.
+<details markdown="1" open>
+<summary>GelTouch: Localized Tactile Feedback Through Thin, Programmable Gel</summary>
+
+GelTouch is a 2mm transparent gel-based layer that can transition between soft and 25 times stiffer providing tactile multi-touch feedback. When activated by applying heat (>32 C), it can be morphed freely and continuously, without being limited to fixed, predefined shapes. 
+Activation techniques: 1) Indium Tin Oxide (ITO) as a heating element that enables tactile feedback through individually addressable taxels; 2) predefined tactile areas of engraved ITO, that can be layered and combined; 3) complex arrangements of resistance wire that create thin tactile edges. The prototype tablet contains 6x4 tactile areas, enabling a tactile numpad, slider, and thumbstick. 
+
+<div class="media-wrapper"><iframe src="https://www.youtube.com/embed/o8W6qbwPhwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</details>
 
 </details>
 
