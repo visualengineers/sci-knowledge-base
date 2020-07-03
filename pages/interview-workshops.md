@@ -4,7 +4,7 @@ title: "Intensive social exchange enables a deep common understanding of the fac
 teaser: An interview with Franziska Hannß about what makes a good workshop and what experiences she has made over the years in workshops with her team and customers. Franziska, who holds a degree in media informatics, is authorized signatory for creation at the <a href="https://visualistik.de/">Gesellschaft für Technische Visualistik</a> (GTV) in Dresden and research assistant professor for media design. 
 image: /sci-knowledge-base/assets/img/franziska-hannss.png
 image-credits: Franziska Hannß
-permalink: /10-questions-franziska/
+permalink: /interview-workshops/
 ---
 
 **Why do you like workshops so much?**
