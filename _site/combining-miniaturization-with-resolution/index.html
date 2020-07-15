@@ -112,7 +112,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">About</a>
+      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">About SCI-KB</a>
     </li>
 
     
@@ -120,20 +120,54 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop Builder</a>
-    </li>
-
-    
-  </ul>
-  
-  <ul class="td-sidebar-nav__section pr-md-3">
-    <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/best-practices" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Best Practices</a>
+      <a  href="" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Modules</a>
     </li>
 
     
       <ul>
-      <li class="collapse show" id="best-practices">
+      <li class="collapse show" id="modules">
+          <ul class="td-sidebar-nav__section pr-md-3">
+            
+            
+            <li class="td-sidebar-nav__section-title">
+              <a href="/sci-knowledge-base/best-practices" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Best Practices</a>
+            </li>
+
+            <ul>
+              <li class="collapse show" id="">
+                
+                
+              </li>
+            </ul>
+
+            
+            <li class="td-sidebar-nav__section-title">
+              <a href="/sci-knowledge-base/terms-and-concepts" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Terms & Concepts</a>
+            </li>
+
+            <ul>
+              <li class="collapse show" id="">
+                
+                
+              </li>
+            </ul>
+
+            
+
+          </ul>
+        </li>
+      </ul>
+    
+  </ul>
+  
+  <ul class="td-sidebar-nav__section pr-md-3">
+    <li class="td-sidebar-nav__section-title">
+      <a  href="" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Topics</a>
+    </li>
+
+    
+      <ul>
+      <li class="collapse show" id="topics">
           <ul class="td-sidebar-nav__section pr-md-3">
             
             
@@ -194,43 +228,9 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/terms-and-concepts" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Terms and Concepts</a>
+      <a  href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop Builder</a>
     </li>
 
-    
-      <ul>
-      <li class="collapse show" id="terms-and-concepts">
-          <ul class="td-sidebar-nav__section pr-md-3">
-            
-            
-            <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/terms-and-concepts/#terms" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Terms</a>
-            </li>
-
-            <ul>
-              <li class="collapse show" id="">
-                
-                
-              </li>
-            </ul>
-
-            
-            <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/terms-and-concepts/#concepts" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Concepts</a>
-            </li>
-
-            <ul>
-              <li class="collapse show" id="">
-                
-                
-              </li>
-            </ul>
-
-            
-
-          </ul>
-        </li>
-      </ul>
     
   </ul>
   
@@ -273,20 +273,7 @@ $(document).ready(function() {
           </div>
           <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
            <div class="td-content">
-	      <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
-    <ol class="breadcrumb spb-1">
-    <li class="breadcrumb-item active" aria-current="page">
-        <a href="/sci-knowledge-base/best-practices/">Best Practices</a>
-    </li>/
-     <li class="breadcrumb-item active topic topic-technology" aria-current="page">
-        <a href="/sci-knowledge-base/technology/">Technology</a>
-    </li>
-    <li class="breadcrumb-item active" aria-current="page">
-         <a href="/sci-knowledge-base/combining-miniaturization-with-resolution/">Combining Miniturization With Resolution</a>
-    </li>
-     </ol>
-</nav>
-
+	      <a href="/sci-knowledge-base/best-practices/" alt="back to best practices"><i class="fa fa-arrow-left"></i> back to Best Practices</a><br>
 
 <!--optional banner image -->
 
@@ -297,7 +284,12 @@ $(document).ready(function() {
 
 
 <!-- main content-->
-<h4 class="strap">Best Practice</h4>
+<div class="strap-wrapper">
+  <h4 class="strap">Best Practice</h4>
+        
+      <a class="capitalizeAll topic topic-technology" href="/sci-knowledge-base/technology/">technology</a>
+   
+</div>
 <h1 id="combining-miniturization-with-resolution">Combining Miniturization With Resolution</h1>
 
 <p>A significant challenge remains in the availability of small form-factor, minimal weight, and high resolution actuators. In line with more general computing trends, shape-changing interfaces are moving from stationary to mobile to wearable form factors [1, 46], and from rigid to flexible to stretchable and even floating shapes [27, 57, 62, 65]. The use of electromechanical actuators, as is common in many systems (e.g. inFORM [23], PinWheels [45], the BMW Kinetic sculpture [90]), often results in large, heavy, and immobile setups that are not compatible with these demands. In addition, enduser expectations of current interactive systems will demand high-resolution output—Humans’ haptic and visual perception still far exceeds that possible in shape-changing interfaces [48]. However, increasing the shape resolution tends to considerably complicate the technical setup.</p>
@@ -312,8 +304,8 @@ $(document).ready(function() {
 
 <hr class="panel-line">
 
-<!--other best practices -->
-More Best Practices in <a class="topic topic-technology" href="/sci-knowledge-base/technology/">Technology</a>
+<!--other best practices in same topic-->
+More Best Practices in <a class="capitalizeAll topic topic-technology" href="/sci-knowledge-base/technology/">technology</a>
 
 <!-- ...in same category -->
 
@@ -353,7 +345,6 @@ More Best Practices in <a class="topic topic-technology" href="/sci-knowledge-ba
   
 
 </ul>
-
 
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"

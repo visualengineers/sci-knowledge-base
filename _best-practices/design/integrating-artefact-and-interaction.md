@@ -1,7 +1,7 @@
 ---
 layout: best-practice
 title: "Integrating Artefact and Interaction"
-category: "Design"
+category: design
 lession: 8
 image: https://images.unsplash.com/photo-1489005718574-3a0254a199e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80
 image-credits: Photo by <a href="https://unsplash.com/@dev_irl?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Dev Benjamin</a> on <a href="/s/photos/interaction?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>

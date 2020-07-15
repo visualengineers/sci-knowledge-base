@@ -2,6 +2,7 @@
 layout: term
 title: Tangible User Interface
 description: Tangible User Interface
+category: technology
 ---
 (previously known as Graspable User Interface) 
 

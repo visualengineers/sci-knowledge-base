@@ -2,6 +2,7 @@
 layout: term
 title: 3D Printing
 description: definition of 3D Printing
+category: technology
 ---
 
 3D printing is the manufactoring process of making three dimensional solid objects from a  three-dimensional digital model.  It is a commonly used prototyping technique to be able to go to market faster. 

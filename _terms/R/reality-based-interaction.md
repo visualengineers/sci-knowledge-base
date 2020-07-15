@@ -2,6 +2,7 @@
 layout: term
 title: Reality-Based Interaction
 description: definition of Reality-Based Interaction
+category: user experience
 ---
 
 <details markdown="1" open>

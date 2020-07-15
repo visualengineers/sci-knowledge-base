@@ -109,7 +109,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">About</a>
+      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">About SCI-KB</a>
     </li>
 
     
@@ -117,20 +117,54 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop Builder</a>
-    </li>
-
-    
-  </ul>
-  
-  <ul class="td-sidebar-nav__section pr-md-3">
-    <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/best-practices" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Best Practices</a>
+      <a  href="" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Modules</a>
     </li>
 
     
       <ul>
-      <li class="collapse show" id="best-practices">
+      <li class="collapse show" id="modules">
+          <ul class="td-sidebar-nav__section pr-md-3">
+            
+            
+            <li class="td-sidebar-nav__section-title">
+              <a href="/sci-knowledge-base/best-practices" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Best Practices</a>
+            </li>
+
+            <ul>
+              <li class="collapse show" id="">
+                
+                
+              </li>
+            </ul>
+
+            
+            <li class="td-sidebar-nav__section-title">
+              <a href="/sci-knowledge-base/terms-and-concepts" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Terms & Concepts</a>
+            </li>
+
+            <ul>
+              <li class="collapse show" id="">
+                
+                
+              </li>
+            </ul>
+
+            
+
+          </ul>
+        </li>
+      </ul>
+    
+  </ul>
+  
+  <ul class="td-sidebar-nav__section pr-md-3">
+    <li class="td-sidebar-nav__section-title">
+      <a  href="" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Topics</a>
+    </li>
+
+    
+      <ul>
+      <li class="collapse show" id="topics">
           <ul class="td-sidebar-nav__section pr-md-3">
             
             
@@ -191,43 +225,9 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/terms-and-concepts" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Terms and Concepts</a>
+      <a  href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop Builder</a>
     </li>
 
-    
-      <ul>
-      <li class="collapse show" id="terms-and-concepts">
-          <ul class="td-sidebar-nav__section pr-md-3">
-            
-            
-            <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/terms-and-concepts/#terms" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Terms</a>
-            </li>
-
-            <ul>
-              <li class="collapse show" id="">
-                
-                
-              </li>
-            </ul>
-
-            
-            <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/terms-and-concepts/#concepts" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Concepts</a>
-            </li>
-
-            <ul>
-              <li class="collapse show" id="">
-                
-                
-              </li>
-            </ul>
-
-            
-
-          </ul>
-        </li>
-      </ul>
     
   </ul>
   
@@ -270,11 +270,18 @@ $(document).ready(function() {
           </div>
           <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
            <div class="td-content">
-	      <a href="/sci-knowledge-base/terms-and-concepts/" alt="back to terms and concepts"><i class="fa fa-arrow-left"></i> back to Terms and Concepts</a>
+	      <a href="/sci-knowledge-base/terms-and-concepts/" alt="back to terms and concepts"><i class="fa fa-arrow-left"></i> back to Terms & Concepts</a><br>
 
 <!-- main content -->
-<h4 class="strap">Term</h4>
+<div class="strap-wrapper">
+    <h4 class="strap">Term</h4>
+          
+        <a class="capitalizeAll topic topic-user-experience" href="/sci-knowledge-base/user-experience/">user experience</a>
+     
+</div>
+
 <h1 class="font-weight-bold">Gesture</h1>
+
 <p><em>“A gesture is a motion of the body that contains information. Waving goodbye is a gesture. Pressing a key on a keyboard is not a gesture because the motion of a finger on its way to hitting a key is neither observed nor significant. All that matters is which key was pressed”.</em> [Kurtenbach and Hulteen]</p>
 
 <p>Gestures are the input through which users interact with the interface of an display. But where exactly does it start and where does it end? Is it just a movement or maybe more? According to the cite from Kurtenbach and Hulteen a gesture can be defined as <strong>movement of the body that is performed to convey meaning</strong>. Meaning therefore implicitly determines the relevant components of a single gesture and sets its boundaries.<br />
@@ -344,7 +351,6 @@ cited in <a href="/sci-knowledge-base/resources/#references">Gestures in Human-C
   <p>See <a href="/sci-knowledge-base/concepts/elastic-gestures">Elastic Gestures</a> for gestural interaction on elastic displays.</p>
 
 </details>
-
 
 
 

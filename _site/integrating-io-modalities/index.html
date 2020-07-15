@@ -112,7 +112,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">About</a>
+      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">About SCI-KB</a>
     </li>
 
     
@@ -120,20 +120,54 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop Builder</a>
-    </li>
-
-    
-  </ul>
-  
-  <ul class="td-sidebar-nav__section pr-md-3">
-    <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/best-practices" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Best Practices</a>
+      <a  href="" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Modules</a>
     </li>
 
     
       <ul>
-      <li class="collapse show" id="best-practices">
+      <li class="collapse show" id="modules">
+          <ul class="td-sidebar-nav__section pr-md-3">
+            
+            
+            <li class="td-sidebar-nav__section-title">
+              <a href="/sci-knowledge-base/best-practices" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Best Practices</a>
+            </li>
+
+            <ul>
+              <li class="collapse show" id="">
+                
+                
+              </li>
+            </ul>
+
+            
+            <li class="td-sidebar-nav__section-title">
+              <a href="/sci-knowledge-base/terms-and-concepts" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Terms & Concepts</a>
+            </li>
+
+            <ul>
+              <li class="collapse show" id="">
+                
+                
+              </li>
+            </ul>
+
+            
+
+          </ul>
+        </li>
+      </ul>
+    
+  </ul>
+  
+  <ul class="td-sidebar-nav__section pr-md-3">
+    <li class="td-sidebar-nav__section-title">
+      <a  href="" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Topics</a>
+    </li>
+
+    
+      <ul>
+      <li class="collapse show" id="topics">
           <ul class="td-sidebar-nav__section pr-md-3">
             
             
@@ -194,43 +228,9 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/terms-and-concepts" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Terms and Concepts</a>
+      <a  href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop Builder</a>
     </li>
 
-    
-      <ul>
-      <li class="collapse show" id="terms-and-concepts">
-          <ul class="td-sidebar-nav__section pr-md-3">
-            
-            
-            <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/terms-and-concepts/#terms" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Terms</a>
-            </li>
-
-            <ul>
-              <li class="collapse show" id="">
-                
-                
-              </li>
-            </ul>
-
-            
-            <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/terms-and-concepts/#concepts" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Concepts</a>
-            </li>
-
-            <ul>
-              <li class="collapse show" id="">
-                
-                
-              </li>
-            </ul>
-
-            
-
-          </ul>
-        </li>
-      </ul>
     
   </ul>
   
@@ -273,20 +273,7 @@ $(document).ready(function() {
           </div>
           <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
            <div class="td-content">
-	      <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
-    <ol class="breadcrumb spb-1">
-    <li class="breadcrumb-item active" aria-current="page">
-        <a href="/sci-knowledge-base/best-practices/">Best Practices</a>
-    </li>/
-     <li class="breadcrumb-item active topic topic-technology" aria-current="page">
-        <a href="/sci-knowledge-base/technology/">Technology</a>
-    </li>
-    <li class="breadcrumb-item active" aria-current="page">
-         <a href="/sci-knowledge-base/integrating-io-modalities/">Integrating I/O Modalities</a>
-    </li>
-     </ol>
-</nav>
-
+	      <a href="/sci-knowledge-base/best-practices/" alt="back to best practices"><i class="fa fa-arrow-left"></i> back to Best Practices</a><br>
 
 <!--optional banner image -->
 
@@ -297,7 +284,12 @@ $(document).ready(function() {
 
 
 <!-- main content-->
-<h4 class="strap">Best Practice</h4>
+<div class="strap-wrapper">
+  <h4 class="strap">Best Practice</h4>
+        
+      <a class="capitalizeAll topic topic-technology" href="/sci-knowledge-base/technology/">technology</a>
+   
+</div>
 <h1 id="integrating-io-modalities">Integrating I/O Modalities</h1>
 <p>Today’s shape-changing interfaces typically focus on shape input and output, with less emphasis on other modalities—for instance, visual output is often realised by projection mapping or low resolution LEDs. While this is acceptable for early research prototypes, successful real-world interfaces will demand additional input and output modalities. This includes high-resolution touch sensing, in-place visual output, adjustable material properties and accurate sensing of the device’s physical shape. Without this core integration, shapechanging interfaces will fail to realise their full potential.</p>
 
@@ -311,8 +303,8 @@ $(document).ready(function() {
 
 <hr class="panel-line">
 
-<!--other best practices -->
-More Best Practices in <a class="topic topic-technology" href="/sci-knowledge-base/technology/">Technology</a>
+<!--other best practices in same topic-->
+More Best Practices in <a class="capitalizeAll topic topic-technology" href="/sci-knowledge-base/technology/">technology</a>
 
 <!-- ...in same category -->
 
@@ -352,7 +344,6 @@ More Best Practices in <a class="topic topic-technology" href="/sci-knowledge-ba
   
 
 </ul>
-
 
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"

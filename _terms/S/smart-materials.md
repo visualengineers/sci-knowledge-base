@@ -2,6 +2,7 @@
 layout: term
 title: Smart Materials
 description: definition of smart materials
+category: technology
 ---
 
 <details markdown="1" open>

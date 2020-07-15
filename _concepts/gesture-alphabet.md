@@ -2,6 +2,7 @@
 layout: concept
 title: Gesture Alphabet
 description: Gesture Alphabet in SCI Knowledge Base
+category: user experience
 image: https://images.unsplash.com/photo-1549706844-908ad5701dd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
 image-credits: Photo by <a href="https://unsplash.com/@matreding?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mat Reding</a> on <a href="/s/photos/gesture?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
 ---

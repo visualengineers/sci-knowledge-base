@@ -8,10 +8,20 @@ permalink: /resources/
 additional resources related to the research on Elastic Displays
 
 <details markdown="1" open>
+<summary><h3>Interviews</h3></summary> 
+
+<ul class="spacious">
+<li>
+    Interview with Franziska Hannß on Holding Workshops: <a href="{{ site.baseurl }}/interview-workshops/">"Intensive social exchange enables a deep common understanding of the facts."</a>
+</li>
+</ul>
+</details>
+
+<details markdown="1" open>
 <summary><h3>References</h3></summary> 
 
 {% assign references = site.data.references | sort: "author" %}
-<ul>
+<ul class="spacious">
 {% for reference in references %}
 {% assign index = forloop.index %}
 <li>
@@ -23,10 +33,10 @@ additional resources related to the research on Elastic Displays
 </details>
 
 <details markdown="1" open>
-<summary><h3>Links</h3></summary> 
+<summary><h3>External Links</h3></summary> 
 
 {% assign links = site.data.links | sort: "title" %}
-<ul>
+<ul class="spacious">
 {% for link in links %}
 <li>
     <a href="{{ link.url }}">{{ link.title }}</a>{% if link.src %}, {{ link.src}} {% endif %}. {{ link.url }}

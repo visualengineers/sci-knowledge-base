@@ -1,7 +1,7 @@
 ---
 layout: best-practice
 title: "Identifying Contexts of Use"
-category: "User Experience"
+category: user experience
 lession: 5
 image: https://images.unsplash.com/photo-1500193711286-d7613192133a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80
 image-credits: Photo by <a href="https://unsplash.com/@chriskaridis?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Chris Karidis</a> on <a href="/s/photos/umbrella?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>

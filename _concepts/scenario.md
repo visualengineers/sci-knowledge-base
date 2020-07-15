@@ -2,6 +2,7 @@
 layout: concept
 title: Scenario
 description: scenario in SCI Knowledge Base
+category: user experience
 image: https://images.unsplash.com/photo-1496291516867-960d7d1c626a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80
 image-credits: Photo by <a href="https://unsplash.com/@simonrae?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Simon Rae</a> on <a href="/s/photos/acting?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
 ---

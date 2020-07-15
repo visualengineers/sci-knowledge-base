@@ -109,7 +109,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">About</a>
+      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">About SCI-KB</a>
     </li>
 
     
@@ -117,20 +117,54 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop Builder</a>
-    </li>
-
-    
-  </ul>
-  
-  <ul class="td-sidebar-nav__section pr-md-3">
-    <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/best-practices" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Best Practices</a>
+      <a  href="" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Modules</a>
     </li>
 
     
       <ul>
-      <li class="collapse show" id="best-practices">
+      <li class="collapse show" id="modules">
+          <ul class="td-sidebar-nav__section pr-md-3">
+            
+            
+            <li class="td-sidebar-nav__section-title">
+              <a href="/sci-knowledge-base/best-practices" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Best Practices</a>
+            </li>
+
+            <ul>
+              <li class="collapse show" id="">
+                
+                
+              </li>
+            </ul>
+
+            
+            <li class="td-sidebar-nav__section-title">
+              <a href="/sci-knowledge-base/terms-and-concepts" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Terms & Concepts</a>
+            </li>
+
+            <ul>
+              <li class="collapse show" id="">
+                
+                
+              </li>
+            </ul>
+
+            
+
+          </ul>
+        </li>
+      </ul>
+    
+  </ul>
+  
+  <ul class="td-sidebar-nav__section pr-md-3">
+    <li class="td-sidebar-nav__section-title">
+      <a  href="" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Topics</a>
+    </li>
+
+    
+      <ul>
+      <li class="collapse show" id="topics">
           <ul class="td-sidebar-nav__section pr-md-3">
             
             
@@ -191,43 +225,9 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/terms-and-concepts" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Terms and Concepts</a>
+      <a  href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop Builder</a>
     </li>
 
-    
-      <ul>
-      <li class="collapse show" id="terms-and-concepts">
-          <ul class="td-sidebar-nav__section pr-md-3">
-            
-            
-            <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/terms-and-concepts/#terms" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Terms</a>
-            </li>
-
-            <ul>
-              <li class="collapse show" id="">
-                
-                
-              </li>
-            </ul>
-
-            
-            <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/terms-and-concepts/#concepts" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Concepts</a>
-            </li>
-
-            <ul>
-              <li class="collapse show" id="">
-                
-                
-              </li>
-            </ul>
-
-            
-
-          </ul>
-        </li>
-      </ul>
     
   </ul>
   
@@ -270,11 +270,18 @@ $(document).ready(function() {
           </div>
           <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
            <div class="td-content">
-	      <a href="/sci-knowledge-base/terms-and-concepts/" alt="back to terms and concepts"><i class="fa fa-arrow-left"></i> back to Terms and Concepts</a>
+	      <a href="/sci-knowledge-base/terms-and-concepts/" alt="back to terms and concepts"><i class="fa fa-arrow-left"></i> back to Terms & Concepts</a><br>
 
 <!-- main content -->
-<h4 class="strap">Term</h4>
+<div class="strap-wrapper">
+    <h4 class="strap">Term</h4>
+          
+        <a class="capitalizeAll topic topic-technology" href="/sci-knowledge-base/technology/">technology</a>
+     
+</div>
+
 <h1 class="font-weight-bold">Elastic Display</h1>
+
 <p>Elastic displays are <a href="/sci-knowledge-base/terms/shape-changing-interface">shape-changing interfaces</a> that are only temporally deformable, more precisely, they automatically return into their inital flat state after the deformation. The display allows users to give input by force-touch (e.g. pinching, pushing, folding, and twisting the display), providing them with rich haptic feedback.</p>
 
 <p>Most applications use rear-procection to display graphical content on the malleable surface, as it prevents users from covering the projection with their hand’s shadow while interacting. Nearly all feature the use of non-slippery, elastic fabric like for example latex, lycra and spandex. Detecting and tracking complex deformations and multi-touch on the deformable display are a remaining challenge. Recent prototypes often take advantage of the Intel RealSense or the Microsoft Kinect depth sensor to rapidly detect multi-touch input in three dimensions, offsetting the high cost and unreliability of other approaches like infrared camera-based tracking.</p>
@@ -293,7 +300,6 @@ $(document).ready(function() {
   <p><img src="/sci-knowledge-base/assets/img/flexi-wall.jpg" alt="exploring big data landscapes on the FlexiWall" class="responsive-media" /></p>
 
 </details>
-
 
 
 

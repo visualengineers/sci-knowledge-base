@@ -2,6 +2,7 @@
 layout: term
 title: Gesture
 description: definition of gesture in SCI Knowledge Base
+category: user experience
 ---
 *"A gesture is a motion of the body that contains information. Waving goodbye is a gesture. Pressing a key on a keyboard is not a gesture because the motion of a finger on its way to hitting a key is neither observed nor significant. All that matters is which key was pressed".* [Kurtenbach and Hulteen]
 

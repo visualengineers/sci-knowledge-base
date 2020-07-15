@@ -2,12 +2,10 @@
 
 :root {
     --technology: #6c90fc;
-    --ux: #fc507e;
+    --user-experience: #fc507e;
     --design: #ff6644;
     --society: #ffba26;
 }
-
-/* IDs */
 
 #efre-logo {
     margin-top: 2em;
@@ -23,19 +21,18 @@ textarea#a-1:focus {
     background-color: #f0eff3;
     outline: 0;
 }
-/* classes */
-
-a.back {
-    display: block;
-    margin-bottom: 1rem;
-}
 
 .align-bottom {
     position: absolute;
     bottom: 0;
 }
 
+.capitalizeAll {
+    text-transform: capitalize;
+}
+
 .image-banner {
+    margin-top: 1rem;
     width: 100%;
     height: 350px !important;
     object-fit: cover;
@@ -190,7 +187,7 @@ input[type=text]:focus {
 }
 
 li.topic {
-    margin: -0.7em 0.5em;
+    margin: -0.5em 0.5em;
 }
 
 li.topic::before {
@@ -210,7 +207,7 @@ p.answer {
     color: #6c90fc !important;
 }
 
-.topic-ux {
+.topic-user-experience {
     color: #fc507e !important;
 }
 
@@ -224,6 +221,18 @@ p.answer {
 
 .strap {
     color: #aaa;
+    display: inline-block;
+    margin-right: .5rem;
+}
+.strap-wrapper{
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+.strap-wrapper > a.topic {
+    float: right;
+    margin: 0 !important;
 }
 
 .topic {
@@ -231,7 +240,8 @@ p.answer {
     border-radius: 30px;
     border-width: 2px;
     display: inline-block;
-    line-height: 1em;
+    font-weight: bold;
+    line-height: .4em;
     margin-top: 1em;
     margin-right: 1em;
     padding: 0.7rem;
@@ -253,6 +263,14 @@ p.answer {
 
 .radio-option-wrapper p{
     font-size: 1.5em;
+}
+
+ul li {
+    overflow-wrap: break-word;
+}
+
+ul.spacious li {
+    margin-bottom: 0.7rem;
 }
 
 /*list styles*/
@@ -477,14 +495,12 @@ p.answer {
     display: none;
 }
 
-#efre-logo, p.answer{
+#efre-logo, 
+details,
+p.answer, 
+.strap-wrapper{
     max-width: 80%;
 }
-
-details {
-
-    max-width: 80%;
- }
 
 hr.panel-line {
     max-width: 80%;
@@ -496,6 +512,12 @@ hr.panel-line {
     align-items: flex-end;
     flex-direction: row;
     justify-content: space-between;
+ }
+
+ .flex-start {    
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
  }
 
  .flex-2 div {
@@ -556,13 +578,13 @@ ul.tile li {
     background-color: #bcccff
 }
 
-.badge-ux {
+.badge-user-experience {
     color: #fff;
     background-color: #fc507e
 }
 
-.badge-ux[href]:hover,
-.badge-ux[href]:focus {
+.badge-user-experience[href]:hover,
+.badge-user-experience[href]:focus {
     color: #222;
     text-decoration: none;
     background-color: #faa3bd
@@ -591,6 +613,12 @@ ul.tile li {
     text-decoration: none;
     background-color: #ffde89
 }
+
+.headerlink {
+    margin: 0;
+    display: inline;
+}
+
 .td-sidebar-nav {
     padding-top: 1.5rem!important;
 }

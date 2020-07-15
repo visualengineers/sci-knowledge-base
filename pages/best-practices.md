@@ -15,8 +15,7 @@ Read about a specific challenge and why it is important and what ways you have t
 {% assign groups = site.best-practices | group_by: "category" %}
 
 {% for group in groups %}
-<a href="{{ site.baseurl }}/{{ group.name | downcase | strip | replace:'user experience', 'ux' }}/">{{ group.name | replace:'UX', 'User Experience'}}</a>
-{: .topic .topic-{{ group.name | downcase | strip | replace:'user experience', 'ux'}}}
+<a class="capitalizeAll capitalizeAll topic topic-{{ group.name | downcase | strip | replace:'user experience', 'user-experience'}}" href="{{ site.baseurl }}/{{ group.name | downcase | strip | replace:'user experience', 'user-experience' }}/">{{ group.name }}</a> 
 
 <ul class="tile">
 {% for item in group.items %}

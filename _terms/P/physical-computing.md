@@ -2,6 +2,7 @@
 layout: term
 title: Physical Computing
 description: definition of physical computing
+category: technology
 ---
 Physical computing is, in short, making interactive physical systems out of hardware and software that sense changes in the real-world environment and respond to them. Analog input from sensors is digitalized and processed to software applications or electromechanical systems (e.g. motors, LEDs) or used to control other hardware components via actuators. If software is running on an embedded microcontroller inside the system it is called embedded system. Physical computing is used in a wide range of domains and applications such as education, art, and both scientific and commercial applications.
 

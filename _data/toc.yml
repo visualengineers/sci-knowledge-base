@@ -1,11 +1,14 @@
-- title: About
+- title: About SCI-KB
   url: index
 
-- title: "Workshop Builder"
-  url: workshop-builder
+- title: Modules
+  links:
+    - title: Best Practices
+      url: best-practices
+    - title: Terms & Concepts
+      url: terms-and-concepts
 
-- title: Best Practices
-  url: best-practices
+- title: Topics
   links:
     - title: "Technology"
       url: "technology"
@@ -16,13 +19,8 @@
     - title: "Society"
       url: "society"
     
-- title: Terms and Concepts
-  url: terms-and-concepts
-  links:
-    - title: "Terms"
-      url: "terms-and-concepts/#terms"
-    - title: "Concepts"
-      url: "terms-and-concepts/#concepts"
+- title: "Workshop Builder"
+  url: workshop-builder
 
 - title: Resources
   url: resources

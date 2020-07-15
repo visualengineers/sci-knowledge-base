@@ -2,6 +2,7 @@
 layout: term
 title: Flexible Display
 description: definition of Flexible Display 
+category: technology
 ---
 A flexible display (also known as persistent deformed display) is a [shape-changing interface]({{ site.baseurl }}/terms/shape-changing-interface) that uses permanent shape deformation as form of input, e.g. bending, flexing, twisting, squeezing and pushing. While being an highly intuitive way of interaction, remaining challenges in flexible display research are to overcome limited haptic feedback and unintended display manipulations (since there are no boundaries that restrict the interaction). Most implementations of flexible displays are made of modelling clay, sand or gel that represent data. 
 

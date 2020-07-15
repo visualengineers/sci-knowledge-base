@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Terms and Concepts
+title: Terms & Concepts
 permalink: /terms-and-concepts/
 ---
 
-# Terms and Concepts
+# Terms & Concepts
 
 Explore the vocabulary of shape-changing interfaces and its application. Feel free to share your own knowledge!  
 

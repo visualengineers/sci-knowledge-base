@@ -2,6 +2,7 @@
 layout: term
 title: WIMP Interface
 description: definition of WIMP Interface
+category: technology
 ---
 An interface consisting of windows, icons, menus, and pointers (WIMP) using predominantly mouse and keyboard as interaction styles.
 

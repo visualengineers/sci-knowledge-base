@@ -2,6 +2,7 @@
 layout: term
 title: Organic User Interface
 description: definition of Organic User Interface
+category: technology
 ---
 An organic user interface (OUI) is a non-flat user interface whose display may passively or actively change shape upon interaction on the surface. 
 The use of the word "organic" refers to the philosophy of organic architecture that adopts natural forms to design a better fit with human ecology. Therefore, inputs are provided through direct physical gestures mainly. Vertegaal and Poupyrev who introduced OUIs in 2008 in [Organic User Interfaces]({{ site.baseurl }}/resources/#references) focus on the user's perception and interaction with the display to differ between three general types of OUI:

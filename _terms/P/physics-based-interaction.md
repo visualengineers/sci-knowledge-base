@@ -2,6 +2,7 @@
 layout: term
 title: Physics-Based Interaction
 description: Physics-Based Interaction
+category: user experience
 ---
 
 <details markdown="1" open>

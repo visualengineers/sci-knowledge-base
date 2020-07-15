@@ -1,7 +1,8 @@
 ---
 layout: term
 title: S.M.A.R.T.
-description: definition of S.M.A.R.T. 
+description: definition of S.M.A.R.T.
+category: design
 ---
 The letters of S.M.A.R.T. acronym give criteria which help setting objectives by pushing concrete statements, for example in project management. To take benefit from the S.M.A.R.T. criteria it is important to combine it with an action plan afterwards.  
 

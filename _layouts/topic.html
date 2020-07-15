@@ -2,10 +2,8 @@
 layout: plain
 ---
 
-{% include breadcrumb-topic.html %}
-
 <h4 class="strap">Topic</h4>
-<h1 class="topic-{{ page.title | downcase | strip | replace:'user experience', 'ux'}} topic-headline">{{ page.title }}</h1>
+<h1 class="capitalizeAll topic-{{ page.title | downcase | strip | replace:'user experience', 'user-experience'}} topic-headline">{{ page.title }}</h1>
 
 {{ content }}
 
@@ -23,14 +21,44 @@ layout: plain
 {%endfor%}
 </ul>
 
-<h3>Terms and Concepts</h3>
-terms and concepts tagged with #{{page.title}}
+<h3>Terms</h3>
+
+<!--<span class="capitalizeAll">{{ page.category | downcase | replace:'user-experience', 'User Experience' }}</span>-->
+{% assign terms = site.terms | where: "category", page.title %}
+<ul class="plain column">
+  {% for item in terms %} 
+  <li><a href="{{ item.url | prepend: site.baseurl }}" alt="{{ item.description }}">{{ item.title }}</a></li>  
+  {% endfor %}
+</ul>
+
+<h3>Concepts</h3>
+
+{% assign concepts = site.concepts | where: "category", page.title %}
+<ul class="tile">{% for item in concepts %} 
+  <li>
+    <a href="{{ item.url | prepend: site.baseurl }}" alt="{{ item.description }}">
+          {% if item.image %}
+              <img src="{{ item.image }}">
+          {% else %}
+              <img src="https://images.unsplash.com/photo-1566041510639-8d95a2490bfb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=626&q=80">
+          {% endif %}
+
+        <span>{{ item.title }}</span>
+    </a>
+</li>
+
+{% endfor %}
+</ul>
+
+
+
+
 
 <hr class="panel-line">
 <h4>Other Topics</h4>
 {% assign groups = site.best-practices | group_by: "category" | where_exp: "group", "group.name != page.title"%}
 {% for group in groups %}
-<a class="topic topic-{{ group.name | downcase | strip | replace:'user experience', 'ux'}}" href="{{ site.baseurl }}/{{ group.name | downcase | strip | replace:'user experience', 'ux' }}/">{{ group.name | replace:'UX', 'User Experience'}}</a>
+<a class="capitalizeAll topic topic-{{ group.name | downcase | strip | replace:'user experience', 'user-experience'}}" href="{{ site.baseurl }}/{{ group.name | downcase | strip | replace:'user experience', 'user-experience' }}/">{{ group.name }}</a>
 {% endfor %}
 
 {% include toc.html %}

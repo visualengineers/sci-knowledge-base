@@ -2,6 +2,7 @@
 layout: concept
 title: Persona
 description: persona in SCI Knowledge Base
+category: user experience
 image: https://images.unsplash.com/photo-1564454388-27c6585cfb5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=971&q=80
 image-credits: Photo by <a href="https://unsplash.com/@javdec?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Javier De La Cruz</a> on <a href="/s/photos/portrait-drawing?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
 ---

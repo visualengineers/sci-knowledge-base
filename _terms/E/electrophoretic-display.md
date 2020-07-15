@@ -2,6 +2,7 @@
 layout: term
 title: Electrophoretic Display
 description: Electrophoretic Display in SCI Knowledge Base
+category: technology
 ---
 An electrophoretic display (also known as electronic ink display) is an electronic display based on the phenomenon of electrophoresis to mimic the appearance ordinary ink on paper. Negatively and positively charged pigment particles stored in microcapsules form images by applying a positive or negative electric field. Images are still visible after all power sources have been removed, because the display only consumes power whenever the image changes. However, so-called active displays are refreshed at a given rate. Just like an ordinary book or newspaper, there is no need for a backlight as the surface of an electrophoretic display reflects ambient light back to the user. 
 

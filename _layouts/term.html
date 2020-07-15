@@ -1,13 +1,19 @@
 ---
 layout: plain
 ---
-<a href="{{ site.baseurl }}/terms-and-concepts/" alt="back to terms and concepts"><i class="fa fa-arrow-left"></i> back to Terms and Concepts</a>
+<a href="{{ site.baseurl }}/terms-and-concepts/" alt="back to terms and concepts"><i class="fa fa-arrow-left"></i> back to Terms & Concepts</a><br>
 
 <!-- main content -->
-<h4 class="strap">Term</h4>
-<h1 class="font-weight-bold">{{ page.title }}</h1>
-{{ content }}
+<div class="strap-wrapper">
+    <h4 class="strap">Term</h4>
+    {% if page.category %}      
+        <a class="capitalizeAll topic topic-{{ page.category | downcase | strip | replace:'user experience', 'user-experience'}}" href="{{ site.baseurl }}/{{ page.category | downcase | strip | replace:'user experience', 'user-experience' }}/">{{ page.category }}</a>
+    {% endif %} 
+</div>
 
+<h1 class="font-weight-bold">{{ page.title }}</h1>
+
+{{ content }}
 
 <hr class="panel-line">
 

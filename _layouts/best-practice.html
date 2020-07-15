@@ -1,7 +1,8 @@
 ---
 layout: plain
 ---
-{% include breadcrumb-best-practice.html %}
+
+<a href="{{ site.baseurl }}/best-practices/" alt="back to best practices"><i class="fa fa-arrow-left"></i> back to Best Practices</a><br>
 
 <!--optional banner image -->
 {% if page.image %}
@@ -12,12 +13,17 @@ layout: plain
 {% endif %}
 
 <!-- main content-->
-<h4 class="strap">Best Practice</h4>
+<div class="strap-wrapper">
+  <h4 class="strap">Best Practice</h4>
+  {% if page.category %}      
+      <a class="capitalizeAll topic topic-{{ page.category | downcase | strip | replace:'user experience', 'user-experience'}}" href="{{ site.baseurl }}/{{ page.category | downcase | strip | replace:'user experience', 'user-experience' }}/">{{ page.category }}</a>
+  {% endif %} 
+</div>
 {{ content }}
 <hr class="panel-line">
 
-<!--other best practices -->
-More Best Practices in <a class="topic topic-{{ page.category | downcase | strip | replace:'user experience', 'ux'}}" href="{{ site.baseurl }}/{{ page.category | downcase | strip | replace:'user experience', 'ux' }}/">{{ page.category | replace:'UX', 'User Experience'}}</a>
+<!--other best practices in same topic-->
+More Best Practices in <a class="capitalizeAll topic topic-{{ page.category | downcase | strip }}" href="{{ site.baseurl }}/{{ page.category | downcase | strip }}/">{{ page.category }}</a>
 
 <!-- ...in same category -->
 {% assign best-practices = site.best-practices | where: "category", page.category %}
@@ -34,7 +40,6 @@ More Best Practices in <a class="topic topic-{{ page.category | downcase | strip
   {% endif %}
 {%endfor%}
 </ul>
-
 
 {% include toc.html %}
 {% include permalinks.html %}

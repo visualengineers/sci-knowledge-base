@@ -2,6 +2,7 @@
 layout: concept
 title: Mood Board
 description: mood board in SCI Knowledge Base
+category: design
 image: https://images.unsplash.com/photo-1549716679-95380658d5cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80s
 image-credits: Photo by <a href="https://unsplash.com/@honeypoppet?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sandie Clarke</a> on <a href="/s/photos/canvas?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
 ---
