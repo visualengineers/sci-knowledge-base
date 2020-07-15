@@ -10,7 +10,7 @@ The Shape-Changing Interfaces Knowledge Base (SCI-KB) originates from the resear
 
 ![SCI-KB building blocks]({{ site.baseurl }}/assets/img/sci-kb-architecture.png)
 
-### Knowledge Modules
+### Modules
 
 The knowledge modules items [Terms]({{ site.baseurl }}/terms-and-concepts/#terms), [Concept]({{ site.baseurl }}/terms-and-concepts/#concepts) and [Best Practices]({{ site.baseurl }}/best-practices/) can be arranged in any combination and pervade each of the three conceptual levels “Learn”, “Apply” and “Contribute”. 
 
