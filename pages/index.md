@@ -12,7 +12,7 @@ The Shape-Changing Interfaces Knowledge Base (SCI-KB) originates from the resear
 
 ### Modules
 
-The knowledge modules items [Terms]({{ site.baseurl }}/terms-and-concepts/#terms), [Concept]({{ site.baseurl }}/terms-and-concepts/#concepts) and [Best Practices]({{ site.baseurl }}/best-practices/) can be arranged in any combination and pervade each of the three conceptual levels “Learn”, “Apply” and “Contribute”. 
+The knowledge modules items [Terms]({{ site.baseurl }}/terms-and-concepts/#terms), [Concept]({{ site.baseurl }}/terms-and-concepts/#concepts) and [Best Practices]({{ site.baseurl }}/best-practices/) can be arranged in any combination and pervade each of the three conceptual levels “Learn”, “Apply” and “Contribute”. Modules and levels of knowledge are inspired by [Bloom’s taxonomy of educational objectives](). Similarly, we also address factual knowledge on the lower levels (Learn, Terms, Concepts) and procedural knowledge on the higher levels (Contribute, Apply, Best Practices).
 
 **Term**. On the "Learn" level, each term explains a technical term for shape-changing interfaces, for example "Elastic Display". On the "Apply" level, examples show how the term is used in practice. The "Contribute" level invites users to modify or add terms.
 
@@ -21,6 +21,7 @@ The knowledge modules items [Terms]({{ site.baseurl }}/terms-and-concepts/#terms
 **Best Practice**. On the "Learn" level, a best practice explains a practical challenge that may arise in the design process of shape-changing interfaces, such as the choice of a suitable prototyping technology, and shows ways to overcome the challenge. On the "Apply" level, there are suggestions on how to train the solutions in a workshop using materials provided by the Concepts particularly. Workshop participants are invited to publish the results of their workshops on the "Contribute" level or to create their own best practice.
 
 ### Topics
+With the help of the supervised tag structure, knowledge items are grouped in the four thematic areas proposed by Alexander et al. for the classification of the research field on shape-changing interfaces (technological, behavioural, design and societal) \cite{10.1145/3173574.3173873}. In this way, a thematic access to the knowledge base is created. This division both separates disciplines within the field from each other and reflects successive stages of implementation. As a small difference, we have therefore renamed the category "behavioural" into "User Experience" to emphasize the steps of development.
 
 <div class="flex-start">
 {% assign groups = site.best-practices | group_by: "category" %}
@@ -31,7 +32,7 @@ The knowledge modules items [Terms]({{ site.baseurl }}/terms-and-concepts/#terms
 
 ### Workshop Builder
 
-With the [Workshop Builder]({{ site.baseurl }}/workshop-builder), modular workshops tailored to the custom needs can be composed from the knowledge items. Therefore, the starting point for a practical walkthrough through SCI-KB that is based on the context of the workshop and its objectives is suggested. The walktrough may be thematic, problem- or topic-oriented, a deep-dive into specific knowledge or explorative.
+With the [Workshop Builder]({{ site.baseurl }}/workshop-builder), you can find assistance in finding an arrangement of knowledge items, using them as building  blocks to conduct a workshop that is tailored to your individual needs. Based on the information you provide about the goal and context of the workshop, it will suggest suitable tools and your the starting point for a practical walk-through through SCI-KB. To match your needs, the walk-trough may be thematic, problem- or topic-oriented, a deep-dive into specific knowledge or explorative.
 
 ### Support
 
