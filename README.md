@@ -1,44 +1,18 @@
-visit the [SCI Knowledge Base homepage](https://visualengineers.github.io/sci-knowledge-base/)
+This documentation explains the general setup of the [Shape-Changing Interfaces Knowledge Base](https://visualengineers.github.io/sci-knowledge-base/)(SCI-KB), which individual changes were made to the template and how you can participate.
 
-## Documentation
-The documentation explains the general setup of the SCI-KB, which individual changes have been made and how to participate.
+## General Setup
 
-### General Setup
+Whenever committing to this repository, GitHub Pages will run the static site generator [Jekyll](https://jekyllrb.com/docs/) to rebuild the pages. Jekyll uses the [Liquid](https://shopify.github.io/liquid/basics/introduction/) templating language to process templates, providing a number of (really) useful Liquid additions to build the site such as filters to insert content automatically. 
 
-**Jekyll and Liquid**  
-Whenever committing to this repository, GitHub Pages will run the static site generator [Jekyll](https://jekyllrb.com/docs/) to rebuild the pages. Jekyll uses the Liquid templating language to process templates, providing a number of (really) useful Liquid additions to build the site such as filters to insert content automatically. See the official [Liquid Documentation](https://shopify.github.io/liquid/basics/introduction/) to learn more.
-
-**Theme**
-The name of the theme is stored in the Jekyll `_config.yml` configuration file. You can either choose from one of the supported themes or use a remote-theme. To enable a theme:
+**Themes**. You can either choose from one of the supported themes or use a remote-theme. Its name is stored in the Jekyll `_config.yml` configuration file via:
 
 `theme: theme-name` OR `remote_theme: "author/theme-name"`
 
 The current theme is the remote theme `vsoch/docsy-jekyll`. Custom modifications to the remote theme include the sidebar and navigation functionality, additional layout templates and includes, custom styling as well as data storage and queries.
 
-**Markdown**
-Unless you don't have any super special requests, Markdown makes it easy to style your writing. It includes conventions for
+**Markdown**. Unless you don't have any super special requests, Markdown makes it easy to style your writing. It includes conventions for syntax highlighted code blocks, headlines, lists, font styles and simplifies the insertion of images and links. 
 
-```markdown
-Syntax highlighted code block
-```
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-![Images](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSG5V-M6OvkJBvdLyY-zUSFBii4qqR9f5O7HWq4GAygHFZ5sjxm)
-
-[Links](url) 
-
-If you stumble upon a **broken link**, it is very likely you forgot to prepend the baseurl of the site (which is not automatically rendered). You can check the baseurl settings in the `_config.yml` configuration file. Fix: 
+If you stumble upon a **broken link** in SCI-KB, check if the baseurl of the site is prepended. (which is not automatically rendered). You can check the baseurl settings in the `_config.yml` configuration file. Quick fix: 
 
 `{{ site.baseurl }}/your-link` or `{{ site.baseurl }}/{{ custom-page.url }}` or `{{ custom-page.url | prepend: site.baseurl }}`
 
@@ -46,7 +20,7 @@ More fancy markdown: [GitHub Flavored Markdown](https://guides.github.com/featur
 
 **Kramdown**. Not yet satisfied? Kramdown is the default Markdown renderer for Jekyll, offering you additional options for styling. Add for example `{:.my-css-class}` to tell Kramdown you want to apply your fancy custom CSS.
 
-## SCI-KB Sepcials
+## SCI-KB Specials
 
 These path specifications and reusable code snippets are special for the SCI-KB. They have been created to structure the knowledge base and facilitate the insertion of new content.
 
@@ -63,7 +37,7 @@ Create a new markdown file (.md) in `best-practices`, `terms` (place under first
 Upload images into `assets > img`. 
 
 ### Linking To Knowledge
-Do you want to reference your content on other pages or did you discover a missing link? You can link content with the following syntax.
+Do you want to reference your content or did you discover a missing link? You can link content in markdown pages with the following syntax.
 
 - **Reference**    
 `[[title]](({{ site.baseurl }}/resources/#references)`
