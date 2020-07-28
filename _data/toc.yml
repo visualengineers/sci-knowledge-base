@@ -12,17 +12,22 @@
 - title: Topics
   url: index/#topics
   links:
-    - title: "Technology"
-      url: "technology"
-    - title: "UX"
-      url: "user-experience"
     - title: "Design"
       url: "design"
     - title: "Society"
       url: "society"
-    
-- title: "Workshop Builder"
-  url: workshop-builder
+    - title: "Technology"
+      url: "technology"
+    - title: "User Experience"
+      url: "user-experience"
+
+- title: Workshop
+  url: index/#workshop-builder
+  links:
+    - title: Interview
+      url: interview-workshops
+    - title: Workshop Builder
+      url: workshop-builder
 
 - title: Resources
   url: resources
