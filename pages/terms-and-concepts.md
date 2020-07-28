@@ -6,17 +6,18 @@ permalink: /terms-and-concepts/
 
 # Terms & Concepts
 
-Explore the vocabulary of shape-changing interfaces and its application. Feel free to share your own knowledge!  
-
-Each **term** explains a technical term for shape-changing interfaces and provides examples to illustrate how its used in practice. Just like of a cheat sheet, each **concept** explains an application-independent principle (such as design guidelines) that are useful for the implementation of a shape-changing interface. Additionally, concepts provide material to hold your own workshop.
+The terms and concepts primarily serve the level of factual knowledge by providing background knowledge to develop practical applications with shape-changing interfaces. Feel free to share your own knowledge!  
 
 ### Terms
+The terms each explain a technical term and illustrate it with practical examples.
 <ul class="plain column">{% for term in site.terms %} 
     <li><a href="{{ term.url | prepend: site.baseurl }}" alt="{{ term.description }}">{{ term.title }}</a></li>  
 {% endfor %}
 </ul>
 
 ### Concepts
+Concepts assist you in the development of any kind of shape-changing interface by giving you an overview over different techniques or explaning a transferable method. Additionally, they may provide workshop material.
+
 <ul class="tile">{% for concept in site.concepts %} 
     <li>
       <a href="{{ concept.url | prepend: site.baseurl }}" alt="{{ concept.description }}">
@@ -41,3 +42,6 @@ Each **term** explains a technical term for shape-changing interfaces and provid
     <p>{{ post.description }}</p>
     </div>{% endfor %}
 </div>
+
+<br>
+<p>Are you facing a tricky challenge or looking for practical applications? See the collection of <a href="{{site.baseurl}}/best-practices">Best Practices</a>.</p>

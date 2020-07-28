@@ -38,3 +38,6 @@ Read about a specific challenge and why it is important and what ways you have t
     <p>{{ post.description }}</p>
     </div>{% endfor %}
 </div>
+
+<br>
+<p>Are you looking for technical terms, methods and background knowledge? See the collection of <a href="{{site.baseurl}}/terms-and-concepts">Terms & Concepts</a>.</p>
