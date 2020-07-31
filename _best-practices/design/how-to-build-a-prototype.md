@@ -22,7 +22,6 @@ Take the frame and put your fabric over it. Fix the fabric on one long side. The
 <details markdown="1" open>
 <summary><h3>Examples</h3></summary> 
 
-![prototype]({{ site.baseurl }}/assets/img/prototype.jpg)
-![staplegun]({{ site.baseurl }}/assets/img/staplegun.jpg)
+![prototype]({{ site.baseurl }}/assets/img/prototype.png)
 
 </details>
