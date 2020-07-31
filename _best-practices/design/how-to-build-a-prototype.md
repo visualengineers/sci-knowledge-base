@@ -3,8 +3,8 @@ layout: best-practice
 title: "How to build a prototype"
 category: design
 lession: 10
-image: https://images.unsplash.com/photo-1581922819941-6ab31ab79afc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80
-image-credits: Photo by <a href="https://unsplash.com/@usgs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">USGS</a> on <a href="/s/photos/shape-change?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
+image: https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+image-credits: Photo by <a href="https://unsplash.com/@nicolasthomas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 permalink: /how-to-build-a-prototype/
 ---
 
