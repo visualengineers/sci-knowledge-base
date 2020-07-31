@@ -19,6 +19,6 @@ It is helpful to build a prototype in order to get a feeling for elasticity, han
 ### Execution  
 Take the frame and put your fabric over it. Fix the fabric on one long side. Then pull the fabric on the opposite long side slightly tighter and fix this side as well. Repeat this procedure for the two remaining sides.
 
-
-
+![prototype]({{ site.baseurl }}/assets/img/prototype.png)
+![staplegun]({{ site.baseurl }}/assets/img/staplegun.png)
 
