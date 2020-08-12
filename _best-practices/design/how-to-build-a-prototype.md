@@ -12,7 +12,7 @@ permalink: /how-to-build-a-prototype/
 It is helpful to build a prototype in order to get a feeling for elasticity, handling and the interaction possibilities of fabrics in relation to the Elastic Display. This is helpful in the beginning and especially when the possibilities to work directly on the Elastic Display are limited. A self-built prototype makes it easier to get started. In terms of possible designs, functions or navigation options, the prototype gives you first, but most importantly, essential impressions that are necessary to get a feel for how to work with a Elastic Display. The following is a list of the required materials and short instructions for creating a prototype of an Elastic Display.
 
 ### List of materials:
-* Picture frame / wooden frame
+* Picture frame / wooden frame (width 52cm / height 42cm)
 * Fabric (which is larger and wider than the frame)
 * Staple gun (or nails and a hammer)
 
