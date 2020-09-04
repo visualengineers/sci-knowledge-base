@@ -13,7 +13,7 @@ In the example pictures you can see how paper prototyping is used in combination
 <details markdown="1" open>
 <summary><h3>Examples</h3></summary> 
 
-![paper-prototyping]({{ site.baseurl }}/assets/img/paper_prototyping.png)
+![paper-prototyping]({{ site.baseurl }}/assets/img/paper_prototyping.JPG)
 
 </details>
 
