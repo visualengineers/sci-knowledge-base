@@ -19,6 +19,8 @@ It is helpful to build a prototype in order to get a feeling for elasticity, han
 ### Execution  
 Take the frame and put your fabric over it. Fix the fabric on one long side. Then pull the fabric on the opposite long side slightly tighter and fix this side as well. Repeat this procedure for the two remaining sides.
 
+To see how you can work with the Elastic Display prototype take a look at the following articles ["Paper-Prototyping"](https://visualengineers.github.io/sci-knowledge-base/concepts/paper-prototyping) or ["Stop-Motion"](https://visualengineers.github.io/sci-knowledge-base/concepts/stop-motion).
+
 <details markdown="1" open>
 <summary><h3>Examples</h3></summary> 
 
