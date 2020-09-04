@@ -8,7 +8,7 @@ image-credits: Photo by <a href="https://unsplash.com/@dose?utm_source=unsplash&
 ---
 Stop-motion is a simple form of animation and is used to create movies or short videos. Each scene is photographed individually and with each additional image the objects are minimally changed to simulate the movement of the objects.
 
-In the example pictures you can see how stop-motion is used in combination with the created prototype of an Elastic Display. You can find the article about the creation of an Elastic Display prototype here ["How to build a prototype"](https://visualengineers.github.io/sci-knowledge-base/how-to-build-a-prototype/)
+In the example pictures you can see how stop-motion is used in combination with the created prototype of an Elastic Display. You can find the article about the creation of an Elastic Display prototype here ["How to build a prototype"](https://visualengineers.github.io/sci-knowledge-base/how-to-build-a-prototype/).
 
 <details markdown="1" open>
 <summary><h3>Examples</h3></summary> 
