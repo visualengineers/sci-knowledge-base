@@ -13,7 +13,7 @@ In the example pictures you can see how stop-motion is used in combination with 
 <details markdown="1" open>
 <summary><h3>Examples</h3></summary> 
 
-![stop-motion]({{ site.baseurl }}/assets/img/stop-motion.JPG)
+![stop-motion]({{ site.baseurl }}/assets/img/stop_motion.JPG)
 
 </details>
 
