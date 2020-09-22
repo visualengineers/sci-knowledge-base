@@ -8,6 +8,7 @@ The Gestalt Principles of Visual Perception are a set of rules based on psycholo
 
 ## Figure-ground
 
+
 ## Similarity
 
 ## Proximity
