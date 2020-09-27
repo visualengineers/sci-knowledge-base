@@ -10,8 +10,6 @@ Best Practices cover practical challenges that may arise during the design proce
 
 Read about a specific challenge and why it is important and what ways you have to overcome it. Additional workshop instructions help you to quickly train your aquired knowledge in practice. You are invited to publish the results of your workshops or to create your own best practice.
 
-### Topics
-
 {% assign groups = site.best-practices | group_by: "category" %}
 
 {% for group in groups %}

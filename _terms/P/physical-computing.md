@@ -11,10 +11,10 @@ Physical computing is, in short, making interactive physical systems out of hard
 <details markdown="1" open>
 <summary><h3>Examples</h3></summary> 
 
-**I-CubeX** is a system of sensors, actuators and interfaces configured by a personal computer. It uses MIDI, Bluetooth or USB for communication, making it simply for music or visual artists to create and modify musical instruments or interactive installations.
+[I-CubeX](https://infusionsystems.com/catalog/info_pages.php/pages_id/117) is a system of sensors, actuators and interfaces configured by a personal computer. It uses MIDI, Bluetooth or USB for communication, making it simply for music or visual artists to create and modify musical instruments or interactive installations. See also the [I-CubeX demos](https://infusionsystems.com/catalog/info_pages.php/pages_id/137).
 
-An example for physical computing with an embedded system is the popular open-source **Arduino** platform, developed by italian researcher Massimo Banzi and his team since 2005. Making it possible to simplay control interactive objects or to interact with software applications the platform gained great popularity in interactive art installations.A huge numebr of installations can be discovered on the official [Arduino Project Hub](https://create.arduino.cc/projecthub?by=part&category=installations&part_id=11332&sort=trending).
+An example for physical computing with an embedded system is the popular open-source [Arduino](https://arduino.cc/) platform, developed by italian researcher Massimo Banzi and his team since 2005. Making it possible to simplay control interactive objects or to interact with software applications the platform gained great popularity in interactive art installations. A huge numebr of installations can be discovered on the official [Arduino Project Hub](https://create.arduino.cc/projecthub?by=part&category=installations&part_id=11332&sort=trending).
 
-The **Raspberry Pi** is a mini linux comupter on a SD card. Pins allow makers and hobbyists to connect electronic components, extend the capabilities with add-on boards and program physical devices in the real world, such as inputs like sensors and outputs like lights. Visit the offical [website](https://projects.raspberrypi.org/en/projects) to browse a number of tutorial-like projects.
+The [Raspberry Pi](https://www.raspberrypi.org/) is a mini linux comupter on a SD card. Pins allow makers and hobbyists to connect electronic components, extend the capabilities with add-on boards and program physical devices in the real world, such as inputs like sensors and outputs like lights. Visit the offical website to browse a number of [tutorial-like projects](https://projects.raspberrypi.org/en/projects).
 
 </details>

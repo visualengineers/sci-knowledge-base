@@ -1,10 +1,8 @@
 - title: About
   url: index
-- title: Best Practices
-  url: best-practices
-- title: Terms & Concepts
-  url: terms-and-concepts
+- title: Modules
+  url: index/#modules
+- title: Topics
+  url: topics
 - title: Resources
   url: resources
-- title: News
-  url: news

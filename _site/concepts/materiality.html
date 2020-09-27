@@ -20,19 +20,19 @@
 <link rel="icon" type="image/png" href="/sci-knowledge-base/assets/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/sci-knowledge-base/assets/favicons/android-192x192.png"sizes="192x192">
 
-<title>Tracking Technologies</title>
-<meta property="og:title" content="Tracking Technologies" />
-<meta property="og:description" content="tracking technologies in interactive visualizations" />
+<title>Materiality</title>
+<meta property="og:title" content="Materiality" />
+<meta property="og:description" content="materiality in SCI Knowledge Base" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://localhost:4000" />
 <meta property="og:site_name" content="http://localhost:4000" />
 
-<meta itemprop="name" content="Tracking Technologies">
-<meta itemprop="description" content="tracking technologies in interactive visualizations">
+<meta itemprop="name" content="Materiality">
+<meta itemprop="description" content="materiality in SCI Knowledge Base">
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tracking Technologies"/>
-<meta name="twitter:description" content="tracking technologies in interactive visualizations"/>
+<meta name="twitter:title" content="Materiality"/>
+<meta name="twitter:description" content="materiality in SCI Knowledge Base"/>
 
 <link rel="stylesheet" href="/sci-knowledge-base/assets/css/main.css">
 <link rel="stylesheet" href="/sci-knowledge-base/assets/css/palette.css">
@@ -58,16 +58,13 @@
           <a class="nav-link" href="/sci-knowledge-base/index" ><span>About</span></a>
 			</li>
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
-          <a class="nav-link" href="/sci-knowledge-base/best-practices" ><span>Best Practices</span></a>
+          <a class="nav-link" href="/sci-knowledge-base/index/#modules" ><span>Modules</span></a>
 			</li>
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
-          <a class="nav-link" href="/sci-knowledge-base/terms-and-concepts" ><span>Terms & Concepts</span></a>
+          <a class="nav-link" href="/sci-knowledge-base/topics" ><span>Topics</span></a>
 			</li>
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
           <a class="nav-link" href="/sci-knowledge-base/resources" ><span>Resources</span></a>
-			</li>
-			<li class="nav-item mr-4 mb-2 mb-lg-0">
-          <a class="nav-link" href="/sci-knowledge-base/news" ><span>News</span></a>
 			</li>
 		</ul>
 	</div>
@@ -109,7 +106,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">About SCI-KB</a>
+      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">About</a>
     </li>
 
     
@@ -117,7 +114,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index/#modules" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Modules</a>
+      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Modules</a>
     </li>
 
     
@@ -127,7 +124,7 @@ $(document).ready(function() {
             
             
             <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/best-practices" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Best Practices</a>
+              <a href="/sci-knowledge-base/terms" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Terms</a>
             </li>
 
             <ul>
@@ -139,7 +136,19 @@ $(document).ready(function() {
 
             
             <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/terms-and-concepts" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Terms & Concepts</a>
+              <a href="/sci-knowledge-base/concepts" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Concepts</a>
+            </li>
+
+            <ul>
+              <li class="collapse show" id="">
+                
+                
+              </li>
+            </ul>
+
+            
+            <li class="td-sidebar-nav__section-title">
+              <a href="/sci-knowledge-base/best-practices" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Best Practices</a>
             </li>
 
             <ul>
@@ -159,7 +168,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index/#topics" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Topics</a>
+      <a  href="/sci-knowledge-base/topics" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Topics</a>
     </li>
 
     
@@ -225,7 +234,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index/#workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop</a>
+      <a  href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop</a>
     </li>
 
     
@@ -288,8 +297,8 @@ $(document).ready(function() {
           </div>
           <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
               <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
-                  <a href="https://github.com/visualengineers/sci-knowledge-base/edit/master/_concepts/tracking-technologies.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
-<a href="https://github.com/visualengineers/sci-knowledge-base/issues/new?labels=question&title=Question:&body=Question on: https://github.com/visualengineers/sci-knowledge-base/tree/master/_concepts/tracking-technologies.md" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+                  <a href="https://github.com/visualengineers/sci-knowledge-base/edit/master/_concepts/materiality.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+<a href="https://github.com/visualengineers/sci-knowledge-base/issues/new?labels=question&title=Question:&body=Question on: https://github.com/visualengineers/sci-knowledge-base/tree/master/_concepts/materiality.md" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
 <a href="https://github.com/visualengineers/sci-knowledge-base/issues/new" target="_blank"><i class="fas fa-tasks fa-fw"></i> Create project issue</a>
 <!-- this will parse through the header fields and add a button to open
      an issue / ask a question on Github. The editable field should be in
@@ -307,49 +316,32 @@ $(document).ready(function() {
 	      <a href="/sci-knowledge-base/terms-and-concepts/" alt="back to terms and concepts"><i class="fa fa-arrow-left"></i> back to Terms & Concepts</a>
 
 
-  <img src="https://images.unsplash.com/photo-1549317336-206569e8475c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1834&q=80" class="image-banner"/>
 
-
-
-  <span class="image-credits">© Photo by <a href="https://unsplash.com/@zaks?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Zak Sakata</a> on <a href="/collections/9826918/laser%2Fled-lights?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 
 <!-- main content -->
 <div class="strap-wrapper">
   <h4 class="strap">Concept</h4>
         
-      <a class="capitalizeAll topic topic-technology" href="/sci-knowledge-base/technology/"><span class="capitalizeAll">technology</span></a>
+      <a class="capitalizeAll topic topic-design" href="/sci-knowledge-base/design/"><span class="capitalizeAll">design</span></a>
    
 </div>
 
-<h1 class="font-weight-bold">Tracking Technologies</h1>
+<h1 class="font-weight-bold">Materiality</h1>
+
+<p>…</p>
 
 <details open="">
   <summary><h3>Examples</h3></summary>
 
-  <p>There is no example yet. Feel free to <a href="https://github.com/visualengineers/sci-knowledge-base/edit/master/_concepts/tracking-technologies.md" target="_blank"><i class="fa fa-edit fa-fw"></i> edit this page</a>.</p>
+  <p><img src="/sci-knowledge-base/assets/img/moodboard.png" alt="moodboard" /></p>
 
 </details>
 
 
+
 <hr class="panel-line">
 
-
-
-
-    
-
-
-
-    
-
-
-
-    
-
-
-
-    
 
 
 
@@ -391,15 +383,54 @@ $(document).ready(function() {
         <div class="half-width">  
              
                    
-                <a href="/sci-knowledge-base/concepts/stop-motion"><i class="block-icon fa fa-chevron-circle-left fa-2x"></i>Stop-Motion</a>
+                <a href="/sci-knowledge-base/concepts/interaction-techniques"><i class="block-icon fa fa-chevron-circle-left fa-2x"></i>Tasks</a>
            
         </div> 
 
         <div class="half-width right-align">
+             
+                           
+            <a href="/sci-knowledge-base/concepts/moodboard"><i class="block-icon fa fa-chevron-circle-right fa-2x"></i>Mood Board</a>
            
         </div> 
 
     </div>
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
     
 
 
