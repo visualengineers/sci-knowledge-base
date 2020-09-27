@@ -38,4 +38,4 @@ Read about a specific challenge and why it is important and what ways you have t
 </div>
 
 <br>
-<p>Are you looking for technical terms, methods and background knowledge? See the collection of <a href="{{site.baseurl}}/terms-and-concepts">Terms & Concepts</a>.</p>
+<p>Are you looking for technical terms, methods and background knowledge? See the collection of <a href="{{site.baseurl}}/terms">Terms</a> and <a href="{{site.baseurl}}/concepts">Concepts</a>.</p>
