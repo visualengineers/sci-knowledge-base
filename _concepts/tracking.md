@@ -1,7 +1,7 @@
 ---
 layout: concept
-title: Tracking Technologies
-description: tracking technologies in interactive visualizations
+title: Tracking
+description: tracking
 category: technology
 image: https://images.unsplash.com/photo-1549317336-206569e8475c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1834&q=80
 image-credits: Photo by <a href="https://unsplash.com/@zaks?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Zak Sakata</a> on <a href="/collections/9826918/laser%2Fled-lights?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>

@@ -1,8 +1,10 @@
 ---
 layout: concept
-title: Data Transformation
-description: data transformation in interactive visualizations
-category: design
+title: REFLEX Software Framework
+description: REFLEX Software Framework
+category: technology
+image: 
+image-credits:
 ---
 
 <details markdown="1" open>

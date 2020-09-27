@@ -20,19 +20,19 @@
 <link rel="icon" type="image/png" href="/sci-knowledge-base/assets/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/sci-knowledge-base/assets/favicons/android-192x192.png"sizes="192x192">
 
-<title>Dot Voting</title>
-<meta property="og:title" content="Dot Voting" />
-<meta property="og:description" content="Dot Voting in SCI Knowledge Base" />
+<title>REFLEX Software Framework</title>
+<meta property="og:title" content="REFLEX Software Framework" />
+<meta property="og:description" content="REFLEX Software Framework" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://localhost:4000" />
 <meta property="og:site_name" content="http://localhost:4000" />
 
-<meta itemprop="name" content="Dot Voting">
-<meta itemprop="description" content="Dot Voting in SCI Knowledge Base">
+<meta itemprop="name" content="REFLEX Software Framework">
+<meta itemprop="description" content="REFLEX Software Framework">
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Dot Voting"/>
-<meta name="twitter:description" content="Dot Voting in SCI Knowledge Base"/>
+<meta name="twitter:title" content="REFLEX Software Framework"/>
+<meta name="twitter:description" content="REFLEX Software Framework"/>
 
 <link rel="stylesheet" href="/sci-knowledge-base/assets/css/main.css">
 <link rel="stylesheet" href="/sci-knowledge-base/assets/css/palette.css">
@@ -58,16 +58,13 @@
           <a class="nav-link" href="/sci-knowledge-base/index" ><span>About</span></a>
 			</li>
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
-          <a class="nav-link" href="/sci-knowledge-base/best-practices" ><span>Best Practices</span></a>
+          <a class="nav-link" href="/sci-knowledge-base/index/#modules" ><span>Modules</span></a>
 			</li>
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
-          <a class="nav-link" href="/sci-knowledge-base/terms-and-concepts" ><span>Terms & Concepts</span></a>
+          <a class="nav-link" href="/sci-knowledge-base/topics" ><span>Topics</span></a>
 			</li>
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
           <a class="nav-link" href="/sci-knowledge-base/resources" ><span>Resources</span></a>
-			</li>
-			<li class="nav-item mr-4 mb-2 mb-lg-0">
-          <a class="nav-link" href="/sci-knowledge-base/news" ><span>News</span></a>
 			</li>
 		</ul>
 	</div>
@@ -109,7 +106,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">About SCI-KB</a>
+      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">About</a>
     </li>
 
     
@@ -117,7 +114,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index/#modules" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Modules</a>
+      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Modules</a>
     </li>
 
     
@@ -127,7 +124,7 @@ $(document).ready(function() {
             
             
             <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/best-practices" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Best Practices</a>
+              <a href="/sci-knowledge-base/terms" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Terms</a>
             </li>
 
             <ul>
@@ -139,7 +136,19 @@ $(document).ready(function() {
 
             
             <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/terms-and-concepts" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Terms & Concepts</a>
+              <a href="/sci-knowledge-base/concepts" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Concepts</a>
+            </li>
+
+            <ul>
+              <li class="collapse show" id="">
+                
+                
+              </li>
+            </ul>
+
+            
+            <li class="td-sidebar-nav__section-title">
+              <a href="/sci-knowledge-base/best-practices" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Best Practices</a>
             </li>
 
             <ul>
@@ -159,7 +168,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index/#topics" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Topics</a>
+      <a  href="/sci-knowledge-base/topics" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Topics</a>
     </li>
 
     
@@ -225,7 +234,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index/#workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop</a>
+      <a  href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop</a>
     </li>
 
     
@@ -288,8 +297,8 @@ $(document).ready(function() {
           </div>
           <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
               <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
-                  <a href="https://github.com/visualengineers/sci-knowledge-base/edit/master/_concepts/dot-voting.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
-<a href="https://github.com/visualengineers/sci-knowledge-base/issues/new?labels=question&title=Question:&body=Question on: https://github.com/visualengineers/sci-knowledge-base/tree/master/_concepts/dot-voting.md" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+                  <a href="https://github.com/visualengineers/sci-knowledge-base/edit/master/_concepts/software-framework.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+<a href="https://github.com/visualengineers/sci-knowledge-base/issues/new?labels=question&title=Question:&body=Question on: https://github.com/visualengineers/sci-knowledge-base/tree/master/_concepts/software-framework.md" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
 <a href="https://github.com/visualengineers/sci-knowledge-base/issues/new" target="_blank"><i class="fas fa-tasks fa-fw"></i> Create project issue</a>
 <!-- this will parse through the header fields and add a button to open
      an issue / ask a question on Github. The editable field should be in
@@ -304,56 +313,64 @@ $(document).ready(function() {
           </div>
           <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
            <div class="td-content">
-	      <a href="/sci-knowledge-base/terms-and-concepts/" alt="back to terms and concepts"><i class="fa fa-arrow-left"></i> back to Terms & Concepts</a>
-
-
-  <img src="https://images.unsplash.com/photo-1535813381253-2917d694ff3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1866&q=80" class="image-banner"/>
+	      <a href="/sci-knowledge-base/concepts/" alt="back to concepts"><i class="fa fa-arrow-left"></i> back to concepts</a>
 
 
 
-  <span class="image-credits">© Photo by <a href="https://unsplash.com/@katiemcnabb?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Katie McNabb</a> on <a href="/s/photos/dots?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 
 <!-- main content -->
 <div class="strap-wrapper">
   <h4 class="strap">Concept</h4>
         
-      <a class="capitalizeAll topic topic-society" href="/sci-knowledge-base/society/"><span class="capitalizeAll">society</span></a>
+      <a class="capitalizeAll topic topic-technology" href="/sci-knowledge-base/technology/"><span class="capitalizeAll">technology</span></a>
    
 </div>
 
-<h1 class="font-weight-bold">Dot Voting</h1>
-
-<p>Dot voting is a democratic and straightforward voting activity for recognizing preferences among limited options in a group.</p>
-
-<ol>
-  <li>Participants are each given a set number of dot stickers.</li>
-  <li>They place dot stickers next to options presented that they like.</li>
-  <li>Options with the most dots win (winner-takes-all)</li>
-</ol>
-
-<p>Dot voting has several weaknesses, such as persuaded voting, group voting or even split among the first two options that can cause false or misleading results. Adaptations and constraints to prevent these common pitfalls are:</p>
-
-<ul>
-  <li>Digital voting, e.g. using <a href="https://mural.co">Mural.co</a> or <a href="https://miro.com/">Miro</a></li>
-  <li>Give voters time to research the alternatives</li>
-  <li>Dictating a voting order</li>
-  <li>Ranking/weighting each participant’s dots, i.e. “SuperDots”</li>
-  <li>Color-code votes to signify different voting criteria</li>
-</ul>
+<h1 class="font-weight-bold">REFLEX Software Framework</h1>
 
 <details open="">
   <summary><h3>Examples</h3></summary>
 
-  <p><img src="/sci-knowledge-base/assets/img/dot-voting.jpg" alt="Dot Voting" />
-image source: https://www.linkedin.com/pulse/dotmocracy-broken-jason-diceman</p>
+  <p>There is no example yet. Feel free to <a href="https://github.com/visualengineers/sci-knowledge-base/edit/master/_concepts/software-framework.md" target="_blank"><i class="fa fa-edit fa-fw"></i> edit this page</a>.</p>
 
 </details>
 
 
-
 <hr class="panel-line">
 
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
 
 
 
@@ -379,38 +396,18 @@ image source: https://www.linkedin.com/pulse/dotmocracy-broken-jason-diceman</p>
         <div class="half-width">  
              
                    
-                <a href="/sci-knowledge-base/concepts/data-transformation"><i class="block-icon fa fa-chevron-circle-left fa-2x"></i>Data Transformation</a>
+                <a href="/sci-knowledge-base/concepts/scenario"><i class="block-icon fa fa-chevron-circle-left fa-2x"></i>Scenario</a>
            
         </div> 
 
         <div class="half-width right-align">
              
                            
-            <a href="/sci-knowledge-base/concepts/gesture-alphabet"><i class="block-icon fa fa-chevron-circle-right fa-2x"></i>Gesture Alphabet</a>
+            <a href="/sci-knowledge-base/concepts/stop-motion"><i class="block-icon fa fa-chevron-circle-right fa-2x"></i>Stop Motion</a>
            
         </div> 
 
     </div>
-    
-
-
-
-    
-
-
-
-    
-
-
-
-    
-
-
-
-    
-
-
-
     
 
 

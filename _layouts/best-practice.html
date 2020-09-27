@@ -23,7 +23,7 @@ layout: plain
 <hr class="panel-line">
 
 <!--other best practices in same topic-->
-More Best Practices in <a class="capitalizeAll topic topic-{{ page.category | downcase | strip }}" href="{{ site.baseurl }}/{{ page.category | downcase | strip }}/">{{ page.category }}</a>
+More Best Practices in <a class="capitalizeAll topic topic-{{ page.category | downcase | strip }}" href="{{ site.baseurl }}/{{ page.category | downcase | strip  | replace:'user experience', 'user-experience' }}/">{{ page.category }}</a>
 
 <!-- ...in same category -->
 {% assign best-practices = site.best-practices | where: "category", page.category %}

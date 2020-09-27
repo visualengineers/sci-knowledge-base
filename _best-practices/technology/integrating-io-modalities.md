@@ -11,8 +11,6 @@ permalink: /integrating-io-modalities/
 # Integrating I/O Modalities
 Today’s shape-changing interfaces typically focus on shape input and output, with less emphasis on other modalities—for instance, visual output is often realised by projection mapping or low resolution LEDs. While this is acceptable for early research prototypes, successful real-world interfaces will demand additional input and output modalities. This includes high-resolution touch sensing, in-place visual output, adjustable material properties and accurate sensing of the device’s physical shape. Without this core integration, shapechanging interfaces will fail to realise their full potential.
 
-**Workshop.** Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
 <details markdown="1" open>
 <summary><h3>Examples</h3></summary> 
 There is no example yet. Feel free to <a href="{{ site.repo }}/edit/master/{{ page.path }}" target="_blank"><i class="fa fa-edit fa-fw"></i> edit this page</a>.

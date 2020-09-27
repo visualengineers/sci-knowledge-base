@@ -8,14 +8,14 @@ permalink: /workshop-builder
 The Workshop Builder **helps you plan and prepare workshops that fit your needs**. You may use it in advance of each workshop as the preliminary questions are always the same and the tips and tools are reusable. First of all, it is important to know the context and goal of the workshop. Next, the basic procedure can be determined and the appropriate knowledge items can be arranged. 
 
 ## Customize Your Workshop
-Answer the following questions to get your personal Knowledge Item suggestions you can pick from. You will find workshop material and further instructions within each chosen Knowledge Item.
+Answer the following questions to get your personal suggestions for knowledge items you can pick from. You will find workshop material and further instructions within each chosen knowledge item.
 
 <div class="quizlist"></div>
 
 <ol id="questions">
     <li>    
         <h3>Define your aim</h3>
-        <p>Describe your goal as short and precise as possible. If you are stuck, perhaps the <a href="{{site.baseurl}}/terms/smart">S.M.A.R.T.</a> criteria or an “is not” analysis (excluding everything that is not the objective) will help.</p>   
+        <p>This is just to let you get focused. Describe your goal as short and precise as possible. If you are stuck, perhaps the <a href="{{site.baseurl}}/terms/smart">S.M.A.R.T.</a> criteria or an “is not” analysis (excluding everything that is not the objective) will help.</p>   
         <!--<input type="textarea" id="aim" name="aim" size="100" placeholder="Type your aim here">-->
         <textarea id="a-1" rows="1" cols="100%" placeholder="Type your aim here!"></textarea>
     </li>
@@ -81,24 +81,19 @@ Answer the following questions to get your personal Knowledge Item suggestions y
         <h3>Workplace</h3>
         <div id="l-1-plan">
         <p class="answer">You are working at the same place.</p>
-        These workshop tips for face-to-face collaboration might be helpful for you:
-        interview Franzi, some concepts
+        Read our interview with <a href="{{site.baseurl}}/interview-workshops">interview with Franziska</a> to get some valuable tips for holding your workshop.
         </div>
         <div id="l-2-plan">
         <p class="answer">You are working distributed.</p>
-        These tools and concepts for remote collaboration could be helpful for you: 
-        MIRO, some concepts
+        Do you already know <a href="https://miro.com/app">miro</a>? We think its a very powerful tool. <br>
+        You can work on online whiteboards together or sort out your ideas individually. 
         </div>
     </li>
     <li> 
         <h3>Challenge</h3>
         <div id="s-1-plan"> 
             <p class="answer">You are at a certain development stage / interested in a certain topic.</p>
-            We recommend a <b>thematic walktrough</b>. Search <a href="{{site.baseurl}}/best-practices">Best Practices</a> within a topic you are interested in and pick from the knowledge items.<br>
-            <a class="topic topic-technology" href="{{site.baseurl}}/technology">technology</a>
-            <a class="topic topic-ux" href="{{site.baseurl}}/ux">user experience</a>
-            <a class="topic topic-design" href="{{site.baseurl}}/design">design</a> 
-            <a class="topic topic-society" href="{{site.baseurl}}/society">society</a>.
+            We recommend a <b>thematic walktrough</b>. Pick from the knowledge items within <a href="{{site.baseurl}}/topics">topic</a> you are interested in.<br>
         </div>
         <div id="s-2-plan">
         <p class="answer">You are facing a complex challenge and don't know where to start.</p>

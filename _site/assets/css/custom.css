@@ -199,6 +199,15 @@ p.answer {
     padding: 1em;
 }
 
+p.counts {
+    font-size: .88rem;
+    font-weight: 600;
+}
+
+p.margin-top {
+    margin-top: 1.5em;
+}
+
 .topic:hover {
     cursor: pointer;
 }
@@ -248,6 +257,11 @@ p.answer {
     width: fit-content;
 }
 
+.topic-centered {
+    display: block;
+    margin: 1em auto important;
+}
+
 .media-wrapper {
     margin-bottom: 2em;
 }
@@ -270,7 +284,7 @@ ul li {
 }
 
 ul.spacious li {
-    margin-bottom: 0.7rem;
+    margin-bottom: .7rem;
 }
 
 /*list styles*/
@@ -321,6 +335,7 @@ ul.spacious li {
   ul.tile li {
     margin: .7rem 0 1.5rem 0;
     width: 100%;
+    position: relative;
   }
 
   ul.tile li img {
@@ -535,6 +550,11 @@ hr.panel-line {
     padding-right: 3rem!important;
 }
 
+p.counts {
+    position: absolute;
+    bottom: -2rem;
+}
+
 .pl-md-5,
 .px-md-5 {
     padding-left: 3rem!important;
@@ -551,7 +571,7 @@ ul.column {
 
 ul.tile li {
     width: calc(100% / 2.1);
-    height: 200px;
+    height: auto;
 }
 
 }

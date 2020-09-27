@@ -1,16 +1,18 @@
-- title: About SCI-KB
+- title: About
   url: index
 
 - title: Modules
-  url: index/#modules
+  url: index
   links:
+    - title: Terms
+      url: terms
+    - title: Concepts
+      url: concepts
     - title: Best Practices
       url: best-practices
-    - title: Terms & Concepts
-      url: terms-and-concepts
 
 - title: Topics
-  url: index/#topics
+  url: topics
   links:
     - title: "Design"
       url: "design"
@@ -22,7 +24,7 @@
       url: "user-experience"
 
 - title: Workshop
-  url: index/#workshop-builder
+  url: workshop-builder
   links:
     - title: Interview
       url: interview-workshops

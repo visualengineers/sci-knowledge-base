@@ -20,20 +20,20 @@
 <link rel="icon" type="image/png" href="/sci-knowledge-base/assets/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/sci-knowledge-base/assets/favicons/android-192x192.png"sizes="192x192">
 
-<title>How to build a prototype</title>
-<meta property="og:title" content="How to build a prototype" />
+<title>Topics</title>
+<meta property="og:title" content="Topics" />
 <meta property="og:description" content="will appear in your document head meta (for Google search results) and in your feed.xml site description.
 " />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://localhost:4000" />
 <meta property="og:site_name" content="http://localhost:4000" />
 
-<meta itemprop="name" content="How to build a prototype">
+<meta itemprop="name" content="Topics">
 <meta itemprop="description" content="will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="How to build a prototype"/>
+<meta name="twitter:title" content="Topics"/>
 <meta name="twitter:description" content="will appear in your document head meta (for Google search results) and in your feed.xml site description.
 "/>
 
@@ -61,16 +61,13 @@
           <a class="nav-link" href="/sci-knowledge-base/index" ><span>About</span></a>
 			</li>
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
-          <a class="nav-link" href="/sci-knowledge-base/best-practices" ><span>Best Practices</span></a>
+          <a class="nav-link" href="/sci-knowledge-base/index/#modules" ><span>Modules</span></a>
 			</li>
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
-          <a class="nav-link" href="/sci-knowledge-base/terms-and-concepts" ><span>Terms & Concepts</span></a>
+          <a class="nav-link" href="/sci-knowledge-base/topics" ><span>Topics</span></a>
 			</li>
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
           <a class="nav-link" href="/sci-knowledge-base/resources" ><span>Resources</span></a>
-			</li>
-			<li class="nav-item mr-4 mb-2 mb-lg-0">
-          <a class="nav-link" href="/sci-knowledge-base/news" ><span>News</span></a>
 			</li>
 		</ul>
 	</div>
@@ -112,7 +109,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">About SCI-KB</a>
+      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">About</a>
     </li>
 
     
@@ -120,7 +117,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index/#modules" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Modules</a>
+      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Modules</a>
     </li>
 
     
@@ -130,7 +127,7 @@ $(document).ready(function() {
             
             
             <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/best-practices" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Best Practices</a>
+              <a href="/sci-knowledge-base/terms" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Terms</a>
             </li>
 
             <ul>
@@ -142,7 +139,19 @@ $(document).ready(function() {
 
             
             <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/terms-and-concepts" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Terms & Concepts</a>
+              <a href="/sci-knowledge-base/concepts" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Concepts</a>
+            </li>
+
+            <ul>
+              <li class="collapse show" id="">
+                
+                
+              </li>
+            </ul>
+
+            
+            <li class="td-sidebar-nav__section-title">
+              <a href="/sci-knowledge-base/best-practices" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Best Practices</a>
             </li>
 
             <ul>
@@ -162,7 +171,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index/#topics" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Topics</a>
+      <a  href="/sci-knowledge-base/topics" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Topics</a>
     </li>
 
     
@@ -228,7 +237,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index/#workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop</a>
+      <a  href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop</a>
     </li>
 
     
@@ -291,8 +300,8 @@ $(document).ready(function() {
           </div>
           <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
               <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
-                  <a href="https://github.com/visualengineers/sci-knowledge-base/edit/master/_best-practices/design/how-to-build-a-prototype.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
-<a href="https://github.com/visualengineers/sci-knowledge-base/issues/new?labels=question&title=Question:&body=Question on: https://github.com/visualengineers/sci-knowledge-base/tree/master/_best-practices/design/how-to-build-a-prototype.md" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+                  <a href="https://github.com/visualengineers/sci-knowledge-base/edit/master/pages/topics.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+<a href="https://github.com/visualengineers/sci-knowledge-base/issues/new?labels=question&title=Question:&body=Question on: https://github.com/visualengineers/sci-knowledge-base/tree/master/pages/topics.md" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
 <a href="https://github.com/visualengineers/sci-knowledge-base/issues/new" target="_blank"><i class="fas fa-tasks fa-fw"></i> Create project issue</a>
 <!-- this will parse through the header fields and add a button to open
      an issue / ask a question on Github. The editable field should be in
@@ -307,88 +316,67 @@ $(document).ready(function() {
           </div>
           <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
            <div class="td-content">
-	      <a href="/sci-knowledge-base/best-practices/" alt="back to best practices"><i class="fa fa-arrow-left"></i> back to Best Practices</a><br>
+	      <h1 id="topics">Topics</h1>
 
-<!--optional banner image -->
+<p>Topics describe 4 essential topics related to the field of shape-changing interfaces. The topics can also be interpreted as states of development.</p>
 
-  <img src="https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" class="image-banner"/>
+<!-- topic previews (link and desciption) -->
 
-
-  <span class="image-credits">© Photo by <a href="https://unsplash.com/@nicolasthomas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
-
-
-<!-- main content-->
-<div class="strap-wrapper">
-  <h4 class="strap">Best Practice</h4>
-        
-      <a class="capitalizeAll topic topic-design" href="/sci-knowledge-base/design/">design</a>
-   
-</div>
-<h1 id="how-to-build-a-prototype">How to build a prototype</h1>
-<p>It is helpful to build a prototype in order to get a feeling for elasticity, handling and the interaction possibilities of fabrics in relation to the Elastic Display. This is helpful in the beginning and especially when the possibilities to work directly on the Elastic Display are limited. A self-built prototype makes it easier to get started. In terms of possible designs, functions or navigation options, the prototype gives you first, but most importantly, essential impressions that are necessary to get a feel for how to work with a Elastic Display. The following is a list of the required materials and short instructions for creating a prototype of an Elastic Display.</p>
-
-<h3 id="list-of-materials">List of materials:</h3>
-<ul>
-  <li>Picture frame / wooden frame (width 52cm / height 42cm)</li>
-  <li>Fabric (which is larger and wider than the frame)</li>
-  <li>Staple gun (or nails and a hammer)</li>
-</ul>
-
-<h3 id="execution">Execution</h3>
-<p>Take the frame and put your fabric over it. Fix the fabric on one long side. Then pull the fabric on the opposite long side slightly tighter and fix this side as well. Repeat this procedure for the two remaining sides.</p>
-
-<p>To see how you can work with the Elastic Display prototype take a look at the following articles <a href="https://visualengineers.github.io/sci-knowledge-base/concepts/paper-prototyping">“Paper-Prototyping”</a> or <a href="https://visualengineers.github.io/sci-knowledge-base/concepts/stop-motion">“Stop-Motion”</a>.</p>
-
-<details open="">
-  <summary><h3>Examples</h3></summary>
-
-  <p><img src="/sci-knowledge-base/assets/img/prototype.png" alt="prototype" /></p>
-
-</details>
-
-<hr class="panel-line">
-
-<!--other best practices in same topic-->
-More Best Practices in <a class="capitalizeAll topic topic-design" href="/sci-knowledge-base/design/">design</a>
-
-<!-- ...in same category -->
-
-<ul class="tile">
-
-<!-- exclude current best practice from links -->
- 
-  <li>
-    <a href="/sci-knowledge-base/designing-application-and-content/">
-      <img src="https://images.unsplash.com/photo-1581922819941-6ab31ab79afc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80 /">
-      <h5>Designing Application and Content</h5>
-    </a>
-  </li>
-  
-
-<!-- exclude current best practice from links -->
- 
-  <li>
-    <a href="/sci-knowledge-base/designing-for-temporality/">
-      <img src="https://images.unsplash.com/photo-1498721454196-e1fe723c0374?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=80 /">
-      <h5>Designing for Temporality</h5>
-    </a>
-  </li>
-  
-
-<!-- exclude current best practice from links -->
+<ul class="plain tile">
 
 
-<!-- exclude current best practice from links -->
- 
-  <li>
-    <a href="/sci-knowledge-base/integrating-artefact-and-interaction/">
-      <img src="https://images.unsplash.com/photo-1489005718574-3a0254a199e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80 /">
-      <h5>Integrating Artefact and Interaction</h5>
-    </a>
-  </li>
-  
+
+
+
+
+
+<li>
+<a class="capitalizeAll topic topic-design" href="/sci-knowledge-base/design/">design</a>
+<p class="margin-top">The biggest differences to the traditional field of design is the responsiveness of shape-changing interfaces, the design and form of the artefacts, and their dynamic qualities. Shape-changing interfaces are unique in the integration of movement and transformation through actuation based on direct user input.</p>
+<p class="counts topic-design">4 Terms / 6 Concepts / 4 Best Practices</p>
+</li>
+
+
+
+
+
+
+
+<li>
+<a class="capitalizeAll topic topic-society" href="/sci-knowledge-base/society/">society</a>
+<p class="margin-top">The regulatory, ethical and sustainability implications of the development of shape-changing interfaces will impact the long-term adoption of this technology, therefore also its longterm development.</p>
+<p class="counts topic-society">1 Terms / 1 Concepts / 2 Best Practices</p>
+</li>
+
+
+
+
+
+
+
+<li>
+<a class="capitalizeAll topic topic-technology" href="/sci-knowledge-base/technology/">technology</a>
+<p class="margin-top">Technical issues of elastic displays deal with prototyping toolkits, miniaturisation of devices, I/O modalities and non-functional requirements.</p>
+<p class="counts topic-technology">15 Terms / 4 Concepts / 4 Best Practices</p>
+</li>
+
+
+
+
+
+
+
+<li>
+<a class="capitalizeAll topic topic-user-experience" href="/sci-knowledge-base/user-experience/">user experience</a>
+<p class="margin-top">User experience is all about the users’ understanding of, interaction with, and behaviour around shape-changing interfaces. Addressing these challenges will produce empirical and theoretical insight about behaviour.</p>
+<p class="counts topic-user-experience">7 Terms / 5 Concepts / 2 Best Practices</p>
+</li>
+
+
 
 </ul>
+
+
 
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -439,8 +427,7 @@ $.each(headers, function(i, header){
 })
 </script>
 
-<script>
-$('h1').first().append('<div></div>')</script>
+
 
 	
               

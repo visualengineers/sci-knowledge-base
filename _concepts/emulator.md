@@ -1,9 +1,13 @@
 ---
 layout: concept
-title: Data Aquisition
-description: data aquisition in interactive visualizations
-category: design
+title: Emulator
+description: Emulator
+category: technology
+image: 
+image-credits:
 ---
+
+We are currently developing an emulator for elastic displays. We hope that you can test it here soon.
 
 <details markdown="1" open>
 <summary><h3>Examples</h3></summary> 

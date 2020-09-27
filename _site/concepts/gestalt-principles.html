@@ -20,19 +20,19 @@
 <link rel="icon" type="image/png" href="/sci-knowledge-base/assets/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/sci-knowledge-base/assets/favicons/android-192x192.png"sizes="192x192">
 
-<title>Data Transformation</title>
-<meta property="og:title" content="Data Transformation" />
-<meta property="og:description" content="data transformation in interactive visualizations" />
+<title>Gestalt Principles</title>
+<meta property="og:title" content="Gestalt Principles" />
+<meta property="og:description" content="Gestalt Principles in SCI Knowledge Base" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://localhost:4000" />
 <meta property="og:site_name" content="http://localhost:4000" />
 
-<meta itemprop="name" content="Data Transformation">
-<meta itemprop="description" content="data transformation in interactive visualizations">
+<meta itemprop="name" content="Gestalt Principles">
+<meta itemprop="description" content="Gestalt Principles in SCI Knowledge Base">
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Data Transformation"/>
-<meta name="twitter:description" content="data transformation in interactive visualizations"/>
+<meta name="twitter:title" content="Gestalt Principles"/>
+<meta name="twitter:description" content="Gestalt Principles in SCI Knowledge Base"/>
 
 <link rel="stylesheet" href="/sci-knowledge-base/assets/css/main.css">
 <link rel="stylesheet" href="/sci-knowledge-base/assets/css/palette.css">
@@ -58,16 +58,13 @@
           <a class="nav-link" href="/sci-knowledge-base/index" ><span>About</span></a>
 			</li>
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
-          <a class="nav-link" href="/sci-knowledge-base/best-practices" ><span>Best Practices</span></a>
+          <a class="nav-link" href="/sci-knowledge-base/index/#modules" ><span>Modules</span></a>
 			</li>
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
-          <a class="nav-link" href="/sci-knowledge-base/terms-and-concepts" ><span>Terms & Concepts</span></a>
+          <a class="nav-link" href="/sci-knowledge-base/topics" ><span>Topics</span></a>
 			</li>
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
           <a class="nav-link" href="/sci-knowledge-base/resources" ><span>Resources</span></a>
-			</li>
-			<li class="nav-item mr-4 mb-2 mb-lg-0">
-          <a class="nav-link" href="/sci-knowledge-base/news" ><span>News</span></a>
 			</li>
 		</ul>
 	</div>
@@ -109,7 +106,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">About SCI-KB</a>
+      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">About</a>
     </li>
 
     
@@ -117,7 +114,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index/#modules" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Modules</a>
+      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Modules</a>
     </li>
 
     
@@ -127,7 +124,7 @@ $(document).ready(function() {
             
             
             <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/best-practices" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Best Practices</a>
+              <a href="/sci-knowledge-base/terms" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Terms</a>
             </li>
 
             <ul>
@@ -139,7 +136,19 @@ $(document).ready(function() {
 
             
             <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/terms-and-concepts" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Terms & Concepts</a>
+              <a href="/sci-knowledge-base/concepts" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Concepts</a>
+            </li>
+
+            <ul>
+              <li class="collapse show" id="">
+                
+                
+              </li>
+            </ul>
+
+            
+            <li class="td-sidebar-nav__section-title">
+              <a href="/sci-knowledge-base/best-practices" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Best Practices</a>
             </li>
 
             <ul>
@@ -159,7 +168,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index/#topics" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Topics</a>
+      <a  href="/sci-knowledge-base/topics" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Topics</a>
     </li>
 
     
@@ -225,7 +234,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index/#workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop</a>
+      <a  href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop</a>
     </li>
 
     
@@ -288,8 +297,8 @@ $(document).ready(function() {
           </div>
           <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
               <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
-                  <a href="https://github.com/visualengineers/sci-knowledge-base/edit/master/_concepts/data-transformation.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
-<a href="https://github.com/visualengineers/sci-knowledge-base/issues/new?labels=question&title=Question:&body=Question on: https://github.com/visualengineers/sci-knowledge-base/tree/master/_concepts/data-transformation.md" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+                  <a href="https://github.com/visualengineers/sci-knowledge-base/edit/master/_concepts/gestalt-principles.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+<a href="https://github.com/visualengineers/sci-knowledge-base/issues/new?labels=question&title=Question:&body=Question on: https://github.com/visualengineers/sci-knowledge-base/tree/master/_concepts/gestalt-principles.md" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
 <a href="https://github.com/visualengineers/sci-knowledge-base/issues/new" target="_blank"><i class="fas fa-tasks fa-fw"></i> Create project issue</a>
 <!-- this will parse through the header fields and add a button to open
      an issue / ask a question on Github. The editable field should be in
@@ -304,28 +313,58 @@ $(document).ready(function() {
           </div>
           <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
            <div class="td-content">
-	      <a href="/sci-knowledge-base/terms-and-concepts/" alt="back to terms and concepts"><i class="fa fa-arrow-left"></i> back to Terms & Concepts</a>
+	      <a href="/sci-knowledge-base/concepts/" alt="back to concepts"><i class="fa fa-arrow-left"></i> back to concepts</a>
+
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Gestalt.svg" class="image-banner"/>
 
 
 
+  <span class="image-credits">© Photo by Valessio / CC BY on <a href="https://creativecommons.org/licenses/by/4.0">https://creativecommons.org/licenses/by/4.0</a></span>
 
 
 <!-- main content -->
 <div class="strap-wrapper">
   <h4 class="strap">Concept</h4>
         
-      <a class="capitalizeAll topic topic-design" href="/sci-knowledge-base/design/"><span class="capitalizeAll">design</span></a>
+      <a class="capitalizeAll topic topic-user-experience" href="/sci-knowledge-base/user-experience/"><span class="capitalizeAll">user experience</span></a>
    
 </div>
 
-<h1 class="font-weight-bold">Data Transformation</h1>
+<h1 class="font-weight-bold">Gestalt Principles</h1>
+
+<p>The Gestalt Principles of Visual Perception are a set of rules based on psychological theories of human perception. They were developed in the 1920s by German psychologists Max Wertheimer, Kurt Koffka and Wolfgang Kohler who stated that the human brain is wired to see structure, logic, and patterns in order to make sense of the world. In other words, humans want to see structure by default. The principles are widely used in modern design asthey help designers to determine which design elements effectively catch the user’s attention, and create easy-to-use, intuitive products. The six most common rules are listed below.</p>
 
 <details open="">
-  <summary><h3>Examples</h3></summary>
-
-  <p>There is no example yet. Feel free to <a href="https://github.com/visualengineers/sci-knowledge-base/edit/master/_concepts/data-transformation.md" target="_blank"><i class="fa fa-edit fa-fw"></i> edit this page</a>.</p>
-
+  <summary><h3>Figure-ground</h3></summary>
+  <p>Humans organize their perception by interpreting closed shapes to be figures on a ground.</p>
 </details>
+
+<details open="">
+  <summary><h3>Proximity</h3></summary>
+  <p>Elements which are near to each other tend to be perceived as group.</p>
+</details>
+
+<details open="">
+  <summary><h3>Common fate</h3></summary>
+  <p>Elements pointing or moving in the same direction are perceived as group.</p>
+</details>
+
+<details open="">
+  <summary><h3>Similarity</h3></summary>
+  <p>Similar looking elements tend to be perceived as group.</p>
+</details>
+
+<details open="">
+  <summary><h3>Continuity</h3></summary>
+  <p>Humans recognize oriented elements as perceptual wholes and follow them in visual flow.</p>
+</details>
+
+<details open="">
+  <summary><h3>Closure</h3></summary>
+  <p>Humans tend to automatically fill the gaps between visual elements to complete shapes.</p>
+</details>
+
 
 
 <hr class="panel-line">
@@ -351,18 +390,30 @@ $(document).ready(function() {
         <div class="half-width">  
              
                    
-                <a href="/sci-knowledge-base/concepts/data-aquisition"><i class="block-icon fa fa-chevron-circle-left fa-2x"></i>Data Aquisition</a>
+                <a href="/sci-knowledge-base/concepts/emulator"><i class="block-icon fa fa-chevron-circle-left fa-2x"></i>Emulator</a>
            
         </div> 
 
         <div class="half-width right-align">
              
                            
-            <a href="/sci-knowledge-base/concepts/dot-voting"><i class="block-icon fa fa-chevron-circle-right fa-2x"></i>Dot Voting</a>
+            <a href="/sci-knowledge-base/concepts/gesture-alphabet"><i class="block-icon fa fa-chevron-circle-right fa-2x"></i>Gesture Alphabet</a>
            
         </div> 
 
     </div>
+    
+
+
+
+    
+
+
+
+    
+
+
+
     
 
 

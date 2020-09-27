@@ -61,16 +61,13 @@
           <a class="nav-link" href="/sci-knowledge-base/index" ><span>About</span></a>
 			</li>
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
-          <a class="nav-link" href="/sci-knowledge-base/best-practices" ><span>Best Practices</span></a>
+          <a class="nav-link" href="/sci-knowledge-base/index/#modules" ><span>Modules</span></a>
 			</li>
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
-          <a class="nav-link" href="/sci-knowledge-base/terms-and-concepts" ><span>Terms & Concepts</span></a>
+          <a class="nav-link" href="/sci-knowledge-base/topics" ><span>Topics</span></a>
 			</li>
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
           <a class="nav-link" href="/sci-knowledge-base/resources" ><span>Resources</span></a>
-			</li>
-			<li class="nav-item mr-4 mb-2 mb-lg-0">
-          <a class="nav-link" href="/sci-knowledge-base/news" ><span>News</span></a>
 			</li>
 		</ul>
 	</div>
@@ -112,7 +109,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">About SCI-KB</a>
+      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">About</a>
     </li>
 
     
@@ -120,7 +117,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index/#modules" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Modules</a>
+      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Modules</a>
     </li>
 
     
@@ -130,7 +127,7 @@ $(document).ready(function() {
             
             
             <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/best-practices" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Best Practices</a>
+              <a href="/sci-knowledge-base/terms" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Terms</a>
             </li>
 
             <ul>
@@ -142,7 +139,19 @@ $(document).ready(function() {
 
             
             <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/terms-and-concepts" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Terms & Concepts</a>
+              <a href="/sci-knowledge-base/concepts" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Concepts</a>
+            </li>
+
+            <ul>
+              <li class="collapse show" id="">
+                
+                
+              </li>
+            </ul>
+
+            
+            <li class="td-sidebar-nav__section-title">
+              <a href="/sci-knowledge-base/best-practices" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Best Practices</a>
             </li>
 
             <ul>
@@ -162,7 +171,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index/#topics" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Topics</a>
+      <a  href="/sci-knowledge-base/topics" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Topics</a>
     </li>
 
     
@@ -228,7 +237,7 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index/#workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop</a>
+      <a  href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop</a>
     </li>
 
     
@@ -325,74 +334,46 @@ $(document).ready(function() {
    
 </div>
 <h1 id="designing-application-and-content">Designing Application and Content</h1>
-<p>There is a significant challenge in the ‘when’, ‘what’, and ‘how’ of the design and implementation of applications and content. According to Alexander et al. in <a href="{site.baseurl}}/resources">Grand Challenges in Shape-Changing Interface Research</a> we can break this challenge into four parts that are described below. Perhaps you may skip a question that is not relevant for your aim.</p>
+<p>There is a significant challenge in the ‘when’, ‘what’, and ‘how’ of the design and implementation of applications and content. According to Alexander et al. in <a href="{site.baseurl}}/resources">Grand Challenges in Shape-Changing Interface Research</a> we can break this challenge into the four parts described below.</p>
 
-<h3 id="when-should-we-apply-shape-change">When should we apply shape-change?</h3>
-<p>Sometimes there is a clear benefit from using physically-dynamic interfaces in interaction scenarios, but sometimes traditional interfaces should be used instead.</p>
-
-<p><strong>Workshop.</strong>
-Differing between these cases remains an open research issue, but you can get closer by asking yourself the following questions: What are the characteristics of your interaction scenario? How would you solve it by using traditional interface techniques? Can you see any benefits from SCI use? First, it’s a good idea to clarify the tasks users might want to solve by interacting with your application by doing a task abstraction. Next, you can draft a traditional and a physically-dynamic interface to solve these tasks and compare both approaches.</p>
-
-<h3 id="what-shape-changes-should-we-apply">What shape-changes should we apply?</h3>
-<p>Key benefits of shape-changing interfaces is their ability to transform into a broad variety of shapes or forms. The space of possible shapes has to be designed with respect to the meaning it conveys. Currently there is a lack of understanding as to what types of change should occur in more abstract or generic circumstances (where shape may not naturally represent content).</p>
-
-<p><strong>Workshop.</strong>
- Ask yourself: What are the semantics of a specific shape change? Our Sets of Elastic Gestures provides assistance in defining suitable interactions on elastic displays.</p>
-
-<h3 id="what-applications-should-we-build">What applications should we build?</h3>
-<p>This is about identifying and exploring key application domains that provide clear benefits and routes to end-user engagement.</p>
-
-<p><strong>Workshop.</strong>
-Each SCI technology such as an actuated, flexible, elastic or embedded display is suited for specific domains and “killer applications”. Carefully read about the advantages and disadvantages of each technological approach to discuss which one is best suited.</p>
-
-<h3 id="how-do-we-design-the-content-for-those-applications">How do we design the content for those applications?</h3>
-
-<p><strong>Workshop.</strong>
+<ul>
+  <li>
+    <p><strong>When should we apply shape-change?</strong><br />
+Sometimes there is a clear benefit from using physically-dynamic interfaces in interaction scenarios, but sometimes traditional interfaces should be used instead. First, it’s a good idea to clarify the tasks users might want to solve by interacting with your application by doing a task abstraction. Next, you can draft a traditional and a physically-dynamic interface to solve these tasks and compare both approaches.</p>
+  </li>
+  <li>
+    <p><strong>What shape-changes should we apply?</strong> <br />
+Key benefits of shape-changing interfaces is their ability to transform into a broad variety of shapes or forms. The space of possible shapes has to be designed with respect to the meaning it conveys, i.e. what are the semantics of a specific shape change? Currently there is a lack of understanding as to what types of change should occur in more abstract or generic circumstances (where shape may not naturally represent content).</p>
+  </li>
+  <li>
+    <p><strong>What applications should we build?</strong>    <br />
+This is about identifying and exploring key application domains that provide clear benefits and routes to end-user engagement. Each SCI technology such as an actuated, flexible, elastic or embedded display is suited for specific domains and “killer applications”. Read about the advantages and disadvantages of each technological approach and discuss which one is best suited.</p>
+  </li>
+  <li>
+    <p><strong>How do we design the content for those applications?</strong>  <br />
 In an early state it will do the trick to use rather general brainstorming techniques to identify possible application scenarios, i.e. by using Mindmaps or Picture Collections. Later on, use Personas and Scenarios to bring the needs of the user into harmony with the application context. Before the application is implemented we suggest to make use of an appropriate prototyping technique such as using an emulator to test the application’s behaviour.</p>
-
-<p>Set up the prerequisites. Are you already familiar with the context of your workshop? This includes carving out the goal and rough procedure of the workshop and determining the location where it takes place. You may use the <a href="/sci-knowledge-base/workshop-builder">Workshop Builder</a> for this purpose.</p>
+  </li>
+</ul>
 
 <details open="">
   <summary><h3>Examples</h3></summary>
 
-  <h3 id="shaping-the-application-content">Shaping the Application Content</h3>
-  <p>We conductued an online workshop with 10 participants to design the content of a layer-based application for a collaborative use of elastic displays. The application focuses on the testing of possibilities for collaboration, visualization, data manipulation/persistence, linking of data as well as marking, zoom and filtering. For this purpose it had to be answered whether the application should be realized as a table or wall display and which data would support our particular task.</p>
+  <h3 id="content-design-for-elastic-display-application">Content Design for Elastic Display Application</h3>
+  <p>To design the content for a layer-based application on an elastic displays, we conducted an online workshop with <a href="https://miro.com/">MIRO</a>. The application focuses on the testing of possibilities for collaboration, visualization, data manipulation and persistence, linking of data as well as marking, zoom and filtering. For this purpose it had to be answered whether the application should be realized as a table or wall display and which data would support our particular task.</p>
 
-  <p><strong>Outline</strong></p>
-  <ul>
-    <li>Einleitung: Vorstellung des Ziels
-Aim: Define use case for layered-based application on an elastic display to work on for next 6 months</li>
-    <li>Vorstellung Themenfelder</li>
-    <li>Vorstellung der Ideen</li>
-    <li>Themenspezifisches Frame</li>
-    <li>Themenverantwortlichen für die Vorstellung festlegen</li>
-    <li>Vorstellung der Themenframes</li>
-    <li>Taxonomien festlegen (anschließender Workshop)</li>
-    <li>Meinungsbild</li>
-  </ul>
+  <p><strong>Outline.</strong> Prior to the workshop, a <a href="/sci-knowledge-base/concepts/moodboard">mood board</a> with possible topics was created for inspiration. In a mixture of both individual and collaborative free drawing on digital canvas, we identified four application domains in which layered data is used in collaborative contexts:</p>
+  <ol>
+    <li>urban planning</li>
+    <li>museums / art</li>
+    <li>climate</li>
+    <li>data management</li>
+  </ol>
 
-  <p>Moderator bereitet Board vor, lädt ein</p>
-  <ul>
-    <li>Tools und Thema vorstellen, aktueller Stand</li>
-    <li>Einzelarbeit</li>
-    <li>Präsentation</li>
-    <li>Gruppenarbeit</li>
-    <li>Voting</li>
-  </ul>
+  <p><img src="/sci-knowledge-base/assets/img/bp-example-topics.png" alt="possible topics for inspiration" /></p>
 
-  <p><strong>Results</strong>
-Urban Planning Scenario
-some impressions, add images!</p>
+  <p><strong>Results.</strong> Using dot voting technique, we finally decided on urban planning scenario and optional integrate climate issues. Art and data management were considered to be suitable for the visualization of abstract data in a separate use case.</p>
 
-  <p><strong>Used Tools &amp; Techniques</strong></p>
-  <ul>
-    <li><a href="https://miro.com/">MIRO</a></li>
-    <li>Skype</li>
-    <li><a href="/sci-knowledge-base/concepts/moodboard">Mood Board</a></li>
-    <li>Mind Map</li>
-    <li>Collaborative free drawing on digital canvas</li>
-    <li><a href="/sci-knowledge-base/concepts/dot-voting">Dot Voting</a></li>
-  </ul>
+  <p><img src="/sci-knowledge-base/assets/img/bp-example-dot-voting.png" alt="dot voting results" /></p>
 
 </details>
 
@@ -407,6 +388,16 @@ More Best Practices in <a class="capitalizeAll topic topic-design" href="/sci-kn
 <ul class="tile">
 
 <!-- exclude current best practice from links -->
+ 
+  <li>
+    <a href="/sci-knowledge-base/design-prototyping/">
+      <img src="https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80 /">
+      <h5>Design Prototyping</h5>
+    </a>
+  </li>
+  
+
+<!-- exclude current best practice from links -->
 
 
 <!-- exclude current best practice from links -->
@@ -415,16 +406,6 @@ More Best Practices in <a class="capitalizeAll topic topic-design" href="/sci-kn
     <a href="/sci-knowledge-base/designing-for-temporality/">
       <img src="https://images.unsplash.com/photo-1498721454196-e1fe723c0374?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=80 /">
       <h5>Designing for Temporality</h5>
-    </a>
-  </li>
-  
-
-<!-- exclude current best practice from links -->
- 
-  <li>
-    <a href="/sci-knowledge-base/how-to-build-a-prototype/">
-      <img src="https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80 /">
-      <h5>How to build a prototype</h5>
     </a>
   </li>
   

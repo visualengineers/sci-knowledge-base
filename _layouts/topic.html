@@ -5,10 +5,12 @@ layout: plain
 <h4 class="strap">Topic</h4>
 <h1 class="capitalizeAll topic-{{ page.title | downcase | strip | replace:'user experience', 'user-experience'}} topic-headline">{{ page.title }}</h1>
 
+{{ page.description }}
+
 {{ content }}
 
-<h3>Best Practices</h3>
 {% assign best-practices = site.best-practices | where: "category", page.title %}
+<h3>Best Practices ({{ best-practices.size }})</h3>
 
 <ul class="tile">
 {% for item in best-practices %}
@@ -21,19 +23,18 @@ layout: plain
 {%endfor%}
 </ul>
 
-<h3>Terms</h3>
-
-<!--<span class="capitalizeAll">{{ page.category | downcase | replace:'user-experience', 'User Experience' }}</span>-->
 {% assign terms = site.terms | where: "category", page.title %}
+<h3>Terms ({{ terms.size }})</h3>
+
 <ul class="plain column">
   {% for item in terms %} 
   <li><a href="{{ item.url | prepend: site.baseurl }}" alt="{{ item.description }}">{{ item.title }}</a></li>  
   {% endfor %}
 </ul>
 
-<h3>Concepts</h3>
-
 {% assign concepts = site.concepts | where: "category", page.title %}
+<h3>Concepts ({{ concepts.size }})</h3>
+
 <ul class="tile">{% for item in concepts %} 
   <li>
     <a href="{{ item.url | prepend: site.baseurl }}" alt="{{ item.description }}">
@@ -50,13 +51,9 @@ layout: plain
 {% endfor %}
 </ul>
 
-
-
-
-
 <hr class="panel-line">
 <h4>Other Topics</h4>
-{% assign groups = site.best-practices | group_by: "category" | where_exp: "group", "group.name != page.title"%}
+{% assign groups = site.best-practices | group_by: "category" | where_exp: "group", "group.name != page.title" %}
 {% for group in groups %}
 <a class="capitalizeAll topic topic-{{ group.name | downcase | strip | replace:'user experience', 'user-experience'}}" href="{{ site.baseurl }}/{{ group.name | downcase | strip | replace:'user experience', 'user-experience' }}/">{{ group.name }}</a>
 {% endfor %}
