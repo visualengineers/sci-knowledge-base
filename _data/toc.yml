@@ -1,16 +1,6 @@
 - title: About
   url: index
 
-- title: Modules
-  url: index
-  links:
-    - title: Terms
-      url: terms
-    - title: Concepts
-      url: concepts
-    - title: Best Practices
-      url: best-practices
-
 - title: Topics
   url: topics
   links:
@@ -23,13 +13,23 @@
     - title: "User Experience"
       url: "user-experience"
 
+- title: Modules
+  url: index
+  links:
+    - title: Terms
+      url: terms
+    - title: Concepts
+      url: concepts
+    - title: Best Practices
+      url: best-practices
+
 - title: Workshop
   url: workshop-builder
-  links:
-    - title: Interview
-      url: interview-workshops
+  links:    
     - title: Workshop Builder
       url: workshop-builder
+    - title: Interview
+      url: interview-workshops
 
 - title: Resources
   url: resources
