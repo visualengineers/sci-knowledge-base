@@ -43,10 +43,10 @@ collections:
     permalink: /:collection/:title
   best-practices:
     output: true
-    permalink: /:collection:/:title
+    permalink: /:collection/:title
     sort_by: lession
   interviews:
     output: true
-    permalink: /:collection:/:title
+    permalink: /:collection/:title
     
 remote_theme: "vsoch/docsy-jekyll"
