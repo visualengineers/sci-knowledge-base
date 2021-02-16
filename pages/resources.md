@@ -13,13 +13,17 @@ additional resources related to the research on Elastic Displays
 
 {% assign interviews = site.interviews %}
 
-<ul>
+<ul class="tile">
     {% for interview in interviews %}
-    <li>
+    <li class="quote">     
+        {% if interview.image-credits %}
+        <p>{{ interview.image-credits }}</p>
+        {% endif %}
         <a href="{{ interview.url | prepend: site.baseurl }}">
-            <h5>{{ interview.title }}</h5>
+            <h5>"{{ interview.title }}"</h5>  
         </a>
     </li>
+  
     {%endfor%}
 </ul>
 
