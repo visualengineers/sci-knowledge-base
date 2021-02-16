@@ -12,10 +12,23 @@ additional resources related to the research on Elastic Displays
 
 <ul class="spacious">
 <li>
-    Interview with Franziska Hannß on Holding Workshops: <a href="{{ site.baseurl }}/interview-workshops/">"Intensive social exchange enables a deep common understanding of the facts."</a>
+    Interview with Franziska Hannß on Holding Workshops: <a href="{{ site.baseurl }}/interviews/workshops/">"Intensive social exchange enables a deep common understanding of the facts."</a>
 </li>
 </ul>
 </details>
+
+{% assign interviews = site.interviews %}
+
+<ul>
+{% for interview in interviews %}
+<li>
+    <a href="{{ interview.url | prepend: site.baseurl }}">
+        <h5>{{ interview.title }}</h5>
+    </a>
+</li>
+{%endfor%}
+</ul>
+
 
 <details markdown="1" open>
 <summary><h3>References</h3></summary> 
