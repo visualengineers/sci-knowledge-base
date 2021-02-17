@@ -2,71 +2,50 @@
 layout: interview
 title:  "Basically, the display is a trampoline."
 teaser: Stefan Gehrke and Martin Herrmann on elastic display construction and materials, projection issues and practical challenges.
-image: 
+image: /sci-knowledge-base/assets/img/table-construction.jpg
 image-credits: Stefan Gehrke, Martin Herrmann
 ---
 
-**Was für Displays habt ihr bislang gebaut?**
+**What are the main components of an elastic display?**  
+Standing in front of the display, you see an elastic interaction surface, an elastic fabric stretched in a frame. A beamer and depth camera are mounted in a construction on the rear. We use this to capture the deformation of the interaction surface and project images onto the fabric. That' s the hardware, but of course it needs a corresponding software application to make it work.
 
-Display Wall
-4 verschiedene Tische (Heinz Nixdorf Forum, TU Dresden, GTV/HTW Prototyp, GTV/HTW) alle Rechteckig
-in Planung: Kreisrunder Tisch
+**How did you proceed?**  
+About like this:  
+1. Select a beamer: best with wide angle, so you get a sufficiently large projection surface even at short distances like table height.
+2. Calculate the size of the table: based on the projection surface (width/length/height). Pay attention to the format of the projected image (16:9, 4:3).
+3. Select material for the table substructure (wood, metal)
+4. Choose type of covering and fabric: e.g. magnetic, clamped, fastened with eyelets or springs. The table size may have to be adjusted accordingly.
 
-**Was sind die Unterschiede?**
-@mmueller kannst du hier nochmal schauen was die Unterschiede für die Tische des HNF, TU Dresden + FlexiWall und zu unseren neuen Tischen sind? An den Projekten war ich nicht beteiligt und kann daher dazu nicht so viel sagen (SGE)
-GTV/HTW Prototyp:
+**What must be paid extra attention to?**  
+The table construction must be particularly robust if several people work at the table and frequently bump into it.
+A shaky table also distorts the calibration of the depth camera/projector image afterwards, which has an undesirable effect on the performance of the application.
+Calculating the table size and surface may be a little tricky. For one thing, it has to fit the format and resolution of the beamer and depth camera. This is essential if we are to make full use of the projection surface and at the same time capture the interactions on it in the best possible way. Secondly, the mounting of the fabric has an influence on the size of the table. A spring suspension, for example, needs additional space on the frame.
 
-Holzkonstruktion besonders günstige und schnelle Variante, variable Rahmengröße. Besonderheit: Stoffaufhängung mithilfe von Federn um gleichmäßigen "Druckwiderstand" zu erreichen (leider keine Studie um Vorteile/Nachteile der Aufhängung zu untersuchen.
+**What can you say about the materials for the display surface?**  
+The surface is made of an elastic material and has to meet several requirements. It has to be easy to grip, translucent but not transparent, robust and should allow for the same interactions both at the edge and in the middle. We are currently using Lycra as textile and attaching it to the display frame via a spring-loaded suspension - basically a trampoline.
+
+**What kind of displays have you built so far?**  
+We have built 4 different elastic tables and an elastic wall. One of the interactive tables can be explored in the Heinz Nixdorf MuseumsForum in Paderborn. So far the displays are all rectangular, but theoretically the display could also have a different shape.
+
+**How do the displays differ?**  
+The displays differ in their materials, the way the fabric is attached, the orientation (table or wall display) and the beamer and depth camera used. The technology is improving, we are learning. We experimented with the components and created different combinations depending on the application. 
+For a prototype, for example, we created a simple wooden construction, which is low-cost and easy to do. We were also able to adjust the frame size to improve the spring suspension and create a more even pressure resistance on the display surface.
+
+**I want an elastic display so that my cats can jump on the trampoline at home. Can I just build this myself?**  
+Nothing could be easier!
+
+**What have you learned from practice?**    
+It matters where the table is placed. In a bright environment, e.g. outdoors or in well-lit rooms, there may be problems with tracking or visibility of the projected image.   Darkening or covering the table can be a good idea in this case.
+Reflections from objects behind the fabric can also distort the depth information. The camera looks a few centimetres through the fabric, so to speak.  
+Also, if the gap between the fabric and the picture frame is too large, it can be disturbing for the user, who is then blinded. 
+Additionally, the fabric gets a bit dirty with time and many interactions, as is unavoidable in a museum, for instance. It is therefore a plus if you can take it off and wash it.
+
+**What will the next display look like?**  
+Circular and with spring suspension!
 
 
-GTV/HTW:
 
-Unterkonstruktion auf Basis von 30x30 Item Aluprofilen.
-16:9 Format (wird durch den Beamer vorgegeben/an den Beamer angepasst)
-Unterkonstruktion mit verstellbarer Beamer- und Kamerahalterung. Notwendig um Ausleuchtung des Displays einzustellen sowie den Abtastbereich der Tiefenkamera zu justieren.
-Beamer mit Weitwinkel: Optoma 72XE
-Tiefenkamera: Microsoft Azzure Kinect
-Elastischer Stoff (Lyra) @mmueller  kannst du mehr zum Stoff sagen?
 
-**Aus welchen Teilen besteht ein elastisches Display?**
 
-Tischunterkonstruktion mit Halterung für Beamer/Tiefenkamera
-elastischer Stoff als Projektionsfläche/Interaktionsfläche
-Beamer + Tiefenkamera
-
-**Wie seid ihr vorgegangen?**
-
-erster Schritt: Beamerauswahl, am besten mit Weitwinkel um eine ausreichend große Projektionsfläche bei kurzer Distanz (maximale Tischhöhe) zu erhalten
-anhand der Projektionsfläche die Größe des Tisches berechnen (Breite/Länge/Höhe), hierbei auf das Format des projizierten Bildes achten (16:16, 4:3)
-Material für die Tischunterkonstruktion auswählen (Holz, Metal)
-Ja nach Bespannungsart des Stoffes auf dem Tisch: magnetisch, verklemmt, anhand von Ösen oder Federn die Tischgröße erhöhen (Länge der Federn verkleinern sonst die Interaktionsfläche)
-
-**Auf was muss man besonders achten?**
-Tischkonstruktion muss besonders robust sein, wenn mehrere Personen an dem Tisch arbeiten wird häufig daran gestoßen
-ein wackelnder Tisch verfälscht im nach hinein die Kalibrierung der Tiefenkamera/des Beamerbildes
-die Größe des Tisches wird anhand des Beamers berechnet, die verwendete Tiefenkamera muss jedoch auch im Stande sein die komplette Interaktionsfläche erfassen zu können.
-die Befestigung des Stoffes beim Bau des Tisches mit einplanen. Kann Einfluss haben auf die Tischgröße haben (vor allem bei einer Aufhängung mit Federn)
-
-**Was für Probleme gab es beim Bau der Displays bisher?**
-Reflektion von Objekten hinter dem Stoff führen zu falschen Tiefeninformationen (@mmueller ihr hattet das doch manchmal, kannst du dazu was sagen)
-häufig spielt die Helligkeit eine Rolle, wird der Tisch unter freien Himmel oder in besonders hellen Räumen aufgebaut kann es Probleme mit der Trackingkamera sowie der Sichtbarkeit des projizierten Bildes geben, eine Verdunkelung/Verkleidung des Tisches kann hier sinnvoll sein
-ein zu großer Spalt zwischen Stoff und Bildrahmen kann für die Anwender störend sein (geblendet vom Beamer ;-) )
-
-**Was habt ihr gelernt?**
-der Stoff wird mit der Zeit und vielen Interaktionen schmutzig
-es ist vorteilhaft wenn dieser Abnehmbar und waschbar ist
-...
-... hier überlege ich mir noch was!
-
-**Was könnt ihr zu den Materialien für die Displayoberfläche sagen?**
-@mmueller weil es so schön ist, ich denke du kannst hier mehr dazu sagen einfach aus der Erfahrung heraus?
-
-**Ich möchte ein elastisches Display, damit meine Katzen zuhause Trampolin springen können. Kann ich das einfach selbst bauen?**
-no problemo ;-)
-
-**Wie wird das nächste Display aussehen?**
-Kreisrund
-Aufhängung mit Federn
-... können wir nochmal im Jour Fixe drüber reden!
 
 
