@@ -20,18 +20,18 @@
 <link rel="icon" type="image/png" href="/sci-knowledge-base/assets/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/sci-knowledge-base/assets/favicons/android-192x192.png"sizes="192x192">
 
-<title>Using Toolkits for Prototyping</title>
-<meta property="og:title" content="Using Toolkits for Prototyping" />
+<title>Interactions result in a stream of depth images.</title>
+<meta property="og:title" content="Interactions result in a stream of depth images." />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://localhost:4000" />
 <meta property="og:site_name" content="http://localhost:4000" />
 
-<meta itemprop="name" content="Using Toolkits for Prototyping">
+<meta itemprop="name" content="Interactions result in a stream of depth images.">
 <meta itemprop="description" content="">
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Using Toolkits for Prototyping"/>
+<meta name="twitter:title" content="Interactions result in a stream of depth images."/>
 <meta name="twitter:description" content=""/>
 
 <link rel="stylesheet" href="/sci-knowledge-base/assets/css/main.css">
@@ -107,6 +107,14 @@ $(document).ready(function() {
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
       <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">About</a>
+    </li>
+
+    
+  </ul>
+  
+  <ul class="td-sidebar-nav__section pr-md-3">
+    <li class="td-sidebar-nav__section-title">
+      <a  href="/sci-knowledge-base/news" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">News</a>
     </li>
 
     
@@ -234,57 +242,15 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop</a>
+      <a  href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop Builder</a>
     </li>
 
-    
-      <ul>
-      <li class="collapse show" id="workshop">
-          <ul class="td-sidebar-nav__section pr-md-3">
-            
-            
-            <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Workshop Builder</a>
-            </li>
-
-            <ul>
-              <li class="collapse show" id="">
-                
-                
-              </li>
-            </ul>
-
-            
-            <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/interview-workshops" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Interview</a>
-            </li>
-
-            <ul>
-              <li class="collapse show" id="">
-                
-                
-              </li>
-            </ul>
-
-            
-
-          </ul>
-        </li>
-      </ul>
     
   </ul>
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
       <a  href="/sci-knowledge-base/resources" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Resources</a>
-    </li>
-
-    
-  </ul>
-  
-  <ul class="td-sidebar-nav__section pr-md-3">
-    <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/news" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">News</a>
     </li>
 
     
@@ -297,8 +263,8 @@ $(document).ready(function() {
           </div>
           <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
               <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
-                  <a href="https://github.com/visualengineers/sci-knowledge-base/edit/master/_best-practices/technology/using-toolkits-for-prototyping.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
-<a href="https://github.com/visualengineers/sci-knowledge-base/issues/new?labels=question&title=Question:&body=Question on: https://github.com/visualengineers/sci-knowledge-base/tree/master/_best-practices/technology/using-toolkits-for-prototyping.md" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+                  <a href="https://github.com/visualengineers/sci-knowledge-base/edit/master/_interviews/tracking.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+<a href="https://github.com/visualengineers/sci-knowledge-base/issues/new?labels=question&title=Question:&body=Question on: https://github.com/visualengineers/sci-knowledge-base/tree/master/_interviews/tracking.md" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
 <a href="https://github.com/visualengineers/sci-knowledge-base/issues/new" target="_blank"><i class="fas fa-tasks fa-fw"></i> Create project issue</a>
 <!-- this will parse through the header fields and add a button to open
      an issue / ask a question on Github. The editable field should be in
@@ -313,140 +279,95 @@ $(document).ready(function() {
           </div>
           <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
            <div class="td-content">
-	      <a href="/sci-knowledge-base/best-practices/" alt="back to best practices"><i class="fa fa-arrow-left"></i> back to Best Practices</a><br>
+	      <a class="back" href="/sci-knowledge-base/resources/" alt="back to resources"><i class="fa fa-arrow-left"></i> back to resources</a>
 
-<!--optional banner image -->
+<!-- INTRO & PORTRAIT IMAGE -->
+<div class="flex-2">  
 
-  <img src="https://images.unsplash.com/photo-1553063085-dbbf64d936ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" class="image-banner"/>
+    <div>
+        <h4 class="strap">Interview</h4>
+        <h1 class="interview">"Interactions result in a stream of depth images."</h1>
+        <p></p>
+    </div>
+
+    <div>
+          
+      
+          <span class="image-credits">© Mathias Müller</span>
+      
+  </div>
+
+</div><hr>
+
+<!-- MAIN CONTENT -->
+<p><strong>Wozu braucht man das Tracking bei einem elastischen Display?</strong>
+wird verwendet um die Positionen, die Tiefe und die Art der Interaktion aus dem Depth-Touch zu erkennen</p>
+
+<p><strong>Beschreibt das Setup nachvollziehbar (technisch und funktional). Was ist besonders wichtig?</strong>
+Azure Kinect ist unter dem flexiblen Display so angebracht dass die gesamte Touch-Fläche optimal erfasst werden kann
+stabiles Anbringen der Kinect nötig um Nachkalibrierungen zu vermeiden</p>
+
+<p><strong>Warum habt ihr euch für Tracking mit Tiefen-Kameras entschieden?</strong>
+direkte und schnelle Berechnung und Übermittlung der Tiefen-Karte durch die Tiefen-Kamera
+unabhängig von Störlicht (ausserhalb des IR Spektrums), Beamer-Bild beeinflusst Tracking nicht
+Beschaffenheit und Farbe der getrackten Oberfläche spielt bei diesem Verfahren weniger eine Rolle als bei anderen Methoden
+ToF Kameras weniger IR störanfällig als IR Projektion</p>
+
+<p><strong>Gibt es aus technischer Sicht relevante Unterschiede zwischen den aktuell verfügbaren Tiefen-Kameras?</strong>
+ToF (Kinect 2, Azure Kinect) - measuring the time emitted light takes from the camera to the object and back, constantly emits infrared light with modulated waves and detects the shifted phase of the returning light
+Pattern Projection (Kinect 1) - known infrared pattern is projected into the scene and out of its distortion
+the depth is computed
+Vergleich: https://www.dfki.de/fileadmin/user_upload/import/8767_wasenmuller2016comparison.pdf</p>
+
+<p><strong>Welche Kamera ist aktuell die beste und warum?</strong>
+ToF kamera: warscheinlich Azure Kinect: höchste Auflösung und Genauigkeit (1-Megapixel ToF imaging chip)</p>
+
+<p><strong>Welche Daten erfasst die Kamera?</strong>
+Tiefenbild (bis zu 1MP) mit tiefenInformation pro pixel
+Farbbild (bis zu 3840x2160 px)
+IR Reflektion/Intensität ?
+Position der Kamera (Gyro und accelerometer)</p>
+
+<p><strong>Wie sieht der Datenstrom aus, den sie sendet?</strong>
+Tiefenbild: b16g (16-bit Grayscale, Big-endian)
+RGB: Mode-Dependent (MJPEG, NV12, or YUY2)</p>
+
+<p><strong>Könnte man die Interaktionen auf dem Display auch anders erfassen? Wenn ja, wie?</strong>
+Pattern projection (kinect1)
+berührung könnte kapazitiv oder mittels leitfähigen flexiblen stoffen erfasst werden
+evtl mechanische auswertung der Interaktion möglich
+optisch über seitlich angebrachte stereo kameras
+optische Auswertung der durchscheinenden hand / schatten
+auch gestenerkennung über sihouette denkbar</p>
+
+<p><strong>Wie fein (Auflösung) kann man tracken? Was bedeutet das hinsichtlich der möglichen Displaygröße?</strong>
+aktuell 1 MP mit Azure Kinect
+displaygröße damit weiter skalierbar, aber aus usabilitysicht nicht praktikabel</p>
+
+<p><strong>Welche Faktoren wirken sich negativ auf die Bildqualität aus?</strong>
+https://docs.microsoft.com/de-de/azure/kinect-dk/depth-camera siehe Invalidation
+zu starke oder keine Reflektion des IR Signals (Oberflächeneigenschaften)
+Umleitung des ausgesendeten lichts durch die geometrie,  multi-path detection (Verlängerung des licht-laufwegs)</p>
+
+<p><strong>Wie kann man eine hohe Bildqualität sicherstellen?</strong>
+Der Stoff ist teilweise durchlässig. Welche Auswirkungen hat das auf das Tiefenbild und wie geht man damit um?</p>
+
+<p><strong>Auf welche Probleme seid ihr (noch) gestoßen?</strong></p>
+
+<p><strong>Was war besonders knifflig?</strong></p>
+
+<p><strong>Was habt ihr gelernt?</strong></p>
 
 
-  <span class="image-credits">© Photo by <a href="https://unsplash.com/@harrisonbroadbent?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Harrison Broadbent</a> on <a href="/s/photos/arduino?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
-
-<!-- main content-->
-<div class="strap-wrapper">
-  <h4 class="strap">Best Practice</h4>
-        
-      <a class="capitalizeAll topic topic-technology" href="/sci-knowledge-base/technology/">technology</a>
-   
-</div>
-<h1 id="using-toolkits-for-prototyping">Using Toolkits for Prototyping</h1>
-<p>Prototyping <a href="/terms/elastic-display">Elastic Displays</a> is challenging because it involves complex electronics as well as mechanical engineering. Specific use contexts may require different actuation approaches. What are suitable tools to test complex Elastic Display applications in an early development state?</p>
-
-<p>We describe prototyping toolkits on three technological layers that can lower the barrier to implementation of classic interfaces:</p>
-<ol>
-  <li>a standard platform for hardware prototyping, dealing with some aspects of actuation</li>
-  <li>a cross-platform software layer for applications and</li>
-  <li>tools for <a href="/terms/end-userprogramming">end-user programming</a></li>
-</ol>
-
-<ul>
-  <li>followed up by linked explanations on different possibilities to overcome the challenge, for example <a href="/terms/physical-programming">Physical Programming</a>, <a href="/terms/4d-printing">4D Printing</a>, <a href="/terms/rapid-prototyping">Rapid Prototyping</a>, electromechanical/pneumatic/hydraulic actuation, <a href="/terms/smart-materials">smart materials</a></li>
-  <li>(optional) decision helper</li>
-</ul>
-
-<details open="">
-  <summary><h3>Examples</h3></summary>
-  <h3 id="rapid-prototyping-of-structural-electronics">Rapid Prototyping of Structural Electronics</h3>
-  <p><a href="https://ieeexplore.ieee.org/document/6766751" target="_blank">[DOI 10.1109/ACCESS.2014.2311810]</a></p>
-</details>
-
-
+<!-- LINKS TO FURTHER CONTENT -->
 <hr class="panel-line">
+<br>
 
-<!--other best practices in same topic-->
-More Best Practices in <a class="capitalizeAll topic topic-technology" href="/sci-knowledge-base/technology/">technology</a>
-
-<!-- ...in same category -->
-
-<ul class="tile">
-
-<!-- exclude current best practice from links -->
- 
-  <li>
-    <a href="/sci-knowledge-base/combining-miniaturization-with-resolution/">
-      <img src="https://images.unsplash.com/photo-1520500807606-4ac9ae633574?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80 /">
-      <h5>Combining Miniturization With Resolution</h5>
-    </a>
-  </li>
-  
-
-<!-- exclude current best practice from links -->
- 
-  <li>
-    <a href="/sci-knowledge-base/considering-non-functional-requirements/">
-      <img src="https://images.unsplash.com/photo-1518331368925-fd8d678778e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80 /">
-      <h5>Considering Non-functional Requirements</h5>
-    </a>
-  </li>
-  
-
-<!-- exclude current best practice from links -->
- 
-  <li>
-    <a href="/sci-knowledge-base/integrating-io-modalities/">
-      <img src="https://images.unsplash.com/photo-1553936571-6ca616592119?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80 /">
-      <h5>Integrating I/O Modalities</h5>
-    </a>
-  </li>
-  
-
-<!-- exclude current best practice from links -->
+<p>Would you like to try out a workshop yourself? Take a look at the <a href="/sci-knowledge-base/workshop-builder/">Workshop Builder</a> and get personal recommendations.</p>
 
 
-</ul>
 
-<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-
-<script>
-$(document).ready(function() {
-
-    var toc = $('#TOC');
-
-    // Select each header
-    sections = $('.td-content h1');
-        $.each(sections, function(idx, v) {
-            section = $(v);
-            var div_id = $(section).attr('id');
-            var div_text = section.text().split('¶')[0];
-            var parent = $("#" + div_id)
-            var content = '<li id="link_' + div_id + '" class="md-nav__item"><a class="md-nav__link" href="#' + div_id + '" title="' + div_text +'">' + div_text +'</a></li>';
-            $(toc).append(content);
-
-            // Add section code to subnavigation
-            var children = $('<nav class="md-nav"><ul class="md-nav__list"></nav></ul>')
-            var contenders = $("#" + div_id).nextUntil("h1");
-            $.each(contenders, function(idx, contender){
-               if($(contender).is('h2') || $(contender).is('h3')) {
-                   var contender_id = $(contender).attr('id');
-                   var contender_text = $(contender).text().split('¶')[0];
-                   var content = '<li class="md-nav__item"><a class="md-nav__link" href="#' + contender_id + '" title="' + contender_text +'">' + contender_text +'</a></li>';
-                   children.append(content);
-                }
-             })
-             $("#link_" + div_id).append(children);
-        });
-    });
-</script>
-
-<script>
-var headers = ["h1", "h2", "h3", "h4"]
-var colors = ["red", "orange", "green", "blue"]
-
-$.each(headers, function(i, header){
-    var color = colors[i];
-    $(header).each(function () {
-        var href=$(this).attr("id");
-        $(this).append('<a class="headerlink" style="color:' + color + '" href="#' + href + '" title="Permanent link">¶</a>')
-    });
-})
-</script>
-
-<script>
-$('h1').first().append('<div></div>')</script>
 
 	
               

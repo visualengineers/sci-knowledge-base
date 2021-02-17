@@ -5,7 +5,7 @@ category: society
 lession: 11
 image: https://images.unsplash.com/photo-1562685929-4e72c83f4711?ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80
 image-credits: Photo by <a href="https://unsplash.com/@franckinjapan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Franck V.</a> on <a href="/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
-permalink: /developing-sustainable-interfaces/
+# permalink: /developing-sustainable-interfaces/
 ---
 
 # Developing Sustainable Interfaces

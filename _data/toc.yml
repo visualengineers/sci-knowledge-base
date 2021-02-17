@@ -1,6 +1,9 @@
 - title: About
   url: index
 
+- title: News
+  url: news
+
 - title: Topics
   url: topics
   links:
@@ -23,17 +26,11 @@
     - title: Best Practices
       url: best-practices
 
-- title: Workshop
+- title: Workshop Builder
   url: workshop-builder
-  links:    
-    - title: Workshop Builder
-      url: workshop-builder
-    - title: Interview
-      url: interview-workshops
 
 - title: Resources
   url: resources
 
-- title: News
-  url: news
+
 

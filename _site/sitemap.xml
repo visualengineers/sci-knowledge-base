@@ -11,6 +11,11 @@
      <changefreq>daily</changefreq>
     </url>
 <url>
+     <loc>/sci-knowledge-basenews/</loc>
+     <lastmod>2021-02-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+<url>
      <loc>/sci-knowledge-basetopics/</loc>
      <lastmod>2021-02-16</lastmod>
      <changefreq>daily</changefreq>
@@ -28,11 +33,14 @@
 <url>
      <loc>/sci-knowledge-baseresources/</loc>
      <lastmod>2021-02-16</lastmod>
+<<<<<<< HEAD
      <changefreq>daily</changefreq>
     </url>
 <url>
      <loc>/sci-knowledge-basenews/</loc>
      <lastmod>2021-02-16</lastmod>
+=======
+>>>>>>> content/interviews
      <changefreq>daily</changefreq>
     </url>
 

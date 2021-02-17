@@ -20,18 +20,18 @@
 <link rel="icon" type="image/png" href="/sci-knowledge-base/assets/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/sci-knowledge-base/assets/favicons/android-192x192.png"sizes="192x192">
 
-<title>Understanding UX Factors</title>
-<meta property="og:title" content="Understanding UX Factors" />
+<title>Interaction should also work in the unknown space.</title>
+<meta property="og:title" content="Interaction should also work in the unknown space." />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://localhost:4000" />
 <meta property="og:site_name" content="http://localhost:4000" />
 
-<meta itemprop="name" content="Understanding UX Factors">
+<meta itemprop="name" content="Interaction should also work in the unknown space.">
 <meta itemprop="description" content="">
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Understanding UX Factors"/>
+<meta name="twitter:title" content="Interaction should also work in the unknown space."/>
 <meta name="twitter:description" content=""/>
 
 <link rel="stylesheet" href="/sci-knowledge-base/assets/css/main.css">
@@ -107,6 +107,14 @@ $(document).ready(function() {
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
       <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">About</a>
+    </li>
+
+    
+  </ul>
+  
+  <ul class="td-sidebar-nav__section pr-md-3">
+    <li class="td-sidebar-nav__section-title">
+      <a  href="/sci-knowledge-base/news" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">News</a>
     </li>
 
     
@@ -234,57 +242,15 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop</a>
+      <a  href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop Builder</a>
     </li>
 
-    
-      <ul>
-      <li class="collapse show" id="workshop">
-          <ul class="td-sidebar-nav__section pr-md-3">
-            
-            
-            <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Workshop Builder</a>
-            </li>
-
-            <ul>
-              <li class="collapse show" id="">
-                
-                
-              </li>
-            </ul>
-
-            
-            <li class="td-sidebar-nav__section-title">
-              <a href="/sci-knowledge-base/interview-workshops" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Interview</a>
-            </li>
-
-            <ul>
-              <li class="collapse show" id="">
-                
-                
-              </li>
-            </ul>
-
-            
-
-          </ul>
-        </li>
-      </ul>
     
   </ul>
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
       <a  href="/sci-knowledge-base/resources" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Resources</a>
-    </li>
-
-    
-  </ul>
-  
-  <ul class="td-sidebar-nav__section pr-md-3">
-    <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/news" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">News</a>
     </li>
 
     
@@ -297,8 +263,8 @@ $(document).ready(function() {
           </div>
           <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
               <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
-                  <a href="https://github.com/visualengineers/sci-knowledge-base/edit/master/_best-practices/user-experience/understanding-ux-factors.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
-<a href="https://github.com/visualengineers/sci-knowledge-base/issues/new?labels=question&title=Question:&body=Question on: https://github.com/visualengineers/sci-knowledge-base/tree/master/_best-practices/user-experience/understanding-ux-factors.md" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+                  <a href="https://github.com/visualengineers/sci-knowledge-base/edit/master/_interviews/interaction-design.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+<a href="https://github.com/visualengineers/sci-knowledge-base/issues/new?labels=question&title=Question:&body=Question on: https://github.com/visualengineers/sci-knowledge-base/tree/master/_interviews/interaction-design.md" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
 <a href="https://github.com/visualengineers/sci-knowledge-base/issues/new" target="_blank"><i class="fas fa-tasks fa-fw"></i> Create project issue</a>
 <!-- this will parse through the header fields and add a button to open
      an issue / ask a question on Github. The editable field should be in
@@ -313,106 +279,71 @@ $(document).ready(function() {
           </div>
           <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
            <div class="td-content">
-	      <a href="/sci-knowledge-base/best-practices/" alt="back to best practices"><i class="fa fa-arrow-left"></i> back to Best Practices</a><br>
+	      <a class="back" href="/sci-knowledge-base/resources/" alt="back to resources"><i class="fa fa-arrow-left"></i> back to resources</a>
 
-<!--optional banner image -->
+<!-- INTRO & PORTRAIT IMAGE -->
+<div class="flex-2">  
 
-  <img src="https://images.unsplash.com/photo-1579539657971-fc4cb089c92b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" class="image-banner"/>
+    <div>
+        <h4 class="strap">Interview</h4>
+        <h1 class="interview">"Interaction should also work in the unknown space."</h1>
+        <p></p>
+    </div>
+
+    <div>
+          
+      
+          <span class="image-credits">© Lukas Büschel</span>
+      
+  </div>
+
+</div><hr>
+
+<!-- MAIN CONTENT -->
+<p><strong>Was gehört alles zur Interaktionsgestaltung?</strong>
+Beim Interaktionsdesign geht es darum, dass Menschen die Inhalte, die von einem System angeboten werden, intuitiv und schnell erreichen können. Und das bedeutet: Der Nutzer steht im Zentrum. Er muss zu jeder Zeit kognitiv und physisch in der Lage sein, sein Ziel zu erreichen, und er muss dabei Spaß haben und zufrieden sein. Interaktionen verändern das System, und die Veränderung sollte den Erwartungen des Nutzers entsprechen.</p>
+
+<p><strong>Woran arbeitest du/arbeitet ihr gerade?</strong></p>
+
+<p><strong>Was ist das Besondere an den Interaktionen auf dem elastischen Display verglichen mit denen auf z.B. zweidimensionalen Touch-Displays?</strong>
+Beim elastischen Display steht uns eine dritte Dimension zur Verfügung. Außerdem verfügt es über ein haptisches Feedback.</p>
+
+<p><strong>Was bedeutet das für die Interaktionsgestaltung? Welche neuen Überlegungen muss man machen?</strong></p>
+
+<p><strong>Was findest du aus UX/UI-Sicht spannend am elastischen Display? Worin liegt das Potential?</strong></p>
+
+<p><strong>Was sind die Herausforderungen in der Nutzerinteraktion, die diese neue Displayform mit sich bringt?</strong>
+Ich sehe vor allem zwei große Herausforderungen.
+Zum einen dürfen Gesten, die beispielsweise von Touch-Displays bekannt sind, nicht aufgrund technischer Schwierigkeiten verloren gehen. Oder besser gesagt: nicht die essentiellen Gesten. Denken wir an jene zum Drehen von Elementen oder das Auswählen von Elementen, indem man mit einem Lasso-Werkzeug eine Auswahl um sie herum zeichnet. Das sind tolle und etablierte Metaphern. Wenn wir weg wollen von kleinen Anwendungen, zum Beispiel in einem Museums, die nur Teilaspekte begreifbar machen, hin zu Systemen, die viele Daten enthalten, dann muss neben der Interaktion in der Tiefe des Displays ein umfangreiches Set an Gesten zur Verfügung stehen, die parallel anwendbar sind.
+Die zweite große Herausforderung ist geeignete Gesten für Inhalte zu finden, die nicht auf Ebenen projiziert werden können.</p>
+
+<p><strong>Für welche Kontexte ist das elastische Display gut/weniger gut geeignet?</strong>
+Ein elastisches Display eignet sich hervorragend für Szenarien, in denen man verortete Daten explorieren will, denken wir zum Beispiel an eine Anwendung, in der man die einzelnen Schichten der Meere und ihre Bewohner erkunden kann, oder die menschliche Anatomie.</p>
+
+<p><strong>Was hast du/habt ihr schon gelernt?</strong></p>
+
+<p><strong>Was möchtest du/möchtet ihr noch besser verstehen?</strong>
+Tisch oder Wand - was hat (wann) mehr Potential?</p>
+
+<p><strong>Lässt sich das elastische Displays sinnvoll in Mehrbenutzerszenarien einsetzen?</strong></p>
+
+<p><strong>Bisherige Beobachtungen:</strong></p>
+
+<p><strong>Wie reagieren unterschiedliche Nutzergruppen auf das Display?</strong></p>
+
+<p><strong>Wie wird es allgemein angenommen?</strong></p>
+
+<p><strong>Was macht besonders Spaß oder keinen Spaß?</strong></p>
 
 
-  <span class="image-credits">© Photo by <a href="https://unsplash.com/@evertvanduijn?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Evert van Duijn</a> on <a href="/s/photos/soil?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-
-
-<!-- main content-->
-<div class="strap-wrapper">
-  <h4 class="strap">Best Practice</h4>
-        
-      <a class="capitalizeAll topic topic-user-experience" href="/sci-knowledge-base/user-experience/">user experience</a>
-   
-</div>
-<h1 id="understanding-ux-factors">Understanding UX Factors</h1>
-<p>Most evaluations of shape-change concern an entire system. To deepen evaluation we must isolate the factors and outcomes of different aspects of these systems. Key factors to consider are the experience of different transformations among shapes, the impact of using shape-change as it unfolds, and interacting. Other key factors to consider are the influence of scale on experience as well as the learnability and naturalness of interaction.</p>
-
-<details open="">
-  <summary><h3>Examples</h3></summary>
-  <p>There is no example yet. Feel free to <a href="https://github.com/visualengineers/sci-knowledge-base/edit/master/_best-practices/user-experience/understanding-ux-factors.md" target="_blank"><i class="fa fa-edit fa-fw"></i> edit this page</a>.</p>
-</details>
-
+<!-- LINKS TO FURTHER CONTENT -->
 <hr class="panel-line">
+<br>
 
-<!--other best practices in same topic-->
-More Best Practices in <a class="capitalizeAll topic topic-user experience" href="/sci-knowledge-base/user-experience/">user experience</a>
-
-<!-- ...in same category -->
-
-<ul class="tile">
-
-<!-- exclude current best practice from links -->
- 
-  <li>
-    <a href="/sci-knowledge-base/identifying-contexts-of-use/">
-      <img src="https://images.unsplash.com/photo-1500193711286-d7613192133a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80 /">
-      <h5>Identifying Contexts of Use</h5>
-    </a>
-  </li>
-  
-
-<!-- exclude current best practice from links -->
+<p>Would you like to try out a workshop yourself? Take a look at the <a href="/sci-knowledge-base/workshop-builder/">Workshop Builder</a> and get personal recommendations.</p>
 
 
-</ul>
 
-<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-
-<script>
-$(document).ready(function() {
-
-    var toc = $('#TOC');
-
-    // Select each header
-    sections = $('.td-content h1');
-        $.each(sections, function(idx, v) {
-            section = $(v);
-            var div_id = $(section).attr('id');
-            var div_text = section.text().split('¶')[0];
-            var parent = $("#" + div_id)
-            var content = '<li id="link_' + div_id + '" class="md-nav__item"><a class="md-nav__link" href="#' + div_id + '" title="' + div_text +'">' + div_text +'</a></li>';
-            $(toc).append(content);
-
-            // Add section code to subnavigation
-            var children = $('<nav class="md-nav"><ul class="md-nav__list"></nav></ul>')
-            var contenders = $("#" + div_id).nextUntil("h1");
-            $.each(contenders, function(idx, contender){
-               if($(contender).is('h2') || $(contender).is('h3')) {
-                   var contender_id = $(contender).attr('id');
-                   var contender_text = $(contender).text().split('¶')[0];
-                   var content = '<li class="md-nav__item"><a class="md-nav__link" href="#' + contender_id + '" title="' + contender_text +'">' + contender_text +'</a></li>';
-                   children.append(content);
-                }
-             })
-             $("#link_" + div_id).append(children);
-        });
-    });
-</script>
-
-<script>
-var headers = ["h1", "h2", "h3", "h4"]
-var colors = ["red", "orange", "green", "blue"]
-
-$.each(headers, function(i, header){
-    var color = colors[i];
-    $(header).each(function () {
-        var href=$(this).attr("id");
-        $(this).append('<a class="headerlink" style="color:' + color + '" href="#' + href + '" title="Permanent link">¶</a>')
-    });
-})
-</script>
-
-<script>
-$('h1').first().append('<div></div>')</script>
 
 	
               
