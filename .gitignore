@@ -12,3 +12,6 @@ Gemfile.lock
 dist/
 tmp/
 .DS_Store
+
+# rendered HTML pages from local testing
+._site
