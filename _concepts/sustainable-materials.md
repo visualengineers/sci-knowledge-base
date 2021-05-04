@@ -3,8 +3,8 @@ layout: concept
 title: Sustainability
 description: Sustainability
 category: society
-image: 
-image-credits:
+image: https://images.unsplash.com/photo-1438755582627-221038b62986?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80
+image-credits: Photo by <a href="https://unsplash.com/@kazuend">kazuend</a> on <a href="https://unsplash.com/">Unsplash</a>
 ---
 Designing, prototyping and implementing shape-changing interfaces comes along with a high material consumption. Some of it already becomes waste after a short time what is best to avoid. In other words: The most sustainable material is the one that has never been used. Therefore, digitalize the design process if possible, hold online workshops, use emulators for prototyping, and reuse materials. If the use of new materials is necessary, sustainable materials that can be recycled and biodegrades should be preferred.
 
