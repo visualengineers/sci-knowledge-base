@@ -53,7 +53,8 @@ layout: plain
 
 <hr class="panel-line">
 <h4>Other Topics</h4>
-{% assign groups = site.best-practices | group_by: "category" | where_exp: "group", "group.name != page.title" %}
+<!--where_exp mit operatoren erst ab jekyll version 4.1 unterstützt-->
+{% assign groups = site.best-practices | group_by: "category" | where_exp: "group",  "group.name != page.title" | where_exp: "group", "group.name != 'example'" %}
 {% for group in groups %}
 <a class="capitalizeAll topic topic-{{ group.name | downcase | strip | replace:'user experience', 'user-experience'}}" href="{{ site.baseurl }}/{{ group.name | downcase | strip | replace:'user experience', 'user-experience' }}/">{{ group.name }}</a>
 {% endfor %}
