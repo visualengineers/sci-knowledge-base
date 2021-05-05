@@ -190,8 +190,9 @@ input[type=text]:focus {
 .quiz {
     background-color: var(--dark);
     color: #fff;
-    padding: 3em 2em 1em 2em;
+    padding: 2rem 3rem;
     margin-top: 2em;
+    text-align: center;
 }
 
 .quiz button {
@@ -206,7 +207,7 @@ input[type=text]:focus {
     font-weight: bold;
     line-height: 1.5;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-top: 2rem;
     text-align: center;
     border-radius: 40px;
     overflow: hidden;
@@ -215,7 +216,18 @@ input[type=text]:focus {
     transition: all 300ms linear;
 }
 
+.quiz button:active {
+    outline: none !important;
+}
+
+.quiz .quiz-list {
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
 .quiz .quiz-title {
+    font-size: 1.5em;
     font-weight: bold;
 }
 

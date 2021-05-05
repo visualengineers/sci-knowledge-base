@@ -79,6 +79,9 @@ Who doesn't love accordions? Accordions will automatically be rendered in custom
 `... content goes here ...`  
 `</details>`
 
+- **Quiz**
+For any term, concept, or best practice, you can insert a quiz. To do so, place a .yml file inside the data/quizzes folder and insert one or more questions as shown in the example.yml. Name your file using the title of the page on which the quiz should appear (but downcased and hyphens instead of whitespaces, e.g. "3D Printing" becomes "3d-printing"). No further action needed, the quiz will be inserted automatically. 
+
 ### Support
 Helpful links for all who have not yet enough or further questions.
 

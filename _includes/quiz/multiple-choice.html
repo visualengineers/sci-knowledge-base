@@ -15,11 +15,15 @@
     </p>
 -->
     <p>
+    <ul class="quiz-list">
         {% for choice in include.item.items %}
-            {% if choice.correct == true %}<span class="correct-{{ include.count }}">{% endif %}
+        <li>   
+        {% if choice.correct == true %}<span class="correct-{{ include.count }}">{% endif %}
             {{ choice.choice }}
             {% if choice.correct == true %}</span>{% endif %}<br>
+        </li>
         {% endfor %}
+        </ul>
     </p>
 
 <button onclick='$(".correct-{{ include.count }}").css("font-weight", 600);$(".correct-more-{{ include.count }}").css("display", "inline")'>check</button>

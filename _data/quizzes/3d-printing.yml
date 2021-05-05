@@ -1,8 +1,8 @@
-randomized: true
+randomized: yes 
 questions:
 
  - type: "multiple-choice"
-   question: "What 3D printing techique would you choose for quick prototyping?"
+   question: "Which of these 3D printing techniques can you use for quick prototyping?"
    items:
     - choice: Selective Laser Sintering (SLS)
       correct: false
@@ -12,5 +12,6 @@ questions:
       correct: false
     - choice: Fusion Deposition Modeling (FDM)
       correct: yes
+
 
   
