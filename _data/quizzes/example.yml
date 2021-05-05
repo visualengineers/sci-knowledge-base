@@ -1,0 +1,14 @@
+randomized: true # no effect yet
+questions:
+
+ - type: "multiple-choice" # as defined in _incudes/quiz folder. place custom quiz templates there, too.
+   question: "What do you want to ask?"
+   items:
+    - choice: A wrong answer 
+      correct: false
+    - choice: A wrong answer
+      correct: false
+    - choice: A wrong answer
+      correct: false
+    - choice: The correct answer  # order doesn't matter
+      correct: yes # correct answer is highlighted upon "check" 

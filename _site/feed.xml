@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shape-changing Interfaces Knowledge Base</title>
+    <description></description>
+    <link>http://localhost:4000/sci-knowledge-base/</link>
+    <atom:link href="http://localhost:4000/sci-knowledge-base/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 05 May 2021 16:22:07 +0200</pubDate>
+    <lastBuildDate>Wed, 05 May 2021 16:22:07 +0200</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Daten zum Anfassen</title>
+        <description>&lt;p&gt;Das Forschungsprojekt ZELASTO erforscht die Darstellung von und Interaktion mit komplexen Daten auf elastischen Displays. Verschiedene Anwendungsfälle zeigen, wie wissenschaftliche Erkenntnisse zu neuartigen Displaytechnologien in produktiven Industriekontexten zum Einsatz kommen können.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Spracheingabe und intuitiv nutzbare Multi-Touch-Displays sind mittlerweile im Alltag angekommen. Die neuen Interaktionstechniken sind aber noch lange nicht das Ende der Fahnenstange: Displayformen der Zukunft nutzen vor allem biegbare und verformbare Materialien wie Papier, Stoff oder flexible Kunststoffe. Über die physischen Zustände dieser Materialien können mehr Informationen transportiert werden. Damit eröffnen sich neuartige Möglichkeiten, um komplexe, multidimensionale Datenräume zu erforschen. Innovative Displaytechnologien wie beispielsweise elastische Displays aus Stoff oder Gel zielen auf einer natürliches und intuitives Benutzererlebnis ab, indem das System direktes haptisches Feedback zur Interaktion und ihren Auswirkungen auf die dargestellten Daten liefert.&lt;/p&gt;
+
+&lt;p&gt;Im Forschungs- und Entwicklungsprojekt ZELASTO - Interaktion mit komplexen Daten mittels Zoomable User Interfaces auf Elastischen Oberflächen kooperiert die Professur für Technische Visualistik der HTW Dresden mit der GTV – Gesellschaft für Technische Visualistik mbH in Dresden.  Der GTV gelingt seit dem Jahr 2018 der produktive Dauereinsatz eines Tisches mit elastischer Interaktionsoberfläche im Heinz-Nixdorf-MuseumsForum in Paderborn.  Ziel des Kooperationsprojektes ZELASTO ist es, wissenschaftliche Erkenntnisse zur Interaktion und Steuerung elastischer Multitouch-Displays in industriellen Arbeitsprozessen zu nutzen. Gemeinsam werden Einsatzmöglichkeiten der innovativen Technologie für gleich zwei Anwendungsfälle aus Stadtplanung und Maschinenbau an Demonstratoren erprobt. Zentrale Forschungsthemen sind die Interaktion mit komplexen Daten sowie die Steuerung von Zoomable User Interfaces (ZUI) durch Verformung von Oberflächen. Das zweijährige Projekt wird im Rahmen des Schwerpunkts “Stärkung von Forschung, technologischer Entwicklung und Innovation” von der SAB mit Mitteln aus dem Europäischen Fonds für regionale Entwicklung (EFRE) gefördert. Im Anschluss an die Projektlaufzeit ist eine Weiterentwicklung und Generalisierung des Produkts zur Serienreife vorgesehen.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 10 Dec 2019 01:00:01 +0100</pubDate>
+        <link>http://localhost:4000/sci-knowledge-base/2019/daten-zum-anfassen/</link>
+        <guid isPermaLink="true">http://localhost:4000/sci-knowledge-base/2019/daten-zum-anfassen/</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+  </channel>
+</rss>
