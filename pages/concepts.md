@@ -11,7 +11,7 @@ description: Concepts assist you in the development of any kind of shape-changin
 Feel free to share your own knowledge!  
 
 ---------------
-{% assign groups = site.concepts | group_by: "category"  %}
+{% assign groups = site.concepts | group_by: "category" | where_exp: "group", "group.name != 'example'" %}
 
 {% for group in groups %}
 <a class="capitalizeAll capitalizeAll topic topic-{{ group.name | downcase | strip | replace:'user experience', 'user-experience'}}" href="{{ site.baseurl }}/{{ group.name | downcase | strip | replace:'user experience', 'user-experience' }}/">{{ group.name }}</a> 

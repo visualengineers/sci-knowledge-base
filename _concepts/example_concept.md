@@ -2,7 +2,7 @@
 layout: concept
 title: Example Concept
 description: Explanation of the concept template
-category: example
+category: example # here you have to define the category for the concept, which is illustrated as tag (e.g. design, technology, etc.)
 image: https://images.unsplash.com/photo-1523726491678-bf852e717f6a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
 image-credits: Photo by <a href="https://unsplash.com/@medbadrc">Med Badr Chemmaoui</a> on <a href="https://unsplash.com/">Unsplash</a>
 ---

@@ -1,7 +1,7 @@
 ---
 layout: best-practice
 title: Example Best Practice
-category: example
+category: example # here you have to define the category for the best practice, which is illustrated as tag (e.g. design, technology, etc.)
 lession: 10
 image: https://images.unsplash.com/photo-1594631389194-0795bf920faa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1192&q=80
 image-credits: Photo by <a href="https://unsplash.com/@brett_jordan">Brett Jordan</a> on <a href="https://unsplash.com/">Unsplash</a>

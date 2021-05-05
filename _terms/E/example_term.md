@@ -2,7 +2,7 @@
 layout: term
 title: Example Term
 description: Explanation of the term template
-category: example
+category: example # here you have to define the category for the term, which is illustrated as tag (e.g. design, technology, etc.)
 ---
 In this area follows the definition of the specific term. The goal of the term page is to explain a technical term and illustrate it with practical examples (in the Example section). They primarily serve the level of factual knowledge by providing background knowledge to develop practical applications with shape-changing interfaces. Feel free to share your own knowledge!
 
