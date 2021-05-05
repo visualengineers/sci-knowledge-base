@@ -49,6 +49,12 @@ With the [Workshop Builder]({{ site.baseurl }}/workshop-builder), modular worksh
 
 </details>
 
+?[What is the answer to Life, the Universe and Everything?]
+-[ ] There is no answer to that!
+-[ ] Sleep and eat
+-[x] Easy, this is 42
+-[ ] Peace & Love
+
 ### Support
 
 If you need help, please don't hesitate to [open an issue](https://www.github.com/{{ site.github_repo }}/issues).

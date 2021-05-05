@@ -23,6 +23,13 @@ layout: plain
 
 {{ content }}
 
+<!-- quiz -->
+{% assign quizname = page.title | downcase | replace: " ", "-" %}
+
+{% if site.data.quizzes contains quizname %}
+{% include quiz.html file = quizname %}
+{% endif %}
+
 <hr class="panel-line">
 
 {% assign concepts = site.concepts %}
