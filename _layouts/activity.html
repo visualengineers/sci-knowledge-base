@@ -52,7 +52,11 @@ layout: plain
                 {% if s_item.url contains p_item %}
                 <li>
                 <a href="{{ s_item.url | prepend: site.baseurl }}">
-                    <img src="{{ s_item.image }} /">
+                    {% if s_item.image %}
+                        <img src="{{ s_item.image }}">
+                    {% else %}
+                        <img src="https://images.unsplash.com/photo-1566041510639-8d95a2490bfb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=626&q=80">
+                    {% endif %}
                     <h5>{{ s_item.title }}</h5>
                 </a>
                 </li> 
@@ -74,7 +78,11 @@ layout: plain
                 {% if s_item.url contains p_item %}
                 <li>
                 <a href="{{ s_item.url | prepend: site.baseurl }}">
-                    <img src="{{ s_item.image }} /">
+                    {% if s_item.image %}
+                        <img src="{{ s_item.image }}">
+                    {% else %}
+                        <img src="https://images.unsplash.com/photo-1566041510639-8d95a2490bfb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=626&q=80">
+                    {% endif %}
                     <h5>{{ s_item.title }}</h5>
                 </a>
                 </li> 
