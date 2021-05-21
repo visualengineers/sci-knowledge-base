@@ -122,12 +122,12 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/topics" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Topics</a>
+      <a  href="/sci-knowledge-base/topics" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">by Topic</a>
     </li>
 
     
       <ul>
-      <li class="collapse show" id="topics">
+      <li class="collapse show" id="by-topic">
           <ul class="td-sidebar-nav__section pr-md-3">
             
             
@@ -188,12 +188,12 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/index" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Modules</a>
+      <a  href="/sci-knowledge-base/knowledge-modules" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">by Knowledge Module</a>
     </li>
 
     
       <ul>
-      <li class="collapse show" id="modules">
+      <li class="collapse show" id="by-knowledge-module">
           <ul class="td-sidebar-nav__section pr-md-3">
             
             
@@ -242,9 +242,55 @@ $(document).ready(function() {
   
   <ul class="td-sidebar-nav__section pr-md-3">
     <li class="td-sidebar-nav__section-title">
-      <a  href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Workshop Builder</a>
+      <a  href="/sci-knowledge-base/activities" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Activities</a>
     </li>
 
+    
+      <ul>
+      <li class="collapse show" id="activities">
+          <ul class="td-sidebar-nav__section pr-md-3">
+            
+            
+            <li class="td-sidebar-nav__section-title">
+              <a href="/sci-knowledge-base/activities/getting-started" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Getting Started</a>
+            </li>
+
+            <ul>
+              <li class="collapse show" id="">
+                
+                
+              </li>
+            </ul>
+
+            
+            <li class="td-sidebar-nav__section-title">
+              <a href="/sci-knowledge-base/activities/basic-knowledge" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Basic Knowledge</a>
+            </li>
+
+            <ul>
+              <li class="collapse show" id="">
+                
+                
+              </li>
+            </ul>
+
+            
+            <li class="td-sidebar-nav__section-title">
+              <a href="/sci-knowledge-base/workshop-builder" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Find activities with the Workshop Builder</a>
+            </li>
+
+            <ul>
+              <li class="collapse show" id="">
+                
+                
+              </li>
+            </ul>
+
+            
+
+          </ul>
+        </li>
+      </ul>
     
   </ul>
   
@@ -292,6 +338,19 @@ $(document).ready(function() {
 		
 				
 					
+					
+					"activities": {
+						"id": "activities",
+						"title": "Activities",
+						"categories": "",
+						"url": " /activities/",
+						"content": "Activities\n\nActivities are collections of terms, concepts, and best practices on a specific issue or question. Example activities include Getting Started With SCI-KB, Elastic Display in Historical Context, or Prototyping Approaches.\n\n\n\n\n\n\n    \n            \n                \n            \n            Basic Knowledge\n            \n            7 Terms / 1 Concepts / 1 Best Practices / 3 Interviews\n      \n\n\n\n    \n            \n                \n            \n            Getting Started\n            \n            2 Terms / 1 Concepts / 1 Best Practices / 1 Interviews\n      \n\n\n\n\n\n    \n    \n\n\n\nDon't know where to start? Try out Getting Started With SCI-KB."
+					}
+					
+				
+		
+				
+					,
 					
 					"archive": {
 						"id": "archive",
@@ -363,7 +422,7 @@ $(document).ready(function() {
 						"title": "",
 						"categories": "",
 						"url": " /feed.xml",
-						"content": "Shape-changing Interfaces Knowledge Base\n    \n    http://localhost:4000/sci-knowledge-base/\n    \n    Wed, 05 May 2021 16:45:55 +0200\n    Wed, 05 May 2021 16:45:55 +0200\n    Jekyll v3.9.0\n    \n      \n        Daten zum Anfassen\n        &lt;p&gt;Das Forschungsprojekt ZELASTO erforscht die Darstellung von und Interaktion mit komplexen Daten auf elastischen Displays. Verschiedene Anwendungsfälle zeigen, wie wissenschaftliche Erkenntnisse zu neuartigen Displaytechnologien in produktiven Industriekontexten zum Einsatz kommen können.&lt;/p&gt;\n\n&lt;!--more--&gt;\n\n&lt;p&gt;Spracheingabe und intuitiv nutzbare Multi-Touch-Displays sind mittlerweile im Alltag angekommen. Die neuen Interaktionstechniken sind aber noch lange nicht das Ende der Fahnenstange: Displayformen der Zukunft nutzen vor allem biegbare und verformbare Materialien wie Papier, Stoff oder flexible Kunststoffe. Über die physischen Zustände dieser Materialien können mehr Informationen transportiert werden. Damit eröffnen sich neuartige Möglichkeiten, um komplexe, multidimensionale Datenräume zu erforschen. Innovative Displaytechnologien wie beispielsweise elastische Displays aus Stoff oder Gel zielen auf einer natürliches und intuitives Benutzererlebnis ab, indem das System direktes haptisches Feedback zur Interaktion und ihren Auswirkungen auf die dargestellten Daten liefert.&lt;/p&gt;\n\n&lt;p&gt;Im Forschungs- und Entwicklungsprojekt ZELASTO - Interaktion mit komplexen Daten mittels Zoomable User Interfaces auf Elastischen Oberflächen kooperiert die Professur für Technische Visualistik der HTW Dresden mit der GTV – Gesellschaft für Technische Visualistik mbH in Dresden.  Der GTV gelingt seit dem Jahr 2018 der produktive Dauereinsatz eines Tisches mit elastischer Interaktionsoberfläche im Heinz-Nixdorf-MuseumsForum in Paderborn.  Ziel des Kooperationsprojektes ZELASTO ist es, wissenschaftliche Erkenntnisse zur Interaktion und Steuerung elastischer Multitouch-Displays in industriellen Arbeitsprozessen zu nutzen. Gemeinsam werden Einsatzmöglichkeiten der innovativen Technologie für gleich zwei Anwendungsfälle aus Stadtplanung und Maschinenbau an Demonstratoren erprobt. Zentrale Forschungsthemen sind die Interaktion mit komplexen Daten sowie die Steuerung von Zoomable User Interfaces (ZUI) durch Verformung von Oberflächen. Das zweijährige Projekt wird im Rahmen des Schwerpunkts “Stärkung von Forschung, technologischer Entwicklung und Innovation” von der SAB mit Mitteln aus dem Europäischen Fonds für regionale Entwicklung (EFRE) gefördert. Im Anschluss an die Projektlaufzeit ist eine Weiterentwicklung und Generalisierung des Produkts zur Serienreife vorgesehen.&lt;/p&gt;\n\n\n        Tue, 10 Dec 2019 01:00:01 +0100\n        http://localhost:4000/sci-knowledge-base/2019/daten-zum-anfassen/\n        http://localhost:4000/sci-knowledge-base/2019/daten-zum-anfassen/\n        \n        \n        project"
+						"content": "Shape-changing Interfaces Knowledge Base\n    \n    http://localhost:4000/sci-knowledge-base/\n    \n    Fri, 21 May 2021 16:54:19 +0200\n    Fri, 21 May 2021 16:54:19 +0200\n    Jekyll v3.9.0\n    \n      \n        Daten zum Anfassen\n        &lt;p&gt;Das Forschungsprojekt ZELASTO erforscht die Darstellung von und Interaktion mit komplexen Daten auf elastischen Displays. Verschiedene Anwendungsfälle zeigen, wie wissenschaftliche Erkenntnisse zu neuartigen Displaytechnologien in produktiven Industriekontexten zum Einsatz kommen können.&lt;/p&gt;\n\n&lt;!--more--&gt;\n\n&lt;p&gt;Spracheingabe und intuitiv nutzbare Multi-Touch-Displays sind mittlerweile im Alltag angekommen. Die neuen Interaktionstechniken sind aber noch lange nicht das Ende der Fahnenstange: Displayformen der Zukunft nutzen vor allem biegbare und verformbare Materialien wie Papier, Stoff oder flexible Kunststoffe. Über die physischen Zustände dieser Materialien können mehr Informationen transportiert werden. Damit eröffnen sich neuartige Möglichkeiten, um komplexe, multidimensionale Datenräume zu erforschen. Innovative Displaytechnologien wie beispielsweise elastische Displays aus Stoff oder Gel zielen auf einer natürliches und intuitives Benutzererlebnis ab, indem das System direktes haptisches Feedback zur Interaktion und ihren Auswirkungen auf die dargestellten Daten liefert.&lt;/p&gt;\n\n&lt;p&gt;Im Forschungs- und Entwicklungsprojekt ZELASTO - Interaktion mit komplexen Daten mittels Zoomable User Interfaces auf Elastischen Oberflächen kooperiert die Professur für Technische Visualistik der HTW Dresden mit der GTV – Gesellschaft für Technische Visualistik mbH in Dresden.  Der GTV gelingt seit dem Jahr 2018 der produktive Dauereinsatz eines Tisches mit elastischer Interaktionsoberfläche im Heinz-Nixdorf-MuseumsForum in Paderborn.  Ziel des Kooperationsprojektes ZELASTO ist es, wissenschaftliche Erkenntnisse zur Interaktion und Steuerung elastischer Multitouch-Displays in industriellen Arbeitsprozessen zu nutzen. Gemeinsam werden Einsatzmöglichkeiten der innovativen Technologie für gleich zwei Anwendungsfälle aus Stadtplanung und Maschinenbau an Demonstratoren erprobt. Zentrale Forschungsthemen sind die Interaktion mit komplexen Daten sowie die Steuerung von Zoomable User Interfaces (ZUI) durch Verformung von Oberflächen. Das zweijährige Projekt wird im Rahmen des Schwerpunkts “Stärkung von Forschung, technologischer Entwicklung und Innovation” von der SAB mit Mitteln aus dem Europäischen Fonds für regionale Entwicklung (EFRE) gefördert. Im Anschluss an die Projektlaufzeit ist eine Weiterentwicklung und Generalisierung des Produkts zur Serienreife vorgesehen.&lt;/p&gt;\n\n\n        Tue, 10 Dec 2019 01:00:01 +0100\n        http://localhost:4000/sci-knowledge-base/2019/daten-zum-anfassen/\n        http://localhost:4000/sci-knowledge-base/2019/daten-zum-anfassen/\n        \n        \n        project"
 					}
 					
 				
@@ -377,6 +436,19 @@ $(document).ready(function() {
 						"categories": "",
 						"url": " /",
 						"content": "About SCI-KB\n\nThe Shape-Changing Interfaces Knowledge Base (SCI-KB) originates from the research project ZELASTO which explores the interaction with complex data using Zoomable User Interfaces on Elastic Displays. We aim to spread recent knowledge on the research of shape-changing interfaces (SCI) both theoretically and practically. Modular knowledge items can be combined arbitrarily, e.g. to hold workshops. A Workshop Builder provides assistance in finding an individual arrangement. The core of knowledge is supplemented by additional resources and structured by tags which reflect various topics in the interdisciplinary field of shape-changing interfaces.\n\n\n\n\n  Topics\n\n  Browse topics to discover knowledge items in one of the 4 essential topics related to the field of shape-changing interfaces. The topics can also be interpreted as states of development.\n\n  \n\n\ndesign\n\nsociety\n\ntechnology\n\nuser experience\n\n\n  \n\n\n\n\n  Knowledge Modules\n\n  Depending on the type of knowledge they contain, smaller knowledge items are assigned one of the modules Terms, Concept or Best Practices (see picture). The modules each pervade the three conceptual levels “Learn”, “Apply” and “Contribute”. Thus, exploring items within a module provides an alternative path to the topic-based approach.\n\n  \n\n  Term. On the “Learn” level, each term explains a technical term for shape-changing interfaces, for example “Elastic Display”. On the “Apply” level, examples show how the term is used in practice. The “Contribute” level invites users to modify or add terms.\n\n  Concept. In the style of a cheat sheet, each concept explains on the “Learn” level an application-independent principle that can be useful for the implementation of a shape-changing interface. This includes, for example, design guidelines, overviews of chart types and data types or a gesture catalogue for interaction with elastic displays. On the “Apply” level, a Concept provides workshop material. Analogous to a Term, a Concept can be modified or created at the “Contribute” level.\n\n  Best Practice. On the “Learn” level, a best practice explains a practical challenge that may arise in the design process of shape-changing interfaces, such as the choice of a suitable prototyping technology, and shows ways to overcome the challenge. On the “Apply” level, there are suggestions on how to train the solutions in a workshop using materials provided by the Concepts particularly. Workshop participants are invited to publish the results of their workshops on the “Contribute” level or to create their own best practice.\n\n\n\n\n  Workshop Builder\n\n  With the Workshop Builder, modular workshops tailored to the custom needs can be composed from the knowledge items. Therefore, the starting point for a practical walkthrough through SCI-KB that is based on the context of the workshop and its objectives is suggested. The walktrough may be thematic, problem- or topic-oriented, a deep-dive into specific knowledge or explorative. Start planning your workshop.\n\n\n\nSupport\n\nIf you need help, please don’t hesitate to open an issue."
+					}
+					
+				
+		
+				
+					,
+					
+					"knowledge-modules": {
+						"id": "knowledge-modules",
+						"title": "Knowledge Modules",
+						"categories": "",
+						"url": " /knowledge-modules/",
+						"content": "Knowledge Modules\n\n\n\n  Terms\n\n  \n\n\n    3D Printing\n\n\n\n    Actuated Display\n\n\n\n    Conductive Material\n\n\n\n    Data Physicalization\n\n\n\n    Direct Manipulation\n\n\n\n    Elastic Display\n\n\n\n    Electrophoretic Display\n\n\n\n    Embodiment\n\n\n\n    Example Term\n\n\n\n    Flexible Display\n\n\n\n    Gesture\n\n\n\n    Gravible\n\n\n\n    Lyocell\n\n\n\n    Organic User Interface\n\n\n\n    Physical Computing\n\n\n\n    Physics-Based Interaction\n\n\n\n    Radical Atoms Vision\n\n\n\n    Rapid Prototyping\n\n\n\n    Reality-Based Interaction\n\n\n\n    Shape-Changing Interface\n\n\n\n    Shape Memory Alloy\n\n\n\n    Smart Materials\n\n\n\n    S.M.A.R.T.\n\n\n\n    Tangible Bits Vision\n\n\n\n    Tangible User Interface\n\n\n\n    Tangible\n\n\n\n    WIMP Interface\n\n\n\n    Zoomable User Interface\n\n\n\n\n\n\n\n\n  Concepts\n\n  \n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n\n\n\n\n\n  Best Practices\n\n  \n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n...\n\n\n\n..."
 					}
 					
 				
@@ -417,7 +489,7 @@ $(document).ready(function() {
 						"title": "Resources",
 						"categories": "",
 						"url": " /resources/",
-						"content": "Resources\nadditional resources related to the research on Elastic Displays\n\n\n\n  Interviews\n\n  \n    \n         \n        \n        Stefan Gehrke, Martin Herrmann\n        \n        \n            \"Basically, the display is a trampoline.\"  \n        \n    \n  \n    \n         \n        \n        Lukas Büschel\n        \n        \n            \"Interaction should also work in the unknown space.\"  \n        \n    \n  \n    \n         \n        \n        Mathias Müller\n        \n        \n            \"Interactions result in a stream of depth images.\"  \n        \n    \n  \n    \n         \n        \n        Franziska Hannß\n        \n        \n            \"Intensive social exchange enables a deep common understanding of the facts.\"  \n        \n    \n  \n    \n\n\n\n\n\n\n  References\n\n  \n    \n    \n    \n        [1] Alexander, J., Roudaut, A.,Steimle, J., Hornbæk, K., Bruns Alonso, M., Sean Follmer, S., Merritt, T. (2018). Grand Challenges in Shape-Changing Interface Research. In: CHI '18: Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems.  https://doi.org/10.1145/3173574.3173873\n    \n    \n    \n    \n        [2] Hornbæk, K., Bederson, B. B., Plaisant, C. (2002). Navigation Patterns and Usability of Zoomable User Interfaces With and Without an Overview. In: Publication: ACM Transactions on Computer-Human Interaction (TOCHI).  https://doi.org/10.1145/586081.586086\n    \n    \n    \n    \n        [3] Hummels, C., Smets, G., Overbeeke, K. (1997). An Intuitive Two-Handed Gestural Interface for Computer Supported Product Design. In: LNCS, volume 1371.  https://doi.org/10.1007/BFb0053000\n    \n    \n    \n    \n        [4] Ishii, H., Ullmer, B. (1997). Tangible Bits: Towards Seamless Interfaces between People, Bits and Atoms. In: CHI '97: Proceedings of the ACM SIGCHI Conference on Human factors in computing systems.  https://doi.org/10.1145/258549.258715\n    \n    \n    \n    \n        [5] Kammer, D., Gründer, T, Göbel, F.,  Groh, R. (2014). Investigating Gestures on Elastic Tabletops. In: TEI’14.  https://www.semanticscholar.org/paper/Investigating-Gestures-on-Elastic-Tabletops-Kammer/b7978c5315ae9544491b0f933b318c9a747cfa23\n    \n    \n    \n    \n        [6] Kammer, D., Müller, M., Wojdziak, J.,  Franke, I. S. (2018). New Impressions in Interaction Design. A Task Taxonomy for Elastic Displays. In: i-com: Vol. 17, No. 3.  https://doi.org/10.1515/icom-2018-0021\n    \n    \n    \n    \n        [7] Krathwohl, D.R. (2002). A revision of bloom’s taxonomy: An overview. . In: Theory Into Practice 41(4),  212–218.  https://doi.org/10.1207/s15430421tip41042,https://doi.org/10.1207/s15430421tip4104_2\n    \n    \n    \n    \n        [8] Kurtenbach, G. and Hulteen, E.A. (1990) Gestures in Human-Computer Communication. (1990). Gestures in Human-Computer Communication. In: In: Laurel, B., Ed., The Art of Human-Computer Interface Design, Addison-Wesley Publishing Company, Inc., New York..  https://doi.org/10.1145/1349026.1349033\n    \n    \n    \n    \n        [9] Lahey, B., Girouard, A., Burleson, W., Vertegaal R. (2011). PaperPhone: Understanding the Use of Bend Gestures in Mobile Devices with Flexible Electronic Paper Displays!. In: CHI '11: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems.  https://doi.org/10.1145/1978942.1979136\n    \n    \n    \n    \n        [10] Luciani, A. (2014). Ergotic / epistemic / semiotic functions. In: Enaction and Enactive Interfaces: A Handbook of Terms.  https://hal.archives-ouvertes.fr/hal-00979975/document\n    \n    \n    \n    \n        [11] McNeil, D. (1992). Gesture: A Psycholonguistic Appraoch. In: Psycholinguistics Section, The Encyclopedia of Language and Linguistics.  https://doi.org/10.1.1.541.1430\n    \n    \n    \n    \n        [12] Miruchna, V., Walter, R., Lindlbauer, D., Lehmann, M., von Klitzing, R., Müller, J. (2015). GelTouch: Localized Tactile Feedback Through Thin, Programmable Gel. In:  UIST '15: Proceedings of the 28th Annual ACM Symposium on User Interface Software &amp; Technology.  https://doi.org/10.1145/2807442.2807487\n    \n    \n    \n    \n        [13] Muser, S. (2015). Gestures in Human-Computer-Interaction. In: Research Paper in Media Informatics Proseminar LMU München.  https://www.medien.ifi.lmu.de/lehre/ss15/ps/papers/Muser-GesturesInHCI.pdf\n    \n    \n    \n    \n        [14] Nielsen, L. (2013). Personas. In: The Encyclopedia of Human-Computer Interaction, 2nd Ed..  https://www.interaction-design.org/encyclopedia/personas.html\n    \n    \n    \n    \n        [15] Peschke, J. Göbel, F., Groh, R. (2012). DepthTouch: Elastische Membran zwischen virtuellem und realem Raum. In: AVI '12: Proceedings of the International Working Conference on Advanced Visual Interfaces.  https://doi.org/10.1145/2254556.2254706\n    \n    \n    \n    \n        [16] Sturdee, M., Alexander, J. (2018). Analysis and Classification of Shape-Changing Interfaces for Design and Application-based Research. In: ACM Computing Surveys (CSUR).  https://doi.org/10.1145/3143559\n    \n    \n    \n    \n        [17] Troiano, G. M., Pedersen, E. W., Hornbæk, K. (2014). User-Defined Gestures for Elastic, Deformable Displays. In: Conference: AVI 2014.  https://doi.org/10.13140/2.1.2396.6083\n    \n    \n    \n    \n        [18] Ullmer, B., Ishii, H., Jacob R. J. K. (2005). Token+constraint systems for tangible interaction with digital information. In: ACM Transactions on Computer-Human Interaction (TOCHI).  https://doi.org/10.1145/1057237.1057242\n    \n    \n    \n    \n        [19] Vertegaal, R., Poupyrev, I. (2008). Organic User Interfaces. In: Communications of the ACM.  https://doi.org/10.1145/1349026.1349033\n    \n    \n\n\n\n\n\n\n  External Links\n\n  \n    \n    \n        Cheat Sheets for Visualization Techniques. https://visualizationcheatsheets.github.io/\n    \n    \n    \n        DESIGNPILOT. https://app.designpilot.io/lexicon\n    \n    \n    \n        Gestures - Google Material Design. https://material.io/design/interaction/gestures.html\n    \n    \n    \n        Git-flow-Workflow. https://www.atlassian.com/de/git/tutorials/comparing-workflows/gitflow-workflow\n    \n    \n    \n        Mudpad: Fluid Haptics for Touch Surfaces, Media Computing Group, RWTH Aachen . https://hci.rwth-aachen.de/mudpad\n    \n    \n    \n        Obake: interactions with a 2.5D elastic display. https://vimeo.com/63494095\n    \n    \n    \n        Tangible Media Group. http://tangible.media.mit.edu\n    \n    \n    \n        visualizingdata.com. https://www.visualisingdata.com/resources/"
+						"content": "Resources\nadditional resources related to the research on Elastic Displays\n\n\n\n  Interviews\n\n  \n    \n         \n        \n        with Stefan Gehrke, Martin Herrmann\n        \n        \n            \"Basically, the display is a trampoline.\"  \n        \n    \n  \n    \n         \n        \n        with Jane Doe\n        \n        \n            \"Example Interview Title.\"  \n        \n    \n  \n    \n         \n        \n        with Lukas Büschel\n        \n        \n            \"Interaction should also work in the unknown space.\"  \n        \n    \n  \n    \n         \n        \n        with Mathias Müller\n        \n        \n            \"Interactions result in a stream of depth images.\"  \n        \n    \n  \n    \n         \n        \n        with Franziska Hannß\n        \n        \n            \"Intensive social exchange enables a deep common understanding of the facts.\"  \n        \n    \n  \n    \n\n\n\n\n\n\n  References\n\n  \n    \n    \n    \n        [1] Alexander, J., Roudaut, A.,Steimle, J., Hornbæk, K., Bruns Alonso, M., Sean Follmer, S., Merritt, T. (2018). Grand Challenges in Shape-Changing Interface Research. In: CHI '18: Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems.  https://doi.org/10.1145/3173574.3173873\n    \n    \n    \n    \n        [2] Hornbæk, K., Bederson, B. B., Plaisant, C. (2002). Navigation Patterns and Usability of Zoomable User Interfaces With and Without an Overview. In: Publication: ACM Transactions on Computer-Human Interaction (TOCHI).  https://doi.org/10.1145/586081.586086\n    \n    \n    \n    \n        [3] Hummels, C., Smets, G., Overbeeke, K. (1997). An Intuitive Two-Handed Gestural Interface for Computer Supported Product Design. In: LNCS, volume 1371.  https://doi.org/10.1007/BFb0053000\n    \n    \n    \n    \n        [4] Ishii, H., Ullmer, B. (1997). Tangible Bits: Towards Seamless Interfaces between People, Bits and Atoms. In: CHI '97: Proceedings of the ACM SIGCHI Conference on Human factors in computing systems.  https://doi.org/10.1145/258549.258715\n    \n    \n    \n    \n        [5] Kammer, D., Gründer, T, Göbel, F.,  Groh, R. (2014). Investigating Gestures on Elastic Tabletops. In: TEI’14.  https://www.semanticscholar.org/paper/Investigating-Gestures-on-Elastic-Tabletops-Kammer/b7978c5315ae9544491b0f933b318c9a747cfa23\n    \n    \n    \n    \n        [6] Kammer, D., Müller, M., Wojdziak, J.,  Franke, I. S. (2018). New Impressions in Interaction Design. A Task Taxonomy for Elastic Displays. In: i-com: Vol. 17, No. 3.  https://doi.org/10.1515/icom-2018-0021\n    \n    \n    \n    \n        [7] Krathwohl, D.R. (2002). A revision of bloom’s taxonomy: An overview. . In: Theory Into Practice 41(4),  212–218.  https://doi.org/10.1207/s15430421tip41042,https://doi.org/10.1207/s15430421tip4104_2\n    \n    \n    \n    \n        [8] Kurtenbach, G. and Hulteen, E.A. (1990) Gestures in Human-Computer Communication. (1990). Gestures in Human-Computer Communication. In: In: Laurel, B., Ed., The Art of Human-Computer Interface Design, Addison-Wesley Publishing Company, Inc., New York..  https://doi.org/10.1145/1349026.1349033\n    \n    \n    \n    \n        [9] Lahey, B., Girouard, A., Burleson, W., Vertegaal R. (2011). PaperPhone: Understanding the Use of Bend Gestures in Mobile Devices with Flexible Electronic Paper Displays!. In: CHI '11: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems.  https://doi.org/10.1145/1978942.1979136\n    \n    \n    \n    \n        [10] Luciani, A. (2014). Ergotic / epistemic / semiotic functions. In: Enaction and Enactive Interfaces: A Handbook of Terms.  https://hal.archives-ouvertes.fr/hal-00979975/document\n    \n    \n    \n    \n        [11] McNeil, D. (1992). Gesture: A Psycholonguistic Appraoch. In: Psycholinguistics Section, The Encyclopedia of Language and Linguistics.  https://doi.org/10.1.1.541.1430\n    \n    \n    \n    \n        [12] Miruchna, V., Walter, R., Lindlbauer, D., Lehmann, M., von Klitzing, R., Müller, J. (2015). GelTouch: Localized Tactile Feedback Through Thin, Programmable Gel. In:  UIST '15: Proceedings of the 28th Annual ACM Symposium on User Interface Software &amp; Technology.  https://doi.org/10.1145/2807442.2807487\n    \n    \n    \n    \n        [13] Muser, S. (2015). Gestures in Human-Computer-Interaction. In: Research Paper in Media Informatics Proseminar LMU München.  https://www.medien.ifi.lmu.de/lehre/ss15/ps/papers/Muser-GesturesInHCI.pdf\n    \n    \n    \n    \n        [14] Nielsen, L. (2013). Personas. In: The Encyclopedia of Human-Computer Interaction, 2nd Ed..  https://www.interaction-design.org/encyclopedia/personas.html\n    \n    \n    \n    \n        [15] Peschke, J. Göbel, F., Groh, R. (2012). DepthTouch: Elastische Membran zwischen virtuellem und realem Raum. In: AVI '12: Proceedings of the International Working Conference on Advanced Visual Interfaces.  https://doi.org/10.1145/2254556.2254706\n    \n    \n    \n    \n        [16] Sturdee, M., Alexander, J. (2018). Analysis and Classification of Shape-Changing Interfaces for Design and Application-based Research. In: ACM Computing Surveys (CSUR).  https://doi.org/10.1145/3143559\n    \n    \n    \n    \n        [17] Troiano, G. M., Pedersen, E. W., Hornbæk, K. (2014). User-Defined Gestures for Elastic, Deformable Displays. In: Conference: AVI 2014.  https://doi.org/10.13140/2.1.2396.6083\n    \n    \n    \n    \n        [18] Ullmer, B., Ishii, H., Jacob R. J. K. (2005). Token+constraint systems for tangible interaction with digital information. In: ACM Transactions on Computer-Human Interaction (TOCHI).  https://doi.org/10.1145/1057237.1057242\n    \n    \n    \n    \n        [19] Vertegaal, R., Poupyrev, I. (2008). Organic User Interfaces. In: Communications of the ACM.  https://doi.org/10.1145/1349026.1349033\n    \n    \n\n\n\n\n\n\n  External Links\n\n  \n    \n    \n        Cheat Sheets for Visualization Techniques. https://visualizationcheatsheets.github.io/\n    \n    \n    \n        DESIGNPILOT. https://app.designpilot.io/lexicon\n    \n    \n    \n        Gestures - Google Material Design. https://material.io/design/interaction/gestures.html\n    \n    \n    \n        Git-flow-Workflow. https://www.atlassian.com/de/git/tutorials/comparing-workflows/gitflow-workflow\n    \n    \n    \n        Mudpad: Fluid Haptics for Touch Surfaces, Media Computing Group, RWTH Aachen . https://hci.rwth-aachen.de/mudpad\n    \n    \n    \n        Obake: interactions with a 2.5D elastic display. https://vimeo.com/63494095\n    \n    \n    \n        Tangible Media Group. http://tangible.media.mit.edu\n    \n    \n    \n        visualizingdata.com. https://www.visualisingdata.com/resources/"
 					}
 					
 				

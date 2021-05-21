@@ -7,18 +7,20 @@ layout: plain
 <div class="flex-2">  
 
     <div>
-        <h4 class="strap">Interview</h4>
+        <h4 class="strap">Interview {% if page.interviewee %}with {{ page.interviewee }}{% endif %}</h4>
         <h1 class="interview">"{{ page.title }}"</h1>
         <p>{{ page.teaser }}</p>
+        {% if page.interviewer %}<span>by <b>{{ page.interviewer }}</b></span>{% endif %}
     </div>
 
     <div>
       {% if page.image %}
           <img src="{{ page.image }}" class="image-portrait"/>
+          {% if page.image-credits %}
+            <span class="image-credits">© {{ page.image-credits }}</span>
+          {% endif %}
       {% endif %}    
-      {% if page.image-credits %}
-          <span class="image-credits">© {{ page.image-credits }}</span>
-      {% endif %}
+      
   </div>
 
 </div><hr>

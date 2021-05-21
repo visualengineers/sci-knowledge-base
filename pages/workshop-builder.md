@@ -125,7 +125,7 @@ Answer the following questions to get your personal suggestions for knowledge it
 
 <hr>
 <br>
-<p>Not sure if you want to hold a workshop? Have a look at our <a href="{{site.baseurl}}/interview-workshops">interview on holding workshops</a>.</p>
+<p>Not sure if you want to hold a workshop? Have a look at our <a href="{{site.baseurl}}/interviews/workshops">interview on holding workshops</a>.</p>
 
 <script>
 

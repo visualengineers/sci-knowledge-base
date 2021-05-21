@@ -4,6 +4,8 @@ title:  "Basically, the display is a trampoline."
 teaser: Stefan Gehrke and Martin Herrmann on elastic display construction and materials, projection issues and practical challenges.
 image: 
 image-credits: Stefan Gehrke, Martin Herrmann
+interviewer:
+interviewee: Stefan Gehrke, Martin Herrmann
 ---
 
 **Was für Displays habt ihr bislang gebaut?**

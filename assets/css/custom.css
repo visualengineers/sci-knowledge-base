@@ -51,6 +51,11 @@ textarea#a-1:focus {
     float: right;
 }
 
+a.back{
+    display: block;
+    margin-bottom: 2rem;
+}
+
 button.active {
     background: #b8e572;
 }
@@ -718,6 +723,10 @@ ul.tile li {
 .headerlink {
     margin: 0;
     display: inline;
+}
+
+hr {
+    margin-bottom: 2rem;
 }
 
 .td-sidebar-nav {

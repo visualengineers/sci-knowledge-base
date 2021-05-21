@@ -4,6 +4,8 @@ title:  Interaction should also work in the unknown space.
 teaser: 
 image: 
 image-credits: Lukas Büschel
+interviewer:
+interviewee: Lukas Büschel
 ---
 
 **Was gehört alles zur Interaktionsgestaltung?**
