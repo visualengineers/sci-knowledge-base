@@ -64,6 +64,6 @@ With the [Workshop Builder]({{ site.baseurl }}/workshop-builder), modular worksh
 <details markdown="1" open>
 <summary><h3>How can I contribute?</h3></summary> 
 
-Glad you want to join, it's quite easy. You only need a [GitHub](https://github.com/) account and should not be afraid of Markdown. Generally, you can add new knowledge modules or edit existing ones. In the desktop view of the SCI-KB you can see a link to edit the page directly on GitHub (top right corner). The easiest way is to copy code from existing pages, e.g. the example modules linked below. In the [GitHub repository of SCI-KB](https://github.com/visualengineers/sci-knowledge-base) you can also find detailed instructions on how to paste content in the existing style of the SCI-KB. 
+Glad you want to join, it's quite easy. You only need a [GitHub](https://github.com/) account and should not be afraid of markdown. Generally, you can add new knowledge modules or edit existing ones. In the desktop view of the SCI-KB you can see a link to edit the page directly on GitHub (top right corner). The easiest way is to copy code from existing pages, e.g. the example modules linked below. In the [GitHub repository of SCI-KB](https://github.com/visualengineers/sci-knowledge-base) you can also find detailed instructions on how to paste content in the existing style of the SCI-KB. 
 
 </details>
