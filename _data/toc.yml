@@ -4,7 +4,7 @@
 - title: News
   url: news
 
-- title: Topics
+- title: by Topic
   url: topics
   links:
     - title: "Design"
@@ -16,8 +16,8 @@
     - title: "User Experience"
       url: "user-experience"
 
-- title: Modules
-  url: index
+- title: by Knowledge Module
+  url: knowledge-modules
   links:
     - title: Terms
       url: terms
@@ -26,8 +26,15 @@
     - title: Best Practices
       url: best-practices
 
-- title: Workshop Builder
-  url: workshop-builder
+- title: Activities
+  url: activities
+  links:
+    - title: Getting Started
+      url: activities/getting-started
+    - title: Basic Knowledge
+      url: activities/basic-knowledge
+    - title: Find activities with the Workshop Builder
+      url: workshop-builder
 
 - title: Resources
   url: resources

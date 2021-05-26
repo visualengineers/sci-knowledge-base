@@ -16,8 +16,8 @@ additional resources related to the research on Elastic Displays
 <ul class="tile">
     {% for interview in interviews %}
     <li class="quote">     
-        {% if interview.image-credits %}
-        <p>{{ interview.image-credits }}</p>
+        {% if interview.interviewee %}
+        <p>with {{ interview.interviewee }}</p>
         {% endif %}
         <a href="{{ interview.url | prepend: site.baseurl }}">
             <h5>"{{ interview.title }}"</h5>  

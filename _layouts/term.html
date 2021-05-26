@@ -16,9 +16,11 @@ layout: plain
 {{ content }}
 
 <!-- quiz -->
-{% assign quizname = page.title | downcase | replace: " ", "-" %}
+<!-- This derives the filename from a page's title -->
+{% assign quizname = page.title | downcase | replace: " ", "-" %} 
 
-{% if site.data.quizzes contains quizname %}
+<!-- The quizzes are named after the page they should be inserted into  -->
+{% if site.data.quizzes contains quizname %}  
 <hr class="panel-line">
 {% include quiz.html file = quizname %}
 {% endif %}

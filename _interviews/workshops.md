@@ -4,9 +4,11 @@ title: "Intensive social exchange enables a deep common understanding of the fac
 teaser: An interview with Franziska Hannß about what makes a good workshop and what experiences she has made over the years in workshops with her team and customers. Franziska, who holds a degree in media informatics, is authorized signatory for creation at the <a href="https://visualistik.de/">Gesellschaft für Technische Visualistik</a> (GTV) in Dresden and research assistant professor for media design. 
 image: /sci-knowledge-base/assets/img/franziska-hannss.png
 image-credits: Franziska Hannß
+interviewer: Elena Stoll
+interviewee: Franziska Hannß
 ---
 
-**Why do you like workshops so much?**
+**Why do you like workshops?**
 
 *Workshops are a great way to deal with all kinds of open problems, because they create a framework for social interaction and getting to know each other. This enables a intensive communication, which is very valuable — especially for new project partners. Thus, right at the beginning of a project a common understanding of the problem can be created and expert knowledge from all sides can be integrated. Workshops are therefore good way to deepen or explore problems and to make underlying processes, data landscapes and representations accessible to all parties. Also, they provide a good setting to do handicrafts and develop prototypes together: For example, we use low-fi prototyping and develop small functional prototypes.* 
 
