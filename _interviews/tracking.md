@@ -4,6 +4,8 @@ title:  Interactions result in a stream of depth images.
 teaser: 
 image: 
 image-credits: Mathias Müller
+interviewer:
+interviewee: Mathias Müller
 ---
 
 **Wozu braucht man das Tracking bei einem elastischen Display?**

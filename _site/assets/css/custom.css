@@ -1,4 +1,4 @@
-/*custom ZELASTO wiki CSS goes here*/
+/*custom CSS goes here*/
 
 :root {
     --technology: #6c90fc;
@@ -51,12 +51,17 @@ textarea#a-1:focus {
     float: right;
 }
 
+a.back{
+    display: block;
+    margin-bottom: 2rem;
+}
+
 button.active {
     background: #b8e572;
 }
 
 button.send {
-    background-color: #fff;
+    background-color: transparent;
     border: 2px solid #3176d0;
     color: #3176d9;
     position: relative;
@@ -95,6 +100,7 @@ summary h2, summary h3 {
 details summary {
     padding: .5rem 0;
     margin-bottom: 1em;
+    list-style: none;
 }
 
 details summary:focus {
@@ -110,7 +116,7 @@ details::before {
     border-top: 1px solid rgba(0, 0, 0, .1);
 }
 
-summary::-webkit-details-marker {
+summary::-webkit-details-marker, summary::marker {
    display: none;
 }
 
@@ -184,6 +190,50 @@ input[type=text]:focus {
 
 .interview {
     font-style: italic;
+}
+
+.quiz {
+    background-color: var(--dark);
+    color: #fff;
+    padding: 2rem 3rem;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.quiz button {
+    background-color: var(--yellow);
+    border: none;
+    color: var(--white);
+    position: relative;
+    display: block;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-align: center;
+    border-radius: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+
+.quiz button:active {
+    outline: none !important;
+}
+
+.quiz .quiz-list {
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.quiz .quiz-title {
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .quote {
@@ -548,7 +598,8 @@ ul.spacious li {
 #efre-logo, 
 details,
 p.answer, 
-.strap-wrapper{
+.strap-wrapper,
+.quiz {
     max-width: 80%;
 }
 
@@ -672,6 +723,10 @@ ul.tile li {
 .headerlink {
     margin: 0;
     display: inline;
+}
+
+hr {
+    margin-bottom: 2rem;
 }
 
 .td-sidebar-nav {

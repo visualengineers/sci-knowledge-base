@@ -10,7 +10,8 @@ Best Practices cover practical challenges that may arise during the design proce
 
 Read about a specific challenge and why it is important and what ways you have to overcome it. Additional workshop instructions help you to quickly train your aquired knowledge in practice. You are invited to publish the results of your workshops or to create your own best practice.
 
-{% assign groups = site.best-practices | group_by: "category" %}
+<!-- {% assign groups = site.best-practices | group_by: "category" %} -->
+{% assign groups = site.best-practices | group_by: "category" | where_exp: "group", "group.name != 'example'" %}
 
 {% for group in groups %}
 <a class="capitalizeAll capitalizeAll topic topic-{{ group.name | downcase | strip | replace:'user experience', 'user-experience'}}" href="{{ site.baseurl }}/{{ group.name | downcase | strip | replace:'user experience', 'user-experience' }}/">{{ group.name }}</a> 

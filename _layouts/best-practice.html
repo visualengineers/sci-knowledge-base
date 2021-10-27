@@ -20,6 +20,14 @@ layout: plain
   {% endif %} 
 </div>
 {{ content }}
+
+<!-- quiz -->
+{% assign quizname = page.title | downcase | replace: " ", "-" %}
+
+{% if site.data.quizzes contains quizname %}
+{% include quiz.html file = quizname %}
+{% endif %}
+
 <hr class="panel-line">
 
 <!--other best practices in same topic-->

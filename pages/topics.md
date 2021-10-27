@@ -30,6 +30,10 @@ Topics describe 4 essential topics related to the field of shape-changing interf
 
 </ul>
 
+<hr>
+<br>
+<p>Browse <a href="{{site.baseurl}}/knowledge-modules">knowledge modules</a> instead.</p>
+
 
 
 

@@ -35,6 +35,9 @@ exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor, .jekyll-cache, "Gemfi
 
 # Collections
 collections:
+  activities: 
+    output: true
+    permalink: /:collection/:title
   terms:
     output: true
     permalink: /:collection/:title

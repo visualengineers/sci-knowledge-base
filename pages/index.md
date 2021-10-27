@@ -18,7 +18,7 @@ The Shape-Changing Interfaces Knowledge Base (SCI-KB) originates from the resear
 Browse [topics]({{ site.baseurl }}/topics) to discover knowledge items in one of the 4 essential topics related to the field of shape-changing interfaces. The topics can also be interpreted as states of development.
 
 <div class="flex-start">
-{% assign groups = site.best-practices | group_by: "category" %}
+{% assign groups = site.best-practices | group_by: "category" | where_exp: "group", "group.name != 'example'" %}
 {% for group in groups %}
 <a class="capitalizeAll topic topic-{{ group.name | downcase | strip | replace:'user experience', 'user-experience'}}" href="{{ site.baseurl }}/{{ group.name | downcase | strip | replace:'user experience', 'user-experience' }}/">{{ group.name }}</a>
 {% endfor %}
