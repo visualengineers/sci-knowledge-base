@@ -2,24 +2,20 @@
 layout: interview
 title:  Interactions result in a stream of depth images.
 teaser: 
-image: 
+image: /sci-knowledge-base/assets/img/flexiwall-mathias.jpg
 image-credits: Mathias Müller
 interviewer:
 interviewee: Mathias Müller
 ---
 
-**Wozu braucht man das Tracking bei einem elastischen Display?**
-wird verwendet um die Positionen, die Tiefe und die Art der Interaktion aus dem Depth-Touch zu erkennen
+**Why is tracking needed on an elastic display?**  
+With the help of tracking we determine the positions, the depth and the type of interaction on the elastic display.
 
-**Beschreibt das Setup nachvollziehbar (technisch und funktional). Was ist besonders wichtig?**
-Azure Kinect ist unter dem flexiblen Display so angebracht dass die gesamte Touch-Fläche optimal erfasst werden kann
-stabiles Anbringen der Kinect nötig um Nachkalibrierungen zu vermeiden
+**Can you briefly describe the tracking setup? What is particularly important?**  
+Below the surface of the elastic display is a depth camera, e.g. an Azure Kinect, which optimally captures the entire touch surface. In order to avoid recalibrations, a stable and secure positioning of the camera is very important in practice.
 
-**Warum habt ihr euch für Tracking mit Tiefen-Kameras entschieden?**
-direkte und schnelle Berechnung und Übermittlung der Tiefen-Karte durch die Tiefen-Kamera
-unabhängig von Störlicht (ausserhalb des IR Spektrums), Beamer-Bild beeinflusst Tracking nicht
-Beschaffenheit und Farbe der getrackten Oberfläche spielt bei diesem Verfahren weniger eine Rolle als bei anderen Methoden
-ToF Kameras weniger IR störanfällig als IR Projektion
+**Why did you choose tracking with depth cameras?**  
+The camera works on the Time-of-Flight (ToF) principle by emitting light in the near infrared spectrum (NIR) and measuring the time until the reflection of the light arrives again. This allows for direct and fast calculation and transmission of the depth map independent of interfering light, i.e. light that is outside the infrared spectrum. The beamer image projected onto the surface of the elastic display, texture and color of the surface thus do not influence the tracking.
 
 **Gibt es aus technischer Sicht relevante Unterschiede zwischen den aktuell verfügbaren Tiefen-Kameras?**
 ToF (Kinect 2, Azure Kinect) - measuring the time emitted light takes from the camera to the object and back, constantly emits infrared light with modulated waves and detects the shifted phase of the returning light
@@ -27,18 +23,16 @@ Pattern Projection (Kinect 1) - known infrared pattern is projected into the sce
 the depth is computed
 Vergleich: https://www.dfki.de/fileadmin/user_upload/import/8767_wasenmuller2016comparison.pdf
 
-**Welche Kamera ist aktuell die beste und warum?**
-ToF kamera: warscheinlich Azure Kinect: höchste Auflösung und Genauigkeit (1-Megapixel ToF imaging chip)
+**Which camera do you use and why?**  
+For our purposes currently probably the Azure Kinect, as it has the highest resolution and accuracy (1-megapixel ToF imaging chip).
 
-**Welche Daten erfasst die Kamera?**
-Tiefenbild (bis zu 1MP) mit tiefenInformation pro pixel
-Farbbild (bis zu 3840x2160 px)
-IR Reflektion/Intensität ?
-Position der Kamera (Gyro und accelerometer)
+**What data does the camera capture and what does the data stream it sends look like?**   
+- Depth image (up to 1MP) with depth information per pixel
+- Color image (up to 3840x2160 px)
+- IR reflection/intensity
+- Camera Position (gyroscope and accelerometer)
 
-**Wie sieht der Datenstrom aus, den sie sendet?**
-Tiefenbild: b16g (16-bit Grayscale, Big-endian)
-RGB: Mode-Dependent (MJPEG, NV12, or YUY2)
+We use a data stream consisting of the depth image (16-bit grayscale, big-endian encoded) and the RGB color image (mode-dependent, MJPEG, NV12, or YUY2). 
 
 **Könnte man die Interaktionen auf dem Display auch anders erfassen? Wenn ja, wie?**
 Pattern projection (kinect1)
